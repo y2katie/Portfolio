@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Creative - Start Bootstrap Theme</title>
+    <title>Master Observer's Home</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -53,13 +53,13 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#services">At Your Service</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">Let's Chat!</a>
                     </li>
                 </ul>
             </div>
@@ -71,9 +71,9 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">Hello, They Call Me Katie</h1>
+                <h1 id="homeHeading">Hi, I'm Katie and I'm a Developer</h1>
                 <hr>
-                <p> Im a passionate designer and developer looking to make beautiful and profound sites and materials for clients all across the USA.</p>
+                <p> Im a developer with a design background looking to help you on your next project.</p>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Want to chat?</a>
             </div>
         </div>
@@ -83,10 +83,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Come Here Often?</h2>
+                    <h2 class="section-heading"> How Can I Help You?</h2>
                     <hr class="light">
-                    <p class="text-faded">I have a B.S. in Graphic Design and for the last year have spent most of my free moments involved in some sort of computer science class or anything related to the web.</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+                    <p class="text-faded"> I left my position as a visual designer in October 2016 so I could focus on creating exceptional websites and applications. Besides photoshop, illustrator and indesign knowledge I now have HTML, CSS, Javascipt, Node and React in my toolkit as well. </p>
+                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button"> Learn More </a>
                 </div>
             </div>
         </div>
@@ -107,28 +107,28 @@
                     <div class="service-box">
                         <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
                         <h3>Dedicated </h3>
-                        <p class="text-muted">I spend most of my free time on the internet looking to improve skills</p>
+                        <p class="text-muted"> I spend (most) of my freetime brushing up on indemand skills and improving the ones I have. </p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                        <h3>Ready to Work</h3>
-                        <p class="text-muted">My work ethic is no joke and I'm here to help</p>
+                        <h3> Work Ethic</h3>
+                        <p class="text-muted"> I dont mind coming in early and staying late to perfect and craft the best experience for the user and client.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>Up to Date</h3>
-                        <p class="text-muted">I stay up to date on trends so you can always look good</p>
+                        <h3>Classic and Trendy</h3>
+                        <p class="text-muted"> I make sure to stay on top of industry standards so your website is current; not being current is so 1999.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>Made with Love</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p>
+                        <h3> Made With Love </h3>
+                        <p class="text-muted">I love what I do and pride myself on leaving customers satisfied too.</p>
                     </div>
                 </div>
             </div>
@@ -139,15 +139,15 @@
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
+                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box" >
                         <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption" >  
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Web Design
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Boutique Psychology Practice
                                 </div>
                             </div>
                         </div>
@@ -159,10 +159,10 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Web Design
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Boutique Real Estate Firm
                                 </div>
                             </div>
                         </div>
@@ -174,10 +174,10 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Web Design
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                   Travel Blogger
                                 </div>
                             </div>
                         </div>
@@ -189,10 +189,10 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Web Design
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Demo Lesson Plan
                                 </div>
                             </div>
                         </div>
@@ -204,10 +204,10 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Web Design
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Breast Cancer Awareness
                                 </div>
                             </div>
                         </div>
@@ -219,10 +219,10 @@
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
-                                    Category
+                                    Web Design
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Artisnal Mousse Spot
                                 </div>
                             </div>
                         </div>
@@ -236,13 +236,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <h2 class="section-heading"> Send Me an Email</h2>
                     <hr class="primary">
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                    <p>Ready to start your next project with me? That's great! Send me an email and I will get back to you as soon as possible!</p>
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>123-456-6789</p>
+                    <p>516-305-9142</p>
                 </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
