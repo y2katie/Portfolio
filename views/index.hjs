@@ -85,7 +85,7 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading"> How Can I Help You?</h2>
                     <hr class="light">
-                    <p class="text-faded"> I left my position as a visual designer in October 2016 so I could focus on creating exceptional websites and applications. Besides photoshop, illustrator and indesign knowledge I now have HTML, CSS, Javascipt, Node and React in my toolkit as well. </p>
+                    <p class="text-faded"> I left my position as a visual designer so I could focus on creating exceptional websites and applications. Besides Photoshop, Illustrator and InDesign knowledge, I'm now proficient in HTML, CSS, Javascipt, Node and version control as well. </p>
                     <a href="#services" class="page-scroll btn btn-default btn-xl sr-button"> Learn More </a>
                 </div>
             </div>
@@ -141,6 +141,7 @@
                 <div class="col-lg-4 col-sm-6">
                     <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box" >
                         <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                        
                         <div class="portfolio-box-caption" >  
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
