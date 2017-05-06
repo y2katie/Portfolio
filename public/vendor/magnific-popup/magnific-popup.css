@@ -1,5 +1,5 @@
 /*/*/*/* Magnific Popup CSS */
-/*.mfp-bg {
+.mfp-bg {
   top: 0;
   left: 0;
   width: 100%;
@@ -55,11 +55,11 @@
 .mfp-ajax-cur {
   cursor: progress; }
 
-.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+/*.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
   cursor: -moz-zoom-out;
   cursor: -webkit-zoom-out;
   cursor: zoom-out; }
-
+*/
 .mfp-zoom {
   cursor: pointer;
   cursor: -webkit-zoom-in;
@@ -102,7 +102,7 @@
   display: none; }
 
 ./*mfp-s-error .mfp-content {
-  display: none; }*/
+  display: none; }
 
 button.mfp-close,
 button.mfp-arrow {
