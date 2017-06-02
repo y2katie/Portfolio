@@ -8,6 +8,7 @@ body {
   height: 100%;
   width: 100%;
 }
+
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
@@ -42,6 +43,7 @@ p {
   line-height: 2.5;
   margin-bottom: 20px;
 }
+
 .bg-primary {
   background-color: #F05F40;
 }
@@ -414,3 +416,5 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+
+
