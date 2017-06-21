@@ -180,17 +180,9 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
-                    <a href="https://hireme23.herokuapp.com/">
+                    <a href="https://katyvonkaty.github.io/eataly/index.html">
                         <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <!-- <div class="project-category text-faded">
-                                    Web Design
-                                </div>
-                                <div class="project-name">
-                                    Demo Lesson Plan
-                                </div> -->
-                            </div>
                         </div>
                     </a>
                     </a>
