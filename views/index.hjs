@@ -16,9 +16,7 @@
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald" rel="stylesheet">
     <link href="css/creative.min.css" rel="stylesheet">
 
 
@@ -78,7 +76,6 @@
                     <hr class="light">
                     <p class="text-faded"> Design has always been something I've enjoyed and focused on. I found the concept of design to be most interesting—how and why something is made. What is the piece saying? How does it make me feel? All of these components of conceptual design are just a few of my personal favorite things when it comes to being a designer.
                     <br><br>
-                   My design style is continuously evolving. Once upon a time I loved glitter and anything loud. Currently, I've entered my contemporary phase, and I'm loving clean lines and sleek style. I always strive to create something that inspires and engages the user. However, my design mood changes with the weather—one day I'm modern and, the next day there is glitter in my Helvetica. <br><br>
                    Design is very collaborative, so I am always conscious and respectful of what the client would like, but do feel it is important to give professional advice when necessary—whether the user has a specific look in mind, or may decide to leave the design style up to myself. </p>
 <!--                     <a href="#services" class="page-scroll btn btn-default btn-xl sr-button"> Learn More </a>
  -->                </div>
