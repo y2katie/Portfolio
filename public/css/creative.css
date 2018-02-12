@@ -10,7 +10,7 @@ body {
 }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 hr {
   border-color: #F05F40;
@@ -36,7 +36,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Oswald', 'Helvetica Neue', Arial, sans-serif;
 }
 p {
   font-size: 16px;
