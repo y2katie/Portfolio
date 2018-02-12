@@ -75,9 +75,7 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading"> About Me </h2>
                     <hr class="light">
-                    <p class="text-faded"> Design has always been something I've enjoyed and focused on. I found the concept of design to be most interesting—how and why something is made. What is the piece saying? How does it make me feel? All of these components of conceptual design are just a few of my personal favorite things when it comes to being a designer.
-                    <br><br>
-                   Design is very collaborative, so I am always conscious and respectful of what the client would like, but do feel it is important to give professional advice when necessary—whether the user has a specific look in mind, or may decide to leave the design style up to myself. </p>
+                    <p class="text-faded"> Design has always been something I've enjoyed and focused on. I found the concept of design to be most interesting—how and why something is made. What is the piece saying? How does it make me feel? All of these components of conceptual design are just a few of my personal favorite things when it comes to being a designer. As I have grown in my career I have really grown to like simple color palettes, neutrals and bootstrap. However, I will always love glitter too. </p>
 <!--                     <a href="#services" class="page-scroll btn btn-default btn-xl sr-button"> Learn More </a>
  -->                </div>
             </div>
@@ -99,28 +97,28 @@
                     <div class="service-box">
                         <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
                         <h3> Dedicated </h3>
-                        <p class="text-muted"> I'm a focused, goal driven person looking to complete the project on time. </p>
+                        <p class="text-muted"> I'm focused and goal driven - constantly looking for ways to improve and streamline my process. </p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
                         <h3> Work Ethic </h3>
-                        <p class="text-muted"> I don't mind coming in early and staying late. I like to have a good time while I work, subscribing to the philosophy 'whistle while you work.'</p>
+                        <p class="text-muted"> Lucky for you, my brain never turns off. I'm constantly reworking ideas and finessing materials to create an optimal product.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
                         <h3> Autodidact</h3>
-                        <p class="text-muted"> While I do have a foundation in Front End Development, Design and UI/IA; I always enjoy further educating myself in the aforementioned fields of study. </p>
+                        <p class="text-muted"> Whether is learning to cook, set up data bases, or how pantone selects color of the year I'm always learning something new. </p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
                         <h3> Passionate </h3>
-                        <p class="text-muted">I genuinely enjoy the creation of a site / design piece from start to finish. My proudest moment is when a client is satisfied with my work. </a></p>
+                        <p class="text-muted">I can confidently say that 99% of people I've met would descrbe me as such. </a></p>
                     </div>
                 </div>
             </div>
