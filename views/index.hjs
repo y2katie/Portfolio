@@ -64,7 +64,7 @@
                 <div class="typewriter"><h4> Interface, Experience and Web Design</h4></div>
              <!--    <h2 id="homeHeading"> Designer, Developer and UI/UX </h2> -->
                 <hr>
-                    <a href="#about" class="btn btn-primary btn-xl page-scroll">Want to chat?</a>
+                    <a href="#contact" class="btn btn-primary btn-xl page-scroll">Want to chat?</a>
             </div>
         </div>
     </header>
