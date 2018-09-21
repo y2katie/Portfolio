@@ -57,23 +57,12 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1 id="homeHeading">Hi, I'm Katie</h1>
-                <div class="typewriter"><h4> Interface, Experience and Web Design</h4></div>
-             <!--    <h2 id="homeHeading"> Designer, Developer and UI/UX </h2> -->
-                <hr>
-                    <a href="#contact" class="btn btn-primary btn-xl page-scroll">Want to chat?</a>
-            </div>
-        </div>
-    </header>
 
     <section class="bg-primary" id="about">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading"> About Me </h2>
+                    <h2 class="section-heading"> Long header long header long header long header</h2>
                     <hr class="light">
                     <p class="text-faded"> I’m really passionate about creating stunning and functional designs. Some of my interests include finance, exploring new cultures, baking, dogs and museums. I have one fur child, a handsome young cockapoo named Teddy. I’m rarely satisfied and will keep reworking things until they work for me. Subtly is not my strong suit. I enjoy collaborating and working with others but I don’t mind taking a project from start to finish. I’m hard working and dedicated. Above all I want you to be satisfied with the delivered product. I’m very committed to my career and growing myself within the industry. I enjoy looking back on the designer I was and looking ahead to the designer I will be in 5, 10 years time.  </p>
 <!--                     <a href="#services" class="page-scroll btn btn-default btn-xl sr-button"> Learn More </a>
@@ -82,53 +71,12 @@
         </div>
     </section>
 
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Why Hire Me?</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                        <h3> Dedicated </h3>
-                        <p class="text-muted"> I'm focused and goal driven - constantly looking for ways to improve and streamline my process. </p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                        <h3> Work Ethic </h3>
-                        <p class="text-muted"> I'm constantly reworking ideas and finessing materials to create an optimal product.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3> Autodidact</h3>
-                        <p class="text-muted"> One of the pro's of not being able to sit still is continually looking for challenges and studying new subjects. </p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3> Passionate </h3>
-                        <p class="text-muted"> I'm very confident about my abilities related to my skillset to create an ideal product for whomever I'm working with. </a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-8 col-sm-6">
                      <a href="https://invis.io/UTKBOBONR5E">
                         <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt=""> 
                         
@@ -158,7 +106,7 @@
                     </a>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-8 col-sm-6">
                     <a href="http://www.38sixth.com/">
                         <!-- <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt=""> -->
                         <img src="img/portfolio/thumbnails/7.jpg" class="img-responsive" alt="">
@@ -174,7 +122,7 @@
                         </div> -->
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-7 col-sm-6">
 <!--                     <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
  -->                        <a href="https://nestio.invisionapp.com/share/GUFLHFNAWXY">
                             <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt=""> </a>
@@ -190,7 +138,7 @@
                             </div> -->
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-5 col-sm-6">
                     <!-- <a class="portfolio-box"> </a> -->
                         <a href="https://overseee.herokuapp.com/"> 
                         <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive"> </a>
