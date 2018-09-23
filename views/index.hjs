@@ -9,6 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+
     <title>Katie Jordan</title>
 
     <!-- Bootstrap Core CSS -->
@@ -62,9 +63,8 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading"> Long header long header long header long header</h2>
-                    <hr class="light">
-                    <p class="text-faded"> I’m really passionate about creating stunning and functional designs. Some of my interests include finance, exploring new cultures, baking, dogs and museums. I have one fur child, a handsome young cockapoo named Teddy. I’m rarely satisfied and will keep reworking things until they work for me. Subtly is not my strong suit. I enjoy collaborating and working with others but I don’t mind taking a project from start to finish. I’m hard working and dedicated. Above all I want you to be satisfied with the delivered product. I’m very committed to my career and growing myself within the industry. I enjoy looking back on the designer I was and looking ahead to the designer I will be in 5, 10 years time.  </p>
+                    <h2 class="section-heading"> Hey, I'm Katie. I'm a <span class='color'>Product</span> and <span class='color'>Web Designer</span>. 🙋‍ </h2>
+                    <p class="text-faded"> I'm very attracted to modern minimalist design but this causes quite the issue because I also am very attracted to abstract and loud designs. I spend most of my time striking a balance between both styles to create a modern product that is functional and lovely. I was trained as a visual designer but needed more and started studying web development. From there, somehow, I ended up working on product and interface designs. I feel best solving problems by making solutions to trapeze the functionality most apps lack. I also enjoy taking an old product and revamping it. I find user testing to be one of the most fascinating aspects of working in product development. I like to think that my work makes at least one persons life easier.  </p>
 <!--                     <a href="#services" class="page-scroll btn btn-default btn-xl sr-button"> Learn More </a>
  -->                </div>
             </div>
@@ -164,7 +164,7 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading"> Get In Touch!</h2>
                     <hr class="primary">
-                    <p>Ready to start your next project with me? That's great! Send me an email and I will get back to you as soon as possible!</p>
+                    <p>If you have got this far and are still interested in my work & working with me, send me an email.</p>
                 </div>
     
                 <div class="col-lg-12 text-center icon">
