@@ -9,17 +9,30 @@ body {
   width: 100%;
 }
 
-body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+.footer {
+  background-color:#f1c40f !important;
+  height:50px !important;
 }
+
+.footer p {
+  text-align:center;
+}
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 hr {
   border-color: #F05F40;
   border-width: 3px;
   max-width: 50px;
 }
+
 hr.light {
   border-color: white;
 }
+
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -36,7 +49,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Oswald', 'Helvetica Neue', Arial, sans-serif;
 }
 p {
   font-size: 16px;
@@ -417,4 +430,12 @@ body {
   webkit-tap-highlight-color: #222222;
 }
 
+@media(min-width:1200px){
+  #portfolio .col-lg-4 text-center {
+      border: 2px solid black !important;
+      width: 100% !important;
+      margin: 0 auto !important;
+      float: right !important;
+  }
+}
 

@@ -9,6 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+
     <title>Katie Jordan</title>
 
     <!-- Bootstrap Core CSS -->
@@ -16,21 +17,10 @@
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald" rel="stylesheet">
 
-    <!-- Plugin CSS -->
-<!--     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
- -->
-    <!-- Theme CSS -->
     <link href="css/creative.min.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
 </head>
 
@@ -68,6 +58,7 @@
         <!-- /.container-fluid -->
     </nav>
 
+<<<<<<< HEAD
     <header>
         <div class="header-content">
             <div class="header-content-inner">
@@ -79,92 +70,34 @@
             </div>
         </div>
     </header>
+=======
+>>>>>>> 0afea5c923293e5a42dc734e520bd2f4a619c004
 
     <section class="bg-primary" id="about">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading"> About Me </h2>
-                    <hr class="light">
-                    <p class="text-faded"> Design has always been something I've enjoyed and focused on. I found the concept of design to be most interesting—how and why something is made. What is the piece saying? How does it make me feel? All of these components of conceptual design are just a few of my personal favorite things when it comes to being a designer.
-                    <br><br>
-                   My design style is continuously evolving. Once upon a time I loved glitter and anything loud. Currently, I've entered my contemporary phase, and I'm loving clean lines and sleek style. I always strive to create something that inspires and engages the user. However, my design mood changes with the weather—one day I'm modern and, the next day there is glitter in my Helvetica. <br><br>
-                   Design is very collaborative, so I am always conscious and respectful of what the client would like, but do feel it is important to give professional advice when necessary—whether the user has a specific look in mind, or may decide to leave the design style up to myself. </p>
+                    <h2 class="section-heading"> Hey, I'm Katie. I'm a <span class='color'>Product</span> and <span class='color'>Web Designer</span>. 🙋‍ </h2>
+                    <p class="text-faded"> I'm very attracted to modern minimalist design but this causes quite the issue because I also am very attracted to abstract and loud designs. I spend most of my time striking a balance between both styles to create a modern product that is functional and lovely. I was trained as a visual designer but needed more and started studying web development. From there, somehow, I ended up working on product and interface designs. I feel best solving problems by making solutions to trapeze the functionality most apps lack. I also enjoy taking an old product and revamping it. I find user testing to be one of the most fascinating aspects of working in product development. I like to think that my work makes at least one persons life easier.  </p>
 <!--                     <a href="#services" class="page-scroll btn btn-default btn-xl sr-button"> Learn More </a>
  -->                </div>
             </div>
         </div>
     </section>
 
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Why Hire Me?</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                        <h3> Dedicated </h3>
-                        <p class="text-muted"> I'm a focused, goal driven person looking to complete the project on time. </p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                        <h3> Work Ethic </h3>
-                        <p class="text-muted"> I don't mind coming in early and staying late. I like to have a good time while I work, subscribing to the philosophy 'whistle while you work.'</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3> Autodidact</h3>
-                        <p class="text-muted"> While I do have a foundation in Front End Development, Design and UI/IA; I always enjoy further educating myself in the aforementioned fields of study. </p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3> Passionate </h3>
-                        <p class="text-muted">I genuinely enjoy the creation of a site / design piece from start to finish. My proudest moment is when a client is satisfied with my work. </a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-sm-6">
-                     <a href="https://designport.herokuapp.com/">
+                <div class="col-lg-8 col-sm-6">
+                     <a href="https://invis.io/UTKBOBONR5E">
                         <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt=""> 
                         
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="https://benjamingrey.herokuapp.com/">
-                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
-                        <!-- <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Web Design 
-                                </div>
-                                <div class="project-name">
-                                    Boutique Real Estate Firm
-                                </div>
-                            </div>
-                        </div> -->
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="https://demented.herokuapp.com/">
+                  <div class="col-lg-4 col-sm-6">
+                    <a href="http://moma.nestiosite.com">
                         <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
                         <!-- <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -180,16 +113,36 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
-                    <a href="https://katyvonkaty.github.io/eataly/index.html">
+                    <a href="https://www.dklb.com/">
                         <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                         </div>
                     </a>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-8 col-sm-6">
+                    <a href="http://www.38sixth.com/">
+                        <!-- <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt=""> -->
+                        <img src="img/portfolio/thumbnails/7.jpg" class="img-responsive" alt="">
+                        <!-- <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Web Design 
+                                </div>
+                                <div class="project-name">
+                                    Boutique Real Estate Firm
+                                </div>
+                            </div>
+                        </div> -->
+                    </a>
+                </div>
+                <div class="col-lg-7 col-sm-6">
 <!--                     <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
+<<<<<<< HEAD
  -->                        <a href="https://hireme23.herokuapp.com/">
+=======
+ -->                        <a href="https://nestio.invisionapp.com/share/GUFLHFNAWXY">
+>>>>>>> 0afea5c923293e5a42dc734e520bd2f4a619c004
                             <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt=""> </a>
                            <!--  <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
@@ -203,9 +156,10 @@
                             </div> -->
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-5 col-sm-6">
                     <!-- <a class="portfolio-box"> </a> -->
-                        <!-- <a href="https://katyvonkaty.github.io/mouse/index.html"> --> <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive"> </a>
+                        <a href="https://overseee.herokuapp.com/"> 
+                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive"> </a>
                         <!-- <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -226,12 +180,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading"> Get in touch!</h2>
+                    <h2 class="section-heading"> Get In Touch!</h2>
                     <hr class="primary">
-                    <p>Ready to start your next project with me? That's great! Send me an email and I will get back to you as soon as possible!</p>
+                    <p>If you have got this far and are still interested in my work & working with me, send me an email.</p>
                 </div>
     
-                <div class="col-lg-4 text-center">
+                <div class="col-lg-12 text-center icon">
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
                     <p><a href="mailto:kj0203@gmail.com">Drop Me a Line</a></p>
                 </div> 
@@ -239,6 +193,10 @@
             </div>
         </div>
     </section>
+
+    <footer style="background-color:#f1c40f; height:50px;">
+    <p> Website designed and developed by yours truly. 🔥 <p>
+    </footer>
 <!-- 
     
 
