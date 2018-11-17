@@ -9,6 +9,16 @@ body {
   width: 100%;
 }
 
+.footer {
+  background-color:#f1c40f !important;
+  height:50px !important;
+}
+
+.footer p {
+  text-align:center;
+}
+
+
 body {
   font-family: 'Montserrat', sans-serif;
 }
