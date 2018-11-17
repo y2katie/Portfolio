@@ -10,6 +10,13 @@
   color:#f1c40f;
 }
 
+    #portfolio {
+      padding: 30px;
+    border-top: 1px solid #f0c40f;
+    border-bottom: 1px solid #f0c40f;
+  }
+
+
 .footer {
   background-color:#f1c40f !important;
 }

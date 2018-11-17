@@ -76,15 +76,15 @@
     <section class="no-padding" id="portfolio">
         <div class="container">
             <div class="row no-gutter popup-gallery">
-                <div class="col-lg-8 col-sm-6">
-                     <a href="https://invis.io/UTKBOBONR5E">
+                <div class="col-sm-5 col-sm-offset-1 ">
+                     <a href="www.nestio.com">
                         <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt=""> 
                         
                     </a>
                 </div>
-                  <div class="col-lg-4 col-sm-6">
+                  <div class="col-sm-offset-1 col-sm-5 ">
                     <a href="http://moma.nestiosite.com">
-                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+                        <img src="www.watsonwedding.com" class="img-responsive" alt="">
                         <!-- <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -97,7 +97,7 @@
                         </div> -->
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-sm-offset-1 col-sm-5">
                     <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
                     <a href="https://www.dklb.com/">
                         <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
@@ -106,7 +106,7 @@
                     </a>
                     </a>
                 </div>
-                <div class="col-lg-8 col-sm-6">
+                <div class="col-sm-offset-1 col-sm-5">
                     <a href="http://www.38sixth.com/">
                         <!-- <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt=""> -->
                         <img src="img/portfolio/thumbnails/7.jpg" class="img-responsive" alt="">
@@ -122,7 +122,7 @@
                         </div> -->
                     </a>
                 </div>
-                <div class="col-lg-6 col-sm-6">
+                <div class="col-sm-offset-1 col-sm-5">
 <!--                     <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
  -->                        <a href="https://nestio.invisionapp.com/share/GUFLHFNAWXY">
                             <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt=""> </a>
@@ -138,7 +138,7 @@
                             </div> -->
                     </a>
                 </div>
-                <div class="col-lg-5 col-sm-6">
+                <div class="col-sm-offset-1 col-sm-5">
                     <!-- <a class="portfolio-box"> </a> -->
                         <a href="https://overseee.herokuapp.com/"> 
                         <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive"> </a>
