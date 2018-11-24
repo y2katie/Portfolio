@@ -59,12 +59,36 @@
     <section class="bg-primary" id="about">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading"> Hey, I Love Cake. I'm a <span class='color'>Product</span> and <span class='color'>Web Designer</span>. </h2>
-                    <p class="text-faded"> Most people call me Katie but my government name is Kathryn. I currently work at Nestio as a web designer, product designer and overall awesome employee. I enjoy learning more about all design disciplines - including UX, interface design, reporting, user testing, web development, web design, product design and anything that branches off these ideas. I have a dog named Teddy and right now I'm going through a #f0c40f phase. Raise your hand if sometimes you want to redesign everything just because 🙋‍.  </p>
-<!--                     <a href="#services" class="page-scroll btn btn-default btn-xl sr-button"> Learn More </a>
- -->                </div>
+                <div class="col-sm-6">
+                    <div class="section-heading">
+                    <p> Hello </p>
+                    <h1>Hey Im Ava <br><span class='color'>And Im Awesome</span>. </h1>
+                    <p> a web and product designer with a penchant for baking. I have a dog named Teddy and right now I'm going through a #f0c40f phase. Raise your hand if sometimes you want to redesign everything just because 🙋‍.  </p>
+                    </div>
+               </div>
+               <div class='col-sm-6'>
+                <img src='img/portfolio/thumbnails/abstract.jpg'>
+               </div>
             </div>
+            <div class='row' id='icons'>
+                    <div class='col-sm-offset-1 col-sm-2'>
+                        <img src='img/portfolio/thumbnails/7.jpg'>
+                    </div>
+                    <div class='col-sm-2'>
+                          <img src='img/portfolio/thumbnails/7.jpg'>
+                    </div>
+                      <div class='col-sm-2'>
+                          <img src='img/portfolio/thumbnails/7.jpg'>
+                    </div>
+                      <div class='col-sm-2'>
+                          <img src='img/portfolio/thumbnails/7.jpg'>
+                    </div>
+                     <div class='col-sm-2'>
+                          <img src='img/portfolio/thumbnails/7.jpg'>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
