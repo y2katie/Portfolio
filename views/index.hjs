@@ -66,8 +66,8 @@
                     <p> a web and product designer with a penchant for baking. I have a dog named Teddy and right now I'm going through a #f0c40f phase. Raise your hand if sometimes you want to redesign everything just because 🙋‍.  </p>
                     </div>
                </div>
-               <div class='col-sm-6'>
-                <img src='img/portfolio/thumbnails/abstract.jpg'>
+               <div class='col-sm-6' id='header-image'>
+                <img src='img/portfolio/thumbnails/abstract.jpg' >
                </div>
             </div>
             <div class='row' id='icons'>
@@ -96,86 +96,65 @@
 
     <section class="no-padding" id="portfolio">
         <div class="container">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-sm-5 col-sm-offset-1 ">
-                     <a href="www.nestio.com">
-                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt=""> 
-                        
-                    </a>
+            <div class='row' id='row-one'>
+                <div class="col-sm-8">
+                    <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt=""> 
                 </div>
-                  <div class="col-sm-offset-1 col-sm-5 ">
-                    <a href="">
-                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
-                        <!-- <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Web Design
-                                </div>
-                                <div class="project-name">
-                                   Travel Blogger
-                                </div>
-                            </div>
-                        </div> -->
-                    </a>
-                </div>
-                <div class="col-sm-offset-1 col-sm-5">
-                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
-                    <a href="https://www.dklb.com/">
-                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                        </div>
-                    </a>
-                    </a>
-                </div>
-                <div class="col-sm-offset-1 col-sm-5">
-                    <a href="http://www.38sixth.com/">
-                        <!-- <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt=""> -->
-                        <img src="img/portfolio/thumbnails/7.jpg" class="img-responsive" alt="">
-                        <!-- <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Web Design 
-                                </div>
-                                <div class="project-name">
-                                    Boutique Real Estate Firm
-                                </div>
-                            </div>
-                        </div> -->
-                    </a>
-                </div>
-                <div class="col-sm-offset-1 col-sm-5">
-<!--                     <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
- -->                        <a href="https://nestio.invisionapp.com/share/GUFLHFNAWXY">
-                            <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt=""> </a>
-                           <!--  <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Web Design
-                                    </div>
-                                    <div class="project-name">
-                                        Breast Cancer Awareness
-                                    </div>
-                                </div>
-                            </div> -->
-                    </a>
-                </div>
-                <div class="col-sm-offset-1 col-sm-5">
-                    <!-- <a class="portfolio-box"> </a> -->
-                        <a href="https://overseee.herokuapp.com/"> 
-                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive"> </a>
-                        <!-- <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Web Design
-                                </div>
-                                <div class="project-name">
-                                    Artisnal Mousse Spot
-                                </div>
-                            </div>
-                        </div> -->
-                    <!-- </a> -->
+                  <div class="col-sm-4">
+                    <h5> Title </h5>
+                    <h2> Descriptive Title </h2>
+                    <hr>
+                    <p> mimic hubspot reporting - one conversion and one velocity row Make percentage number stand out more change colors to enhance which is larger ie 85% grey over blue </p>
                 </div>
             </div>
+            <div class='row' id='portfolio-row'>
+                <div class='col-sm-4 '>
+                    <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                    <h5> Title </h5>
+                    <h2> Descriptive Title </h2>
+                    <hr>
+                    <p> mimic hubspot reporting - one conversion and one velocity row Make percentage number stand out more change colors to enhance which is larger ie 85% grey over blue </p>
+
+                </div>
+                 <div class='col-sm-4 ml-5'>
+                    <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                    <h5> Title </h5>
+                    <h2> Descriptive Title </h2>
+                    <hr>
+                    <p> mimic hubspot reporting - one conversion and one velocity row Make percentage number stand out more change colors to enhance which is larger ie 85% grey over blue </p>
+                </div>
+                 <div class='col-sm-4'>
+                    <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                    <h5> Title </h5>
+                    <h2> Descriptive Title </h2>
+                    <hr>
+                    <p> mimic hubspot reporting - one conversion and one velocity row Make percentage number stand out more change colors to enhance which is larger ie 85% grey over blue </p>
+                </div>
+            </div>
+            <div class='row' id='portfolio-three'>
+                <div class='col-sm-8 mr-10'>
+                    <div class='col-sm-6'>
+                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                    </div>
+                    <div class='col-sm-6'>
+                         <h5> Title </h5>
+                        <h2> Descriptive Title </h2>
+                        <hr>
+                        <p> mimic hubspot reporting - one conversion and one velocity row Make percentage number stand out more change colors to enhance which is larger ie 85% grey over blue </p>
+                    </div>
+                </div>
+                <div class='col-sm-4'>
+                     <div class='col-sm-12'>
+                    <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                        <h5> Title </h5>
+                        <h2> Descriptive Title </h2>
+                        <hr>
+                        <p> mimic hubspot reporting - one conversion and one velocity row Make percentage number stand out more change colors to enhance which is larger ie 85% grey over blue </p>
+                    </div>
+
+                </div>
+            </div>
+
         </div>
     </section>
 
