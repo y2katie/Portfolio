@@ -33,7 +33,7 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">KATIE JORDAN</a>
+                <a class="navbar-brand page-scroll" href="#page-top">🙌 👏 🤝 👍 👎 👊 ✊ 🤛 🤜 🤞 ✌️ </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -61,9 +61,8 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="section-heading">
-                    <p> Hello </p>
-                    <h1>Hey Im Ava <br><span class='color'>And Im Awesome</span>. </h1>
-                    <p> a web and product designer with a penchant for baking. I have a dog named Teddy and right now I'm going through a #f0c40f phase. Raise your hand if sometimes you want to redesign everything just because 🙋‍.  </p>
+                    <h1>Hi I'm Katie, <br><span class='color'>A Web and Product Designer.</span> </h1>
+                    <p>I have a dog named Teddy and right now I'm going through a #D94F59 phase. Raise your hand if sometimes you want to redesign everything just because 🙋‍. I also bake, spend way too much time reddit, have a penchant for multiple cups of coffee and was recently obsessed with Warren Buffet.</p>
                     </div>
                </div>
                <div class='col-sm-6' id='header-image'>
@@ -109,7 +108,7 @@
             </div>
             <div class='row' id='portfolio-row'>
                 <div class='col-sm-4 '>
-                    <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                    <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
                     <h5> Title </h5>
                     <h2> Descriptive Title </h2>
                     <hr>
@@ -117,14 +116,14 @@
 
                 </div>
                  <div class='col-sm-4 ml-5'>
-                    <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                    <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
                     <h5> Title </h5>
                     <h2> Descriptive Title </h2>
                     <hr>
                     <p> mimic hubspot reporting - one conversion and one velocity row Make percentage number stand out more change colors to enhance which is larger ie 85% grey over blue </p>
                 </div>
                  <div class='col-sm-4'>
-                    <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                    <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
                     <h5> Title </h5>
                     <h2> Descriptive Title </h2>
                     <hr>
@@ -132,45 +131,30 @@
                 </div>
             </div>
             <div class='row' id='portfolio-three'>
-                <div class='col-sm-8 mr-10'>
-                    <div class='col-sm-6'>
-                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
-                    </div>
-                    <div class='col-sm-6'>
+                    <div class='col-sm-4'>
                          <h5> Title </h5>
                         <h2> Descriptive Title </h2>
                         <hr>
                         <p> mimic hubspot reporting - one conversion and one velocity row Make percentage number stand out more change colors to enhance which is larger ie 85% grey over blue </p>
                     </div>
-                </div>
-                <div class='col-sm-4'>
-                     <div class='col-sm-12'>
-                    <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
-                        <h5> Title </h5>
-                        <h2> Descriptive Title </h2>
-                        <hr>
-                        <p> mimic hubspot reporting - one conversion and one velocity row Make percentage number stand out more change colors to enhance which is larger ie 85% grey over blue </p>
+                    <div class='col-sm-8'>
+                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
                     </div>
-
                 </div>
+                
             </div>
 
         </div>
     </section>
 
     <section id="contact">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading"> 🔥 Get In Touch! 🔥</h2>
-                    <hr class="primary">
-                    <p>If you have got this far and are still interested in my work & working with me, send me an email.</p>
+                <div class="col-sm-offset-2 text-left">
+                     <h2> Interested In Working Together? </h2>
+                     <p> 
+                     <span class='info'><a href="mailto:kj0203@gmail.com"> Get in touch </a></span> if you'd like to hire me for your next project. </p>
                 </div>
-    
-                <div class="col-lg-12 text-center icon">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:kj0203@gmail.com">Drop Me a Line</a></p>
-                </div> 
                
             </div>
         </div>
