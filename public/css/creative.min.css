@@ -32,13 +32,16 @@ text-align:center !important;
 #portfolio-three .col-sm-8, .col-sm-4 {
   box-shadow: 1px 1px 40px 1px rgba(0,0,0,.1);
 }
+#portfolio-three {
+  margin-top:40px;
+}
 
 #row-one {
   box-shadow: 1px 1px 40px 1px rgba(0,0,0,.1);
 }
 
 #portfolio-row .col-sm-4 {
-  box-shadow: 1px 1px 40px 1px rgba(0,0,0,.1);
+  box-shadow: 1px 10px 10px 1px rgba(0,0,0,.1);
 }
 
 #portfolio h5,h2,p {

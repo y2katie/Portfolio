@@ -108,7 +108,7 @@
             </div>
             <div class='row' id='portfolio-row'>
                 <div class='col-sm-4 '>
-                    <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
+                    <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
                     <h5> Title </h5>
                     <h2> Descriptive Title </h2>
                     <hr>
@@ -116,7 +116,7 @@
 
                 </div>
                  <div class='col-sm-4 ml-5'>
-                    <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+                    <img src="img/portfolio/thumbnails/6.jpg"  class="img-responsive" alt="">
                     <h5> Title </h5>
                     <h2> Descriptive Title </h2>
                     <hr>
@@ -131,17 +131,28 @@
                 </div>
             </div>
             <div class='row' id='portfolio-three'>
-                    <div class='col-sm-4'>
-                         <h5> Title </h5>
-                        <h2> Descriptive Title </h2>
-                        <hr>
-                        <p> mimic hubspot reporting - one conversion and one velocity row Make percentage number stand out more change colors to enhance which is larger ie 85% grey over blue </p>
-                    </div>
-                    <div class='col-sm-8'>
-                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
-                    </div>
+                <div class='col-sm-4'>
+                     <h5> Title </h5>
+                    <h2> Descriptive Title </h2>
+                    <hr>
+                    <p> mimic hubspot reporting - one conversion and one velocity row Make percentage number stand out more change colors to enhance which is larger ie 85% grey over blue </p>
                 </div>
-                
+                <div class='col-sm-8'>
+                    <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
+                </div>
+            </div>
+ 
+            <div class='row' id='portfolio-three'>
+                <div class='col-sm-8'>
+                    <img src="img/portfolio/thumbnails/7.jpg" class="img-responsive" alt="">
+                    
+                </div>
+                <div class='col-sm-4'>
+                   <h5> Title </h5>
+                    <h2> Descriptive Title </h2>
+                    <hr>
+                    <p> mimic hubspot reporting - one conversion and one velocity row Make percentage number stand out more change colors to enhance which is larger ie 85% grey over blue </p>
+                </div>
             </div>
 
         </div>
