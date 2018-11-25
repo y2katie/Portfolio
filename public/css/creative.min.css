@@ -29,11 +29,12 @@
 text-align:center !important;
 }
 
-#portfolio-three .col-sm-8, .col-sm-4 {
+/*#portfolio-three .col-sm-8, .col-sm-4 {
   box-shadow: 1px 1px 40px 1px rgba(0,0,0,.1);
-}
+}*/
 #portfolio-three {
   margin-top:40px;
+  margin-bottom:40px;
 }
 
 #row-one {
@@ -49,6 +50,21 @@ text-align:center !important;
   padding:10px;
 }
 
+ #portfolio-four {
+    box-shadow: 1px 1px 40px 1px rgba(0,0,0,.1);
+}
+
+#portfolio-three {
+   box-shadow: 1px 1px 40px 1px rgba(0,0,0,.1);
+}
+
+#portfolio-four .col-sm-4 {
+  box-shadow: none !important;
+}
+
+#portfolio-three.col-sm-4 {
+   box-shadow: 1px 1px 40px 1px rgba(0,0,0,.1);
+}
 
 #contact h2,p {
   text-align:left;
