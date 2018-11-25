@@ -46,7 +46,7 @@
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Let's Chat!</a>
+                        <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -69,21 +69,26 @@
                 <img src='img/portfolio/thumbnails/abstract.jpg' >
                </div>
             </div>
+            <div class='row'>
+               <!--  <div class='col-sm-offset-3 col-sm-6'>
+                    <h5> Inteårested In: </h5>
+                </div> -->
+            </div>
             <div class='row' id='icons'>
                     <div class='col-sm-offset-1 col-sm-2'>
-                        <img src='img/portfolio/thumbnails/7.jpg'>
+                        <img src='img/portfolio/thumbnails/ux.png'>
                     </div>
                     <div class='col-sm-2'>
-                          <img src='img/portfolio/thumbnails/7.jpg'>
+                          <img src='img/portfolio/thumbnails/type.png'>
                     </div>
                       <div class='col-sm-2'>
-                          <img src='img/portfolio/thumbnails/7.jpg'>
+                          <img src='img/portfolio/thumbnails/modern.png'>
                     </div>
                       <div class='col-sm-2'>
-                          <img src='img/portfolio/thumbnails/7.jpg'>
+                          <img src='img/portfolio/thumbnails/web.png'>
                     </div>
                      <div class='col-sm-2'>
-                          <img src='img/portfolio/thumbnails/7.jpg'>
+                          <img src='img/portfolio/thumbnails/cookies.png'>
                     </div>
                 </div>
             </div>
@@ -100,42 +105,42 @@
                     <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt=""> 
                 </div>
                   <div class="col-sm-4">
-                    <h5> Title </h5>
-                    <h2> Descriptive Title </h2>
+                    <h5> PROJECT I </h5>
+                    <h2> Nestio </h2>
                     <hr>
-                    <p> mimic hubspot reporting - one conversion and one velocity row Make percentage number stand out more change colors to enhance which is larger ie 85% grey over blue </p>
+                    <p> Built using HTML, CSS, Javascript, Bootstrap & Hubbspot CRM. Reflects Nestio's new modern direction. Tasked with utilizing wireframes to bring the site to life. Also a great multifamily leasing platform! Check it out <a href='www.nestio.com'> here </a></p>
                 </div>
             </div>
             <div class='row' id='portfolio-row'>
                 <div class='col-sm-4 '>
                     <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
-                    <h5> Title </h5>
-                    <h2> Descriptive Title </h2>
+                    <h5> PROJECT II </h5>
+                    <h2> 80 DKLB</h2>
                     <hr>
-                    <p> mimic hubspot reporting - one conversion and one velocity row Make percentage number stand out more change colors to enhance which is larger ie 85% grey over blue </p>
+                    <p> A client of Nestio's, we worked with their marketing department to design and implement the site. Built using HTML, CSS, Javascript, Bootstrap and Contentful. Check it out <a href='www.80dklb.com'> here </a></p>
 
                 </div>
                  <div class='col-sm-4 ml-5'>
                     <img src="img/portfolio/thumbnails/6.jpg"  class="img-responsive" alt="">
-                    <h5> Title </h5>
-                    <h2> Descriptive Title </h2>
+                    <h5> PROJECT III </h5>
+                    <h2> Market Reports </h2>
                     <hr>
-                    <p> mimic hubspot reporting - one conversion and one velocity row Make percentage number stand out more change colors to enhance which is larger ie 85% grey over blue </p>
+                    <p> Part of my role as nestio involves avoiding complacency. Tasked with building UI interface and exploring interactions. Built with Sketch and the library used in react. Check it out <a href='www.80dklb.com'> here </a> </p>
                 </div>
                  <div class='col-sm-4'>
                     <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
-                    <h5> Title </h5>
-                    <h2> Descriptive Title </h2>
+                    <h5> Project IIII </h5>
+                    <h2> 38 Sixth </h2>
                     <hr>
-                    <p> mimic hubspot reporting - one conversion and one velocity row Make percentage number stand out more change colors to enhance which is larger ie 85% grey over blue </p>
+                    <p> Another Nestio client - a new high rise in brooklyn offering ultra luxe amenities and sleek architexture. Built using HTML, CSS, Javascript, and Contentful. Check it out <a href='www.38sixth.com'> here </a> </p>
                 </div>
             </div>
             <div class='row' id='portfolio-three'>
                 <div class='col-sm-4'>
-                     <h5> Title </h5>
-                    <h2> Descriptive Title </h2>
+                     <h5> Project IV </h5>
+                    <h2> Vanguard 2.0 </h2>
                     <hr>
-                    <p> mimic hubspot reporting - one conversion and one velocity row Make percentage number stand out more change colors to enhance which is larger ie 85% grey over blue </p>
+                    <p> As a self professed index fund obsessive I thought it would be a fun project to work on re-designing Vanguard's outdated interface. Built using Sketch.  Check it out <a href='www.38sixth.com'> here </a>  </p>
                 </div>
                 <div class='col-sm-8'>
                     <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
@@ -148,10 +153,10 @@
                     
                 </div>
                 <div class='col-sm-4'>
-                   <h5> Title </h5>
-                    <h2> Descriptive Title </h2>
+                   <h5> Project VI </h5>
+                    <h2> Oversee </h2>
                     <hr>
-                    <p> mimic hubspot reporting - one conversion and one velocity row Make percentage number stand out more change colors to enhance which is larger ie 85% grey over blue </p>
+                    <p> A modern informational platform used to educate and foster a safe space for women new to investing and investing terminology. Designed in Sketch, built using HTML, CSS, Javascript, Bootstrap. Check it out <a href='www.oversee.com'> here </a>   </p>
                 </div>
             </div>
 
