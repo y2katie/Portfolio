@@ -136,7 +136,7 @@
                     <h5> PROJECT I </h5>
                     <h2> Nestio </h2>
                     <hr>
-                    <p> Built using HTML, CSS, Javascript, Bootstrap & Hubbspot CRM. Reflects Nestio's new modern direction. Tasked with utilizing wireframes to bring the site to life. Also a great multifamily leasing platform! Check it out <a href='www.nestio.com'> here </a></p>
+                    <p> Built using HTML, CSS, Javascript, Bootstrap & Hubbspot CRM. Reflects Nestio's new modern direction. Tasked with utilizing wireframes to bring the site to life. Also a great multifamily leasing platform! Check it out <a href='https://www.nestio.com/'> here </a></p>
                 </div>
             </div>
             <div class='row' id='portfolio-row'>
@@ -145,7 +145,7 @@
                     <h5> PROJECT II </h5>
                     <h2> 80 DKLB</h2>
                     <hr>
-                    <p> A client of Nestio's, we worked with their marketing department to design and implement the site. Built using HTML, CSS, Javascript, Bootstrap and Contentful. Check it out <a href='www.80dklb.com'> here </a></p>
+                    <p> A client of Nestio's, we worked with their marketing department to design and implement the site. Built using HTML, CSS, Javascript, Bootstrap and Contentful. Check it out <a href='https://www.dklb.com/'> here </a></p>
 
                 </div>
                  <div class='col-sm-4 ml-5'>
@@ -160,7 +160,7 @@
                     <h5> Project IIII </h5>
                     <h2> 38 Sixth </h2>
                     <hr>
-                    <p> Another Nestio client - a new high rise in brooklyn offering ultra luxe amenities and sleek architexture. Built using HTML, CSS, Javascript, and Contentful. Check it out <a href='www.38sixth.com'> here </a> </p>
+                    <p> Another Nestio client - a new high rise in brooklyn offering ultra luxe amenities and sleek architexture. Built using HTML, CSS, Javascript, and Contentful. Check it out <a href='https://www.38sixth.com/'> here </a> </p>
                 </div>
             </div>
             <div class='row' id='portfolio-three'>
@@ -168,7 +168,7 @@
                      <h5> Project IV </h5>
                     <h2> Vanguard 2.0 </h2>
                     <hr>
-                    <p> As a self professed index fund obsessive I thought it would be a fun project to work on re-designing Vanguard's outdated interface. Built using Sketch.  Check it out <a href='www.38sixth.com'> here </a>  </p>
+                    <p> As a self professed index fund obsessive I thought it would be a fun project to work on re-designing Vanguard's outdated interface. Built using Sketch.  Check it out <a href='https://invis.io/67PG8IIXM2G'> here </a>  </p>
                 </div>
                 <div class='col-sm-8'>
                     <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
@@ -178,13 +178,12 @@
             <div class='row' id='portfolio-four'>
                 <div class='col-sm-8'>
                     <img src="img/portfolio/thumbnails/7.jpg" class="img-responsive" alt="">
-                    
                 </div>
                 <div class='col-sm-4'>
                    <h5> Project VI </h5>
                     <h2> Oversee </h2>
                     <hr>
-                    <p> A modern informational platform used to educate and foster a safe space for women new to investing and investing terminology. Designed in Sketch, built using HTML, CSS, Javascript, Bootstrap. Check it out <a href='www.oversee.com'> here </a>   </p>
+                    <p> A modern informational platform used to educate and foster a safe space for women new to investing and investing terminology. Designed in Sketch, built using HTML, CSS, Javascript, Bootstrap. Check it out <a href='https://overseee.herokuapp.com/'> here </a>   </p>
                 </div>
             </div>
 
