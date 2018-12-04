@@ -69,10 +69,39 @@
                 <img src='img/portfolio/thumbnails/abstract.jpg' >
                </div>
             </div>
+            <!-- <div class='row'>
+                <div class='col-sm-offset-3 col-sm-6'>
+                    <p> Interested In: </p>
+                </div>
+            </div>
+            <div class='row' id='icons'>
+                    <div class='col-sm-offset-1 col-sm-2'>
+                        <img src='img/portfolio/thumbnails/ux.png'>
+                    </div>
+                    <div class='col-sm-2'>
+                          <img src='img/portfolio/thumbnails/type.png'>
+                    </div>
+                      <div class='col-sm-2'>
+                          <img src='img/portfolio/thumbnails/modern.png'>
+                    </div>
+                      <div class='col-sm-2'>
+                          <img src='img/portfolio/thumbnails/web.png'>
+                    </div>
+                     <div class='col-sm-2'>
+                          <img src='img/portfolio/thumbnails/cookies.png'>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
+    </section>
+
+    <section class='testing'>
+        <div class='container'>
             <div class='row'>
-               <!--  <div class='col-sm-offset-3 col-sm-6'>
-                    <h5> Inteårested In: </h5>
-                </div> -->
+                <div class='col-sm-offset-3 col-sm-6'>
+                    <p> Interested In: </p>
+                </div>
             </div>
             <div class='row' id='icons'>
                     <div class='col-sm-offset-1 col-sm-2'>
@@ -92,7 +121,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 
@@ -166,10 +194,11 @@
     <section id="contact">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-offset-2 text-left">
+                <div class="col-sm-offset-4 text-center">
                      <h2> Interested In Working Together? </h2>
                      <p> 
                      <span class='info'><a href="mailto:kj0203@gmail.com"> Get in touch </a></span> if you'd like to hire me for your next project. </p>
+                     <p> Humble brag: site designed and coded by yours truly </p>
                 </div>
                
             </div>

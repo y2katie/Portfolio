@@ -6,9 +6,24 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+ .testing {
+  margin-top:-180px;
+
+}
+
+.testing p {
+    text-align: center;
+    font-size: 12px;
+    z-index: 200000000;
+    position: relative;
+}
+
  @media(max-width: 767px){
   #icons {
     display:none !important;
+  }
+  .testing {
+    display:none;
   }
   #header-image {
     display:none !important;
@@ -110,7 +125,7 @@ text-align:center !important;
 #icons {
     background-color: white;
     padding: 30px;
-    margin-top: -30px !important;
+    margin-top: -60px !important;
     z-index: 1000;
     position: relative;
     box-shadow: 1px 1px 40px 1px rgba(0,0,0,.1);
