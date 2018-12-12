@@ -193,11 +193,11 @@
     <section id="contact">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-offset-4 text-center">
+                <div class="col-sm-6 col-sm-offset-3">
                      <h2> Interested In Working Together? </h2>
                      <p> 
                      <span class='info'><a href="mailto:kj0203@gmail.com"> Get in touch </a></span> if you'd like to hire me for your next project. </p>
-                     <p style="color:rgb(217, 79, 89)"> Humble brag: site designed and coded by yours truly </p>
+                     <p style="color:rgb(217, 79, 89);font-size:10px;text-align:center;"> Designed and coded by yours truly </p>
                 </div>
                
             </div>
