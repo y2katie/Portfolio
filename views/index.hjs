@@ -136,7 +136,7 @@
                     <h5> PROJECT I </h5>
                     <h2> Nestio </h2>
                     <hr>
-                    <p> I worked with a branding agency to build the mock according to spec. Built using HTML,CSS,Javascript, Contentful and small edits in Photoshop. Nestio is also a great multifamily leasing platform! Check it out <a href='https://www.nestio.com/'> here </a></p>
+                    <p> I worked with a branding agency to build the mock according to spec. Built using HTML,CSS,Javascript, Contentful and small edits in Photoshop. Nestio is also a great multifamily leasing platform! Check it out <a href='https://www.nestio.com/' target="_blank"> here </a></p>
                 </div>
             </div>
             <div class='row' id='portfolio-row'>
@@ -145,7 +145,7 @@
                     <h5> PROJECT II </h5>
                     <h2> 80 DKLB</h2>
                     <hr>
-                    <p> 80 DKLB is a client of Nestio's. Built using HTML, CSS, Javascript, Bootstrap and Contentful. Check it out <a href='https://www.dklb.com/'> here </a></p>
+                    <p> 80 DKLB is a client of Nestio's. Built using HTML, CSS, Javascript, Bootstrap and Contentful. Check it out <a href='https://www.dklb.com/' target="_blank"> here </a></p>
 
                 </div>
                  <div class='col-sm-4 ml-5'>
@@ -153,14 +153,14 @@
                     <h5> PROJECT III </h5>
                     <h2> Client Card </h2>
                     <hr>
-                    <p> Rebuilding the existing Client Card UI to be more user friendly and modern. Built with Sketch and demoed in Invision. Check it out <a href='https://nestio.invisionapp.com/share/YNOSBH76A3S'> here </a> </p>
+                    <p> Rebuilding the existing Client Card UI to be more user friendly and modern. Built with Sketch and demoed in Invision. Check it out <a href='https://nestio.invisionapp.com/share/YNOSBH76A3S' target="_blank"> here </a> </p>
                 </div>
                  <div class='col-sm-4'>
                     <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
                     <h5> Project IIII </h5>
                     <h2> 38 Sixth </h2>
                     <hr>
-                    <p> 38 Sixth is a new high rise in brooklyn offering luxe amenities and sleek architecture. Built using HTML, CSS, Javascript, and Contentful. Check it out <a href='https://www.38sixth.com/'> here </a> </p>
+                    <p> 38 Sixth is a new high rise in brooklyn offering luxe amenities and sleek architecture. Built using HTML, CSS, Javascript, and Contentful. Check it out <a href='https://www.38sixth.com/' target="_blank"> here </a> </p>
                 </div>
             </div>
             <div class='row' id='portfolio-three'>
@@ -168,7 +168,7 @@
                      <h5> Project IV </h5>
                     <h2> Vanguard 2.0 </h2>
                     <hr>
-                    <p> A self professed index fund obsessive I thought it would be a fun project to work on re-designing Vanguard's outdated interface. Built using Sketch. Check it out <a href='https://invis.io/67PG8IIXM2G'> here </a>  </p>
+                    <p> A self professed index fund obsessive I thought it would be a fun project to work on re-designing Vanguard's outdated interface. Built using Sketch. Check it out <a href='https://invis.io/67PG8IIXM2G' target="_blank"> here </a>  </p>
                 </div>
                 <div class='col-sm-8'>
                     <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
@@ -183,7 +183,7 @@
                    <h5> Project VI </h5>
                     <h2> Oversee </h2>
                     <hr>
-                    <p> A modern platform used to educate and foster a safe space for women to learn and ask questons about investing. Designed in Sketch, built using HTML, CSS, Javascript, Bootstrap. Check it out <a href='https://overseee.herokuapp.com/'> here </a>   </p>
+                    <p> A modern platform used to educate and foster a safe space for women to learn and ask questons about investing. Designed in Sketch, built using HTML, CSS, Javascript, Bootstrap. Check it out <a href='https://overseee.herokuapp.com/' target="_blank"> here </a>   </p>
                 </div>
             </div>
 
