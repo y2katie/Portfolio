@@ -12,8 +12,41 @@
 }
 
 #contact img {
-    width:30% !important;
+    display: block;
+    font-size: 20px;
+    width:70%;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 0;
+    padding: 15px;
+}
+
+#contact #test{
+  margin-top:30px;
+}
+
+@media(min-width:767px) {
+  #contact img {
+    width:50% !important;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 0;
+    padding: 15px;
   }
+}
+
+@media(min-width:992px){
+  #contact img {
+    width:40% !important;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 0;
+    padding: 25px;
+  }
+}
 
 
 .testing p {

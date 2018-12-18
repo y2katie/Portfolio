@@ -199,18 +199,18 @@
                      <p>Get in touch if you'd like to hire me for your next project. </p>
                 </div>
             </div>
-                <div class='row'>
-                    <div class='col-sm-offset-3 col-sm-2'>
-                        <a href='https://github.com/katyvonkaty'><img src='img/portfolio/thumbnails/github.png'></a>
+                <div class='row' id='test'>
+                    <div class='col-xs-offset-2 col-xs-2'>
+                        <a href='https://github.com/katyvonkaty' target="_blank"><img src='img/portfolio/thumbnails/github.png'></a>
                     </div>
-                    <div class='col-sm-2'>
-                       <a href='mailto:kj0203@gmail.com?subject=Contact from Portfolio Site'> <img src='img/portfolio/thumbnails/email.png'> </a>
+                    <div class='col-xs-2'>
+                       <a href='mailto:kj0203@gmail.com?subject=Contact from Portfolio Site' target="_blank"> <img src='img/portfolio/thumbnails/email.png'> </a>
                     </div>
-                    <div class='col-sm-2'>
-                        <a href='https://www.linkedin.com/in/katie-jordan-2b0b45a8/'> <img src='img/portfolio/thumbnails/linkedin.png'></a>
+                    <div class='col-xs-2'>
+                        <a href='https://www.linkedin.com/in/katie-jordan-2b0b45a8/' target="_blank"> <img src='img/portfolio/thumbnails/linkedin.png'></a>
                     </div>
-                    <div class='col-sm-2'>
-                        <a href='https://dribbble.com/kj0203'><img src='img/portfolio/thumbnails/dribble.png'></a>
+                    <div class='col-xs-2'>
+                        <a href='https://dribbble.com/kj0203' target="_blank"><img src='img/portfolio/thumbnails/dribble.png'></a>
                     </div>
                 </div>
             </div>
