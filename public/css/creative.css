@@ -18,6 +18,10 @@ body {
   text-align:center;
 }
 
+#contact img {
+    width:30% !important;
+  }
+
 
 body {
   font-family: 'Montserrat', sans-serif;

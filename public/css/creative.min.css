@@ -11,6 +11,11 @@
 
 }
 
+#contact img {
+    width:30% !important;
+  }
+
+
 .testing p {
     text-align: center;
     font-size: 12px;
@@ -38,6 +43,7 @@
 
   #contact {
     padding:30px;
+
   }
 
  }

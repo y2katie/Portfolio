@@ -195,11 +195,23 @@
             <div class="row">
                 <div class="col-sm-6 col-sm-offset-3">
                      <h2> Interested In Working Together? </h2>
-                     <p> 
-                     <span class='info'><a href="mailto:kj0203@gmail.com"> Get in touch </a></span> if you'd like to hire me for your next project. </p>
-                     <p style="color:rgb(217, 79, 89);font-size:10px;text-align:center;"> Designed and coded by yours truly </p>
+                     <p>Get in touch if you'd like to hire me for your next project. </p>
                 </div>
-               
+            </div>
+                <div class='row'>
+                    <div class='col-sm-offset-3 col-sm-2'>
+                        <a href='https://github.com/katyvonkaty'><img src='img/portfolio/thumbnails/github.png'></a>
+                    </div>
+                    <div class='col-sm-2'>
+                       <a href='mailto'> <img src='img/portfolio/thumbnails/email.png'> </a>
+                    </div>
+                    <div class='col-sm-2'>
+                        <a href='https://www.linkedin.com/in/katie-jordan-2b0b45a8/'> <img src='img/portfolio/thumbnails/linkedin.png'></a>
+                    </div>
+                    <div class='col-sm-2'>
+                        <a href='https://dribbble.com/kj0203'><img src='img/portfolio/thumbnails/dribble.png'></a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
