@@ -33,7 +33,7 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">🙌 👏 🤝 👍 👎 👊 ✊ 🤛 🤜 🤞 ✌️ </a>
+                <a class="navbar-brand page-scroll" href="#page-top">🙌 👏 🤝 👍 👎 👊 ✊ 🤞 ✌️ </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -62,7 +62,7 @@
                 <div class="col-sm-6">
                     <div class="section-heading">
                     <h1>Hi I'm Katie, <br><span class='color'>A Web and Product Designer.</span> </h1>
-                    <p>I have a dog named Teddy and right now I'm going through a #D94F59 phase. Raise your hand if sometimes you want to redesign everything just because 🙋‍. I also bake, spend way too much time reddit, have a penchant for multiple cups of coffee and was recently obsessed with Warren Buffet.</p>
+                    <p>I have a dog named Teddy and right now I'm going through a #D94F59 phase. Raise your hand if sometimes you want to redesign everything just because 🙋‍. I also bake, spend way too much time browing reddit, have a penchant for multiple cups of coffee and was recently obsessed with Warren Buffet.</p>
                     </div>
                </div>
                <div class='col-sm-6' id='header-image'>
