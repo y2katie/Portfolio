@@ -22,7 +22,9 @@ body {
   text-align:center;
 }
 
-
+.color {
+  color: #F05F40;
+}
 
 body {
   font-family: 'Montserrat', sans-serif;
