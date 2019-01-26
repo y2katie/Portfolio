@@ -5,7 +5,10 @@
  */
 
  
- @import url('https://fonts.googleapis.com/css?family=Lato:300|Playfair+Display');
+/* @import url('https://fonts.googleapis.com/css?family=Lato:300|Playfair+Display');
+*/
+@import url('https://fonts.googleapis.com/css?family=Lora|Major+Mono+Display');
+
 
 html,
 body {
@@ -27,7 +30,7 @@ body {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lora', serif;
 }
 
 hr {
@@ -56,7 +59,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Playfair Display',serif;
+  font-family: 'Major Mono Display',serif;
 }
 p {
   font-size: 16px;
