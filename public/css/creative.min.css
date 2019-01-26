@@ -43,7 +43,6 @@
               transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
               box-shadow: inset 10px 0 0 0 red;
 
-
         }
     }
 
@@ -63,14 +62,14 @@ body,
 }
 
 .item:nth-child(1) {
-    background: url('/img/portfolio/fullsize/test1.jpg') ;
+    background: url('/img/portfolio/fullsize/picky.jpg') ;
     background-size:cover;
       box-shadow: -10px 0px 10px 1px #aaaaaa;
 
 }
 
 .item:nth-child(2) {
-      background: url('/img/portfolio/fullsize/test3.jpg') ;
+    background: url('/img/portfolio/fullsize/test1.jpg') ;
    background-size:cover;
   box-shadow: -10px 0px 10px 1px #aaaaaa;
 }
@@ -79,7 +78,7 @@ body,
     background: url('/img/portfolio/fullsize/test2.jpg') ;
     background-size:cover;
        box-shadow: -10px 0px 10px 1px #aaaaaa;
-     }
+    }
 
 .item:nth-child(4) {
     background: url('/img/portfolio/fullsize/test5.jpg') ;
