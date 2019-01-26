@@ -19,8 +19,9 @@
         .active.right {
             opacity: 0;
             display: block;
-margin-left: auto;
-margin-right: auto;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: -10px 0px 10px 1px #aaaaaa;
         }
 
         .active,
@@ -28,8 +29,10 @@ margin-right: auto;
         .prev.right {
             opacity: 1;
             display: block;
-margin-left: auto;
-margin-right: auto;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: inset 10px 0 0 0 red;
+
         }
 
         .next,
@@ -38,6 +41,8 @@ margin-right: auto;
         .active.right {
             left: 0;
               transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+              box-shadow: inset 10px 0 0 0 red;
+
 
         }
     }
@@ -60,25 +65,26 @@ body,
 .item:nth-child(1) {
     background: url('/img/portfolio/fullsize/test1.jpg') ;
     background-size:cover;
-    box-shadow:1px 1px 40px 1px rgba(0,0,0,.1);
+      box-shadow: -10px 0px 10px 1px #aaaaaa;
+
 }
 
 .item:nth-child(2) {
       background: url('/img/portfolio/fullsize/test3.jpg') ;
    background-size:cover;
-     box-shadow:1px 1px 40px 1px rgba(0,0,0,.1);
+  box-shadow: -10px 0px 10px 1px #aaaaaa;
 }
 
 .item:nth-child(3) {
     background: url('/img/portfolio/fullsize/test2.jpg') ;
     background-size:cover;
-      box-shadow:1px 1px 40px 1px rgba(0,0,0,.1);
-}
+       box-shadow: -10px 0px 10px 1px #aaaaaa;
+     }
 
 .item:nth-child(4) {
     background: url('/img/portfolio/fullsize/test5.jpg') ;
     background-size:cover;
-      box-shadow:1px 1px 40px 1px rgba(0,0,0,.1);
+      box-shadow: -10px 0px 10px 1px #aaaaaa;
 }
 
  .testing {
@@ -184,11 +190,11 @@ text-align:left !important;
 padding:20px;
 }
 
-#about h5 {
+/*#about h5 {
   margin-top:-40px;
   text-align:center;
 }
-
+*/
 /*#portfolio-three .col-sm-8, .col-sm-4 {
   box-shadow: 1px 1px 40px 1px rgba(0,0,0,.1);
 }*/
