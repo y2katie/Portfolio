@@ -66,7 +66,21 @@
                     </div>
                </div>
                <div class='col-sm-6' id='header-image'>
-                <img src='img/portfolio/thumbnails/abstract.jpg' >
+                <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel" data-slide-to="1"></li>
+                        <li data-target="#carousel" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+                        <div class="active item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
+                    </div>
+                  
+                    
+                </div>
                </div>
             </div>
             <!-- <div class='row'>

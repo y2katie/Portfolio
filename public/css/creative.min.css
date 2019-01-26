@@ -8,6 +8,64 @@
 
  @import url('https://fonts.googleapis.com/css?family=Lora|Major+Mono+Display');
 
+.carousel-fade {
+    .carousel-inner {
+        .item {
+            transition-property: opacity;
+        }
+        
+        .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+            margin-left:-150px;
+        }
+
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+            margin-left:-150px;
+        }
+
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .carousel-control {
+        z-index: 2;
+    }
+}
+
+
+
+html, 
+body, 
+.carousel, 
+.carousel-inner, 
+.carousel-inner .item {
+    height: 100vh;
+}
+
+.item:nth-child(1) {
+    background: url('/img/portfolio/fullsize/test1.jpg') no-repeat;
+    background-size:cover;
+}
+
+.item:nth-child(2) {
+    background: url('/img/portfolio/fullsize/test2.jpg') no-repeat;
+    background-size:cover;
+}
+
+.item:nth-child(3) {
+    background: url('/img/portfolio/fullsize/test3.jpg') no-repeat;
+    background-size:cover;
+}
 
  .testing {
   margin-top:-180px;
