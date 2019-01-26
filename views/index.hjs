@@ -33,7 +33,7 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">🙌 👏 🤝 👍 👎 👊 ✊ 🤞 ✌️ </a>
+                <a class="navbar-brand page-scroll" href="#page-top">🙌 👏 🤝 👍 👊 ✊ 🤞 ✌️</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -59,14 +59,15 @@
     <section class="bg-primary" id="about">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-5">
                     <div class="section-heading">
-                    <h1>Hi I'm Katie, <br><span class='color'>Web Design & Development + Interface Design</span> </h1>
-                    <p>I have a dog named Teddy and right now I'm going through a <span class='color'>#D94F59</span> phase. Raise your hand if sometimes you want to redesign everything just because 🙋‍. I also bake, spend way too much time browsing reddit, have a penchant for multiple cups of coffee, and was recently obsessed with Warren Buffet.</p>
+                    <h1>Hey I'm Katie,  </h1>
+                    <h3><span class='color'> I work on Web Design & Development + Interface Design. </span> </h3>
+                    <p> Currently I create websites and experiences at Nestio. When not working, you can find me doing pilates, walking my dog, baking, reading about investing, or a minutia of other things. Say Hello🙋‍!</p>
                     </div>
                </div>
-               <div class='col-sm-6' id='header-image'>
-                <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2000">
+               <div class='col-sm-7' id='header-image'>
+                <div id="carousel" class="container-fluid carousel slide carousel-fade" data-ride="carousel" data-interval="2000">
                     <ol class="carousel-indicators">
                         <li data-target="#carousel" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel" data-slide-to="1"></li>
@@ -75,6 +76,7 @@
                     <!-- Carousel items -->
                     <div class="carousel-inner">
                         <div class="active item"></div>
+                        <div class="item"></div>
                         <div class="item"></div>
                         <div class="item"></div>
                     </div>
