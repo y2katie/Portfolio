@@ -203,12 +203,12 @@ padding:20px;
 
 #portfolio-row .col-sm-4 {
  margin-top:40px;
-   box-shadow: 1px 10px 10px 1px rgba(0,0,0,.1);
-  height:550px;
-  @media(min-width:767px){
   box-shadow: 1px 10px 10px 1px rgba(0,0,0,.1);
-  height:550px;
-  margin-top:0;
+  height:600px;
+  @media(min-width:767px){
+    box-shadow: 1px 10px 10px 1px rgba(0,0,0,.1);
+    height:550px !important;
+    margin-top:0;
 
   }
 }

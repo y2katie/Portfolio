@@ -152,7 +152,7 @@
                     <h5> PROJECT I </h5>
                     <h2> Nestio </h2>
                     <hr>
-                    <p> Brand redesign including a makeover for the Nestio.com website. Created using HTML, CSS, Javascript, Contentful, Sketch, and Photoshop. Nestio is also a great multifamily leasing platform! Check it out <a href='https://www.nestio.com/' target="_blank" class='color'>here</a>.</p>
+                    <p> I worked with a branding agency to implement their redesign of the Nestio homepage. Created using HTML, CSS, Javascript, Contentful, Sketch, and Photoshop. Nestio is also a great multifamily leasing platform!<br><a href='https://www.nestio.com/' target="_blank" class='color'> Check it out here</a>.</p>
                 </div>
             </div>
             <div class='row' id='portfolio-row'>
@@ -161,7 +161,7 @@
                     <h5> PROJECT II </h5>
                     <h2> 80 DKLB</h2>
                     <hr>
-                    <p> 80 DKLB is a luxury residental building in Brooklyn. Built using HTML, CSS, Javascript, Sketch, and Contentful. Check it out <a href='https://www.dklb.com/' target="_blank" class='color'>here</a>.</p>
+                    <p> 80 DKLB is a modern luxury residental building in Brooklyn. . Built using HTML, CSS, Javascript, Sketch, and Contentful. Check it out <a href='https://www.dklb.com/' target="_blank" class='color'>here</a>.</p>
 
                 </div>
                  <div class='col-sm-4 ml-5'>
@@ -169,14 +169,14 @@
                     <h5> PROJECT III </h5>
                     <h2> Client Card </h2>
                     <hr>
-                    <p> Created in Sketch to improve upon Nestio's first iteration of a client card. Primary functions are to keep it stylish and user friendly. Concept developed in Sketch & Invision. Check it out <a href='https://nestio.invisionapp.com/share/YNOSBH76A3S' target="_blank" class='color'>here</a>.</p>
+                    <p> This was a really fun redesign of the V1 Nestio client card.Highlights include eliminating endless scrolls and redundant information. Created with Sketch & Invision. <a href='https://nestio.invisionapp.com/share/YNOSBH76A3S' target="_blank" class='color'> Check it out here</a>.</p>
                 </div>
                  <div class='col-sm-4'>
                     <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
                     <h5> Project IIII </h5>
                     <h2> 38 Sixth </h2>
                     <hr>
-                    <p> 38 Sixth is another luxury residental building in Brooklyn. Built using HTML, CSS, Javascript, and Contentful. Check it out <a href='https://www.38sixth.com/' target="_blank" class='color'>here</a>.</p>
+                    <p> 38 Sixth is a sister building of 80DKLB. Wanted to replicate the modern vibe. Built using HTML, CSS, Javascript, and Contentful.<a href='https://www.38sixth.com/' target="_blank" class='color'> Check it out here</a>.</p>
                 </div>
             </div>
             <div class='row' id='portfolio-three'>
@@ -184,7 +184,7 @@
                      <h5> Project IV </h5>
                     <h2> Vanguard 2.0 </h2>
                     <hr>
-                    <p> Let me be clear - I love fintech. As someone who obsessively checks their Vanguard, I thought the interface could use a design touch. Check it out <a href='https://invis.io/67PG8IIXM2G' target="_blank" class='color'>here</a>.</p>
+                    <p> As a Jack Bogle + Warren Buffet fan, this has to be done. If anyone uses Vanguard they will likely agree that a wonderful product but a terrible interface (sorry Vanguard). <a href='https://invis.io/67PG8IIXM2G' target="_blank" class='color'> Check it out here</a>.</p>
                 </div>
                 <div class='col-sm-8'>
                     <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
@@ -199,7 +199,7 @@
                    <h5> Project VI </h5>
                     <h2> Oversee </h2>
                     <hr>
-                    <p> Fintech alert. A concept developed to provide women a save enviroment to ask questions about their finances and investing. Designed in Sketch, built using HTML, CSS, Javascript & Bootstrap. Check it out <a href='https://overseee.herokuapp.com/' target="_blank" class='color'>here</a>.</p>
+                    <p> A fun project aimed at promoting a friendly enviroment for women with 0 to little experience to ask questions about their money and investing. Designed and built by your truly.<a href='https://overseee.herokuapp.com/' target="_blank" class='color'> Check it out here</a>.</p>
                 </div>
             </div>
 
