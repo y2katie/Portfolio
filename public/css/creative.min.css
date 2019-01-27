@@ -88,36 +88,13 @@ body,
 
  .testing {
   margin-top:-180px;
-
 }
 
 
-#contact #test{
-  margin-top:30px;
+#contact a  {
+  text-decoration: :none !important;
+  color: #d84f59 !important;
 }
-
-/*@media(min-width:767px) {
-  #contact img {
-    width:40% !important;
-    position: absolute;
-    transform: translateY(-50%);
-    top: 50%;
-    right: 0;
-    padding: 15px;
-  }
-}*/
-
-#contact img  {
-   
-    width:80% !important;
-    position: absolute;
-    transform: translateY(-50%);
-    top: 50%;
-    right: 0;
-    padding: 25px;
-
-}
-
 
 .testing p {
     text-align: center;
@@ -241,11 +218,6 @@ padding:20px;
 #contact h2,p {
   text-align:center;
   color:white;
-}
-
-#contact a {
-  color:#9eebff;
-  text-decoration: underline;
 }
 
 #portfolio-row {
