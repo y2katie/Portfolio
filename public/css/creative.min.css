@@ -92,7 +92,7 @@ body,
 .testing p {
     text-align: center;
     font-size: 12px;
-    z-index: 200000000;
+    z-index: 2000;
     position: relative;
 }
 
