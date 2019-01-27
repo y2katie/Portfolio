@@ -12,6 +12,7 @@
     .carousel-inner {
         .item {
             transition-property: opacity;
+            box-shadow:15px 25px 25px 10px #888888 !important;
         }
         
         .item,
@@ -21,7 +22,7 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
-            box-shadow: -10px 0px 10px 1px #aaaaaa;
+            box-shadow: 15px 25px 25px 10px #888888 !important;
         }
 
         .active,
@@ -31,7 +32,7 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
-            box-shadow: inset 10px 0 0 0 red;
+            box-shadow: 15px 25px 25px 10px #888888 !important;
 
         }
 
@@ -40,9 +41,6 @@
         .active.left,
         .active.right {
             left: 0;
-              transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-              box-shadow: inset 10px 0 0 0 red;
-
         }
     }
 
@@ -64,27 +62,22 @@ body,
 .item:nth-child(1) {
     background: url('/img/portfolio/fullsize/picky.jpg') ;
     background-size:cover;
-      box-shadow: -10px 0px 10px 1px #aaaaaa;
+      box-shadow: 15px 25px 25px 10px #888888 !important;
 
 }
 
 .item:nth-child(2) {
-    background: url('/img/portfolio/fullsize/test1.jpg') ;
+    background: url('/img/portfolio/fullsize/style1.jpg') ;
    background-size:cover;
-  box-shadow: -10px 0px 10px 1px #aaaaaa;
+  box-shadow: 15px 25px 25px 10px #888888 !important;
 }
 
 .item:nth-child(3) {
-    background: url('/img/portfolio/fullsize/test2.jpg') ;
+    background: url('/img/portfolio/fullsize/style2.jpg') ;
     background-size:cover;
-       box-shadow: -10px 0px 10px 1px #aaaaaa;
+       box-shadow: 15px 25px 25px 10px #888888 !important;
     }
 
-.item:nth-child(4) {
-    background: url('/img/portfolio/fullsize/test5.jpg') ;
-    background-size:cover;
-      box-shadow: -10px 0px 10px 1px #aaaaaa;
-}
 
  .testing {
   margin-top:-180px;
@@ -264,19 +257,8 @@ padding:20px;
 }
 
 
-
-
-
-
 @import url('https://fonts.googleapis.com/css?family=Lora|Major+Mono+Display');
 
-/*@import url('https://fonts.googleapis.com/css?family=Lato:300|Playfair+Display');
-*/
-
-
-/*body {
-  font-family:'Raleway', sans-serif;
-}*/
 
 h1,h2,h3,h4,h5,h6{
   font-family: 'Major Mono Display',monospace;
