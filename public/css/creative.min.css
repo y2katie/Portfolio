@@ -67,16 +67,28 @@ body,
 }
 
 .item:nth-child(2) {
-    background: url('/img/portfolio/fullsize/style1.jpg') ;
+    background: url('/img/portfolio/fullsize/1.jpg') ;
    background-size:cover;
   box-shadow: 15px 25px 25px 10px #888888 !important;
 }
 
 .item:nth-child(3) {
-    background: url('/img/portfolio/fullsize/style2.jpg') ;
+    background: url('/img/portfolio/fullsize/2.jpg') ;
     background-size:cover;
        box-shadow: 15px 25px 25px 10px #888888 !important;
     }
+
+.item:nth-child(4) {
+  background: url('/img/portfolio/fullsize/3.jpg') ;
+  background-size:cover;
+   box-shadow: 15px 25px 25px 10px #888888 !important;
+}
+
+.item:nth-child(5) {
+    background: url('/img/portfolio/fullsize/4.jpg') ;
+    background-size:cover;
+   box-shadow: 15px 25px 25px 10px #888888 !important;
+}
 
 
  .testing {

@@ -67,7 +67,7 @@
                     </div>
                </div>
                <div class='col-sm-7' id='header-image'>
-                <div id="carousel" class="container-fluid carousel slide carousel-fade" data-ride="carousel" data-interval="2500">
+                <div id="carousel" class="container-fluid carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
                     <ol class="carousel-indicators">
                         <li data-target="#carousel" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel" data-slide-to="1"></li>
@@ -76,6 +76,8 @@
                     <!-- Carousel items -->
                     <div class="carousel-inner">
                         <div class="active item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
                         <div class="item"></div>
                         <div class="item"></div>
                     </div>
