@@ -149,32 +149,11 @@ body,
     background-color:#eeeeee42;
 }
 
-/*.row{
-    overflow: hidden; 
-    background-color:white;
-    box-shadow:1px 1px 40px 1px rgba(0,0,0,.1);
-}
-
-[class*="col-"]{
-    margin-bottom: -99999px;
-    padding-bottom: 99999px;
-    background-color:white;
-    box-shadow:1px 1px 40px 1px rgba(0,0,0,.1);
-}
-*/
 #portfolio p {
 text-align:left !important;
 padding:20px;
 }
 
-/*#about h5 {
-  margin-top:-40px;
-  text-align:center;
-}
-*/
-/*#portfolio-three .col-sm-8, .col-sm-4 {
-  box-shadow: 1px 1px 40px 1px rgba(0,0,0,.1);
-}*/
 #portfolio-three {
   margin-top:40px;
   margin-bottom:40px;

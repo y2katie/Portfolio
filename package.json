@@ -14,5 +14,13 @@
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.0",
     "typed.js": "^2.0.5"
+  },
+  "devDependencies": {
+    "prettier": "1.16.1"
+  },
+  "beautify.language": {
+    "html": ["html", "php", "erb"],
+    "css": ["css"],
+    "js": []
   }
 }
