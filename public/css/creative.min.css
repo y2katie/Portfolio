@@ -84,6 +84,12 @@ body,
    box-shadow: 15px 25px 25px 10px #888888 !important;
 }
 
+/*.item:nth-child(5) {
+  background: url('/img/portfolio/fullsize/test.jpg') ;
+  background-size:cover;
+   box-shadow: 15px 25px 25px 10px #888888 !important;
+}*/
+
 
  .testing {
   margin-top:-180px;
