@@ -63,7 +63,7 @@
                     <div class="section-heading">
                     <h1>Hey 🤩 I'm Katie. </h1>
                     <h3><span class='color'> Product + Design + Web Development. </span> </h3>
-                    <p> Currently, I create experiences and products at Nestio.I'm interested in working on new projects that will challenge and inspire me. When I'm not working, I enjoy my dog, trying old standbys at new restaurants, travelling, and reading books. </p>
+                    <p> Currently, I create experiences and products at Nestio.I'm interested in working on new projects that will challenge and inspire me. When I'm not working, I enjoy my dog, trying old standbys at new restaurants, travelling, and reading books.</p>
                     </div>
                </div>
                <div class='col-sm-7' id='header-image'>
@@ -86,6 +86,8 @@
                 </div>
                </div>
             </div>
+
+
         </div>
     </section>
 
@@ -121,22 +123,28 @@
 
     <section class="no-padding" id="portfolio">
         <div class="container">
-            <div class='row'>
-                <div class='col-sm-6 '>
-                   <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt=""> 
+            <div class='row' id='firstrow'>
+                <div class='col-sm-8'>
+                   <img src="img/portfolio/thumbnails/test1.jpg" class="img-responsive" alt=""> 
+               </div>
+               <div class='col-sm-4'>
                     <h5>Test</h5>
                     <h2> Test</h2>
                     <hr>
                     <p> 80 DKLB is a modern luxury residental building in Brooklyn. . Built using HTML, CSS, Javascript, Sketch, and Contentful. Check it out <a href='https://www.dklb.com/' target="_blank" class='color'>here</a>.</p>
                 </div>
-                 <div class='col-sm-6 '>
-                   <img src="img/portfolio/thumbnails/test1.jpg" class="img-responsive" alt=""> 
+            </div>
+
+            <div class='row' id='secondrow'>
+               <div class='col-sm-4'>
                     <h5>Test</h5>
-                    <h2> Test1</h2>
+                    <h2> Test</h2>
                     <hr>
                     <p> 80 DKLB is a modern luxury residental building in Brooklyn. . Built using HTML, CSS, Javascript, Sketch, and Contentful. Check it out <a href='https://www.dklb.com/' target="_blank" class='color'>here</a>.</p>
                 </div>
-                
+                 <div class='col-sm-8'>
+                   <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt=""> 
+               </div>
             </div>
             <div class='row' id='portfolio-row'>
                 <div class='col-sm-4 '>
