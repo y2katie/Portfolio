@@ -181,6 +181,19 @@ padding:20px;
   }
 }
 
+#firstrow{
+    background-color: white;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 40px 1px rgba(0,0,0,.1);
+}
+
+#secondrow{
+    background-color: white;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 40px 1px rgba(0,0,0,.1);
+}
+
+
 #portfolio h5,h2,p {
   text-align:center;
 }
