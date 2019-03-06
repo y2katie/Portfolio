@@ -7,7 +7,10 @@
  
 /* @import url('https://fonts.googleapis.com/css?family=Lato:300|Playfair+Display');
 */
-@import url('https://fonts.googleapis.com/css?family=Lora|Major+Mono+Display');
+@import url('https://fonts.googleapis.com/css?family=Lora|Merriweather');
+
+
+
 
 
 html,
@@ -59,7 +62,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Major Mono Display',serif;
+  font-family: 'Merriweather',serif;
 }
 p {
   font-size: 16px;
