@@ -131,7 +131,7 @@
                     <h5>Test</h5>
                     <h2> Test</h2>
                     <hr>
-                    <p> 80 DKLB is a modern luxury residental building in Brooklyn. . Built using HTML, CSS, Javascript, Sketch, and Contentful. Check it out <a href='https://www.dklb.com/' target="_blank" class='color'>here</a>.</p>
+                    <p> 80 DKLB is a modern luxury residental building in Brooklyn. . Built using HTML, CSS, Javascript, Sketch, and Contentful. Check it out <a href='/users' class='color'>here</a>.</p>
                 </div>
             </div>
 
@@ -140,7 +140,7 @@
                     <h5>Test</h5>
                     <h2> Test</h2>
                     <hr>
-                    <p> 80 DKLB is a modern luxury residental building in Brooklyn. . Built using HTML, CSS, Javascript, Sketch, and Contentful. Check it out <a href='https://www.dklb.com/' target="_blank" class='color'>here</a>.</p>
+                    <p> 80 DKLB is a modern luxury residental building in Brooklyn. . Built using HTML, CSS, Javascript, Sketch, and Contentful. Check it out <a href='/test' class='color'>here</a>.</p>
                 </div>
                  <div class='col-sm-8'>
                    <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt=""> 
