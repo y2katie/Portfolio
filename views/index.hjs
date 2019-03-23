@@ -33,7 +33,7 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">🙌 👏 🤝 👍 👊 ✊ 🤞 ✌️</a>
+                <a class="navbar-brand page-scroll" href="/">🏠 🙌 👏 🤝 👍 👊 ✊ 🤞 🏠</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -61,9 +61,9 @@
             <div class="row">
                 <div class="col-sm-5">
                     <div class="section-heading">
-                    <h1>Hey 🤩 I'm Katie. </h1>
-                    <h3><span class='color'> Product + Design + Web Development. </span> </h3>
-                    <p> Currently, I create experiences and products at Nestio.I'm interested in working on new projects that will challenge and inspire me. When I'm not working, I enjoy my dog, trying old standbys at new restaurants, travelling, and reading books.</p>
+                    <h1>Hello World, I'm Katie. </h1>
+                    <h3><span class='color'> I 💖 Product + Design </span> </h3>
+                    <p> Currently, I create experiences, products and elaborate lunches at Nestio. I enjoy loud art and clean designs, am very much a work in progress and have a cockapoo named Teddy. I enjoy the challenges and growth my career provides me and am open for freelance projects!</p>
                     </div>
                </div>
                <div class='col-sm-7' id='header-image'>
