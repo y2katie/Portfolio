@@ -137,10 +137,10 @@
 
             <div class='row' id='secondrow'>
                <div class='col-sm-4'>
-                    <h5>Test</h5>
-                    <h2> Test</h2>
+                    <h5>Project II</h5>
+                    <h2> Nestio Website</h2>
                     <hr>
-                    <p> 80 DKLB is a modern luxury residental building in Brooklyn. . Built using HTML, CSS, Javascript, Sketch, and Contentful. Check it out <a href='/test' class='color'>here</a>.</p>
+                    <p> Nestio went through a rebrand in October - the goal was to focus on a more modern estethic because we are modern leasing software afterall. This project was a good flex on my web development skills, keeping them sharp. Who doesn't love a console error that takes forever to solve? Eventually I got the error and the site came to be. Check it out <a href='/test' class='color'>here</a>.</p>
                 </div>
                  <div class='col-sm-8'>
                    <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt=""> 
