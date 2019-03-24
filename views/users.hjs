@@ -1,87 +1,141 @@
 <!DOCTYPE html>
-<html>
-  <head>
-  <meta name='viewport' content='width=dev ice-width, initial-scale=1'>
-    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
-    <title>{{ title }}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!--   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> -->
-  <link rel="stylesheet" href="/stylesheets/aos.css"/>
-  </head>
-  <body>
+<html lang="en">
 
-  <section id="nav">
-      <nav class="navbar navbar-custom navbar-fixed-top">
-        <div class="container">
-          <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class='navbar-brand' href='/'> Mr. & Mrs. Watson </a>
-          </div>
-          <div id="navbar" class="collapse navbar-collapse navbar-right navbar-main-collapse">
-            <ul class="nav navbar-nav">
-              <li class='hidden'>
-                <a href="galler"></a>
-              </li>
-             <!--  <li class='page-scroll'>
-                <a href="/users.hjs">Gallery</a>
-              </li>  -->
-             <!--   <li class='page-scroll'>
-                <a href="/users">Gallery</a>
-              </li>  -->
-            <!--   <li class='page-scroll'>
-                <a href="#about1"> S</a>
-              </li>  -->
-              <li class='page-scroll'>
-                <a href="#about">Send Me Your Email!</a>
-              </li>  
-            </ul>
-          </div><!--/.nav-collapse -->
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <title>Katie Jordan</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display" rel="stylesheet">
+
+    <link href="css/creative.min.css" rel="stylesheet">
+
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="/">🏠 🙌 👏 🤝 👍 👊 ✊ 🤞 🏠</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-      </nav>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+    <section class="bg-primary" id="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                  <div class="section-heading">
+                    <h1>Online Leasing </h1>
+                      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  </div>
+               </div>
+            </div>
+            <div class='row'>
+              <img src='img/portfolio/thumbnails/4.jpg' class='container-fluid' id='bigboy'>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary" id="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                  <div class="section-heading">
+                    <h1>Online Leasing </h1>
+                      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  </div>
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary" id="about">
+        <div class="container-fluid">
+            <div class='row'>
+              <img src='img/portfolio/thumbnails/4.jpg' class='container-fluid' id='bigboy'>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                  <div class="section-heading">
+                    <h1>Online Leasing </h1>
+                      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  </div>
+               </div>
+            </div>
+        </div>
     </section>
 
 
-  <div id='funny' class='section scrollspy'>
-    <div class='container'>
-      <div class='row'>
-      <div class='col-sm-12'>
-        <h3> In order to allow all guests, including parents, an afternoon of relaxation we have chosen for our wedding day to be an adult only occasion. </h3>
-          <p> We hope this advance notice means you are still able to share our big day and will enjoy having an afternoon off! </p>
-          <br>
-          <p> If you need childcare for the afternoon: </p>
-          <button> <a href='http://www.myfairnanny.com/'> Child Care </a> </button>
-        </div>
-      </div>
-    </div>
-  </section>
+    <script src="vendor/jquery/jquery.min.js"></script>
 
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
+    <!-- Theme JavaScript -->
+    <script src="js/creative.min.js"></script>
 
+</body>
 
-    <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-      <script src="/javascripts/aos.js"></script>
-      <script src='/javascripts/main.js'></script>
-
-<script>
-
-    AOS.init();
-    </script>
-
-  
-
-
-
-    
-  </body>
 </html>

@@ -242,6 +242,10 @@ padding:20px;
   background-color:#D94F59 !important;
 }
 
+#bigboy {
+  width:100%;
+}
+
  .bg-primary .section-heading {
     text-align: left;
     margin: 0 auto;
