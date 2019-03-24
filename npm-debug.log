@@ -1,34 +1,32 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/local/Cellar/node@6/6.14.4/bin/node',
-1 verbose cli   '/usr/local/opt/node@6/bin/npm',
-1 verbose cli   'start' ]
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'start' ]
 2 info using npm@3.10.10
-3 info using node@v6.14.4
+3 info using node@v6.11.5
 4 verbose run-script [ 'prestart', 'start', 'poststart' ]
 5 info lifecycle masterobserver@0.0.0~prestart: masterobserver@0.0.0
 6 silly lifecycle masterobserver@0.0.0~prestart: no script for prestart, continuing
 7 info lifecycle masterobserver@0.0.0~start: masterobserver@0.0.0
 8 verbose lifecycle masterobserver@0.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle masterobserver@0.0.0~start: PATH: /usr/local/Cellar/node@6/6.14.4/lib/node_modules/npm/bin/node-gyp-bin:/Users/kj0203/Desktop/observer/node_modules/.bin:/usr/local/Cellar/node@6/6.14.4/bin:/usr/local/opt/node@6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-10 verbose lifecycle masterobserver@0.0.0~start: CWD: /Users/kj0203/Desktop/observer
+9 verbose lifecycle masterobserver@0.0.0~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/katiejordan/Desktop/observer/node_modules/.bin:/usr/local/heroku/bin:/usr/local/bin:/usr/local/sbin:~/bin:/Users/katiejordan/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/katiejordan/.rvm/bin:/Users/katiejordan/.rvm/bin
+10 verbose lifecycle masterobserver@0.0.0~start: CWD: /Users/katiejordan/Desktop/observer
 11 silly lifecycle masterobserver@0.0.0~start: Args: [ '-c', 'node ./bin/www' ]
 12 silly lifecycle masterobserver@0.0.0~start: Returned: code: 1  signal: null
 13 info lifecycle masterobserver@0.0.0~start: Failed to exec start script
 14 verbose stack Error: masterobserver@0.0.0 start: `node ./bin/www`
 14 verbose stack Exit status 1
-14 verbose stack     at EventEmitter.<anonymous> (/usr/local/Cellar/node@6/6.14.4/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
 14 verbose stack     at emitTwo (events.js:106:13)
 14 verbose stack     at EventEmitter.emit (events.js:191:7)
-14 verbose stack     at ChildProcess.<anonymous> (/usr/local/Cellar/node@6/6.14.4/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:40:14)
 14 verbose stack     at emitTwo (events.js:106:13)
 14 verbose stack     at ChildProcess.emit (events.js:191:7)
 14 verbose stack     at maybeClose (internal/child_process.js:920:16)
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
 15 verbose pkgid masterobserver@0.0.0
-16 verbose cwd /Users/kj0203/Desktop/observer
-17 error Darwin 17.7.0
-18 error argv "/usr/local/Cellar/node@6/6.14.4/bin/node" "/usr/local/opt/node@6/bin/npm" "start"
-19 error node v6.14.4
+16 verbose cwd /Users/katiejordan/Desktop/observer
+17 error Darwin 17.2.0
+18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+19 error node v6.11.5
 20 error npm  v3.10.10
 21 error code ELIFECYCLE
 22 error masterobserver@0.0.0 start: `node ./bin/www`
