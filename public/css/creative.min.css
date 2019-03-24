@@ -171,11 +171,13 @@ padding:20px;
 
 #portfolio-row .col-sm-4 {
  margin-top:40px;
+ background-color:white;
   box-shadow: 1px 10px 10px 1px rgba(0,0,0,.1);
   height:600px;
   @media(min-width:767px){
     box-shadow: 1px 10px 10px 1px rgba(0,0,0,.1);
     height:550px !important;
+    background-color:white;
     margin-top:0;
 
   }
@@ -204,10 +206,12 @@ padding:20px;
 
 #portfolio-three {
    box-shadow: 1px 1px 40px 1px rgba(0,0,0,.1);
+   background-color:white;
 }
 
 #portfolio-four .col-sm-4 {
   box-shadow: none !important;
+  background-color:white;
 }
 
 #portfolio-three.col-sm-4 {
