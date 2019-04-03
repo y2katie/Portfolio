@@ -182,7 +182,7 @@
                 </div>
             </div>
  
-            <div class='row' id='portfolio-four'>
+            <!-- <div class='row' id='portfolio-four'>
                 <div class='col-sm-8'>
                     <img src="img/portfolio/thumbnails/7.jpg" class="img-responsive" alt="">
                 </div>
@@ -192,7 +192,7 @@
                     <hr>
                     <p> A fun project aimed at promoting a friendly enviroment for women with 0 to little experience to ask questions about their money and investing. Designed and built by your truly.<a href='https://overseee.herokuapp.com/' target="_blank" class='color'> Check it out here</a>.</p>
                 </div>
-            </div>
+            </div> -->
 
         </div>
     </section>

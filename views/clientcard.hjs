@@ -72,7 +72,7 @@
                </div>
             </div>
             <div class='row'>
-              <img src='img/portfolio/thumbnails/4.jpg' class='container-fluid' id='bigboy'>
+              <img src='img/portfolio/thumbnails/oook.png' class='container-fluid' id='bigboy'>
             </div>
         </div>
     </section>
@@ -104,7 +104,7 @@
     <section class="bg-primary" id="about">
         <div class="container-fluid">
             <div class='row'>
-              <img src='img/portfolio/thumbnails/4.jpg' class='container-fluid' id='bigboy'>
+              <img src='img/portfolio/thumbnails/out.png' class='container-fluid' id='bigboy'>
             </div>
             <div class="row">
                 <div class="col-sm-12">

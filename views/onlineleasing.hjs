@@ -62,17 +62,15 @@
                 <div class="col-sm-12">
                   <div class="section-heading">
                     <h1>Online Leasing </h1>
-                      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <p> Renting an apartment can be a challenging experience in NYC. Add in roommates, pets and guarantors and the leasing journey can feel like a really long and frustrating process. </p>
+
+                <h3> Today’s Solution </h3>
+                <p>After going through different rental websites(airbnb, homeaway), I saw major UX problems in many of them. I chose to focus on the experience in one of the biggest cities in the world - NYC. The problem we wanted to fix was simplying the rental process to be a quick and transparent interaction.</p>
                   </div>
                </div>
             </div>
             <div class='row'>
-              <img src='img/portfolio/thumbnails/4.jpg' class='container-fluid' id='bigboy'>
+              <img src='img/portfolio/thumbnails/oook.png' class='container-fluid' id='bigboy'>
             </div>
         </div>
     </section>
@@ -104,18 +102,16 @@
     <section class="bg-primary" id="about">
         <div class="container-fluid">
             <div class='row'>
-              <img src='img/portfolio/thumbnails/4.jpg' class='container-fluid' id='bigboy'>
+              <img src='img/portfolio/thumbnails/out.png' class='container-fluid' id='bigboy'>
             </div>
             <div class="row">
                 <div class="col-sm-12">
                   <div class="section-heading">
                     <h1>Online Leasing </h1>
-                      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <p> Going to the cinema is a fun experience, but ordering the tickets in many apps and website often feels like navigation in a really long and frustrating process.
+
+<strong> Today’s Solution </strong>
+After going through different cinema websites, I saw major UX problems in many of them. I chose to focus on the experience in one of the biggest cinema companies in my country, Cinema City — www.cinemacity.co.il, as a basis for the problem I wanted to fix. I downloaded and installed their iOS app to see how it works today.</p>
                   </div>
                </div>
             </div>
