@@ -80,19 +80,20 @@
             <div class="row">
                 <div class="col-sm-12">
                   <div class="section-heading">
-                    <h1>Online Leasing </h1>
-                      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h1>User Stories + Pain Points </h1>
+                   <p>
+                  In order to build realistic user stories, we tested 15 people from craigslist who had apartment hunted and signed a lease within the past 2 years.</p> 
+                  <h3> Main takeaways:</h3>
+                  <p>
+                  The current app does not support any of the user stories really well. It forces the user to give all the exact details (specific movie, specific theater, specific date, specific hour) before seeing if the screening is available / not available.<br>
+                  <strong> 6/10 complained that the process feels long.</strong><br>
+                  <strong> 4/10 complained about not clarity as to where they were in the leasing process. </strong> <br>
+                  <strong> 2/10 Complained about having to pay extra fees they didn’t expect. </strong> <br>
+                  <strong> Other complaints mentioned the app’s low speed or bugs.</strong>
+
+                </p>
+
+
                   </div>
                </div>
             </div>
@@ -107,11 +108,14 @@
             <div class="row">
                 <div class="col-sm-12">
                   <div class="section-heading">
-                    <h1>Online Leasing </h1>
-                      <p> Going to the cinema is a fun experience, but ordering the tickets in many apps and website often feels like navigation in a really long and frustrating process.
+                    <h1>Testing + Closing Thoughts </h1>
+                      <p>
 
-<strong> Today’s Solution </strong>
-After going through different cinema websites, I saw major UX problems in many of them. I chose to focus on the experience in one of the biggest cinema companies in my country, Cinema City — www.cinemacity.co.il, as a basis for the problem I wanted to fix. I downloaded and installed their iOS app to see how it works today.</p>
+                To test this solution, we created a script: try to lease an apartment knowing you have 2 roomates, 1 animal and 1 guarantor.
+
+                Our testers were successful doing that, but it still doesn’t mean much :) It only means that it’s not too complicated. This is an MVP tested on very few people, and in the real world there are many more things to consider and monitor.
+
+                If leasing companies had more awareness to user experience, I’m sure more people wouldn't need therapy after renting an apartment. Maybe with this change, next time a new cool unit  comes out, I might actually find someone who’d like to sign the lease with me. </p>
                   </div>
                </div>
             </div>
