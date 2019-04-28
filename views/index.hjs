@@ -25,191 +25,76 @@
 </head>
 
 <body id="page-top">
-
+<!-- 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
+         
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="/">🏠 🙌 👏 🤝 👍 👊 ✊ 🤞 🏠</a>
+                <a class="navbar-brand page-scroll" href="/"></a>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+          
         </div>
-        <!-- /.container-fluid -->
-    </nav>
+    </nav> -->
 
 
     <section class="bg-primary" id="about">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-5">
+                <div class="col-sm-9">
                     <div class="section-heading">
-                    <h1>Hello World, I'm Katie. </h1>
-                    <h3><span class='color'> I 💖 Product + Design </span> </h3>
-                    <p> Currently, I create experiences, products and elaborate lunches at Nestio. I enjoy loud art and clean designs, am very much a work in progress and have a cockapoo named Teddy. I enjoy the challenges and growth my career provides me and am open for freelance projects!</p>
+                    <h1> Katie Jordan </h1>
+                    <h3><span class='color'>Designer</span> from Jackson Heights, NY. </h3>
+                    <p class='color'> LinkedIn | Github | Dribbble | Email Me </p> 
                     </div>
                </div>
-               <div class='col-sm-7' id='header-image'>
-                <div id="carousel" class="container-fluid carousel slide carousel-fade" data-ride="carousel" data-interval="2500">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel" data-slide-to="1"></li>
-                        <li data-target="#carousel" data-slide-to="2"></li>
-                    </ol>
-                    <!-- Carousel items -->
-                    <div class="carousel-inner">
-                        <div class="active item"></div>
-                        <div class="item"></div>
-                        <div class="item"></div>
-                        <div class="item"></div>
-                       <!--  <div class="item"></div> -->
-                    </div>
-                  
-                    
-                </div>
-               </div>
-            </div>
-
-
-        </div>
-    </section>
-
-    <section class='testing'>
-        <div class='container'>
-            <div class='row'>
-                <div class='col-sm-offset-3 col-sm-6'>
-                    <p> Interested In: </p>
-                </div>
-            </div>
-            <div class='row' id='icons'>
-                    <div class='col-sm-offset-1 col-sm-2'>
-                        <img src='img/portfolio/thumbnails/ux.png'>
-                    </div>
-                    <div class='col-sm-2'>
-                          <img src='img/portfolio/thumbnails/type.png'>
-                    </div>
-                      <div class='col-sm-2'>
-                          <img src='img/portfolio/thumbnails/modern.png'>
-                    </div>
-                      <div class='col-sm-2'>
-                          <img src='img/portfolio/thumbnails/web.png'>
-                    </div>
-                     <div class='col-sm-2'>
-                          <img src='img/portfolio/thumbnails/cookies.png'>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
 
+    
+<div id="carousel-example" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example" data-slide-to="1"></li>
+    <li data-target="#carousel-example" data-slide-to="2"></li>
+  </ol>
 
+  <div class="carousel-inner">
+    <div class="item active">
+      <a href="#"><img src="/img/portfolio/thumbnails/1.jpg"></a>
+      <div class="carousel-caption">
+        <h3>Meow</h3>
+        <p>Just Kitten Around</p>
+      </div>
+    </div>
+    <div class="item">
+      <a href="#"><img src="/img/portfolio/thumbnails/4.jpg"></a>
+      <div class="carousel-caption">
+        <h3>Meow</h3>
+        <p>Just Kitten Around</p>
+      </div>
+    </div>
+    <div class="item">
+      <a href="#"><img src="/img/portfolio/thumbnails/2.jpg"></a>
+      <div class="carousel-caption">
+        <h3>Meow</h3>
+        <p>Just Kitten Around</p>
+      </div>
+    </div>
+  </div>
 
-    <section class="no-padding" id="portfolio">
-        <div class="container">
-            <div class='row' id='firstrow'>
-                <div class='col-sm-8'>
-                   <img src="img/portfolio/thumbnails/test1.jpg" class="img-responsive" alt=""> 
-               </div>
-               <div class='col-sm-4'>
-                    <h5>PROJECT I</h5>
-                    <h2> Online Leasing</h2>
-                    <hr>
-                    <p> In an effort to simplify the leasing experience we at Nestio thought ... how could we do this. And do it well. This project was very exciting to work on mainly because of the complex ux and interactions that accompanied each element - this project really taught me that there is always more than what meets the eye. Click <a href='/onlineleasing' class='color'>here</a> to learn more.</p>
-                </div>
-            </div>
+<!--   <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a> -->
+</div>
 
-            <div class='row' id='secondrow'>
-               <div class='col-sm-4'>
-                    <h5>Project II</h5>
-                    <h2> Nestio Website</h2>
-                    <hr>
-                    <p> Nestio went through a rebrand in October - the goal was to focus on a more modern estethic because we are modern leasing software afterall. This project was a good flex on my web development skills, keeping them sharp. Who doesn't love a console error that takes forever to solve? Eventually I got the error and the site came to be. Check it out <a href='https://www.nestio.com/' target='_blank' class='color'>here</a>.</p>
-                </div>
-                 <div class='col-sm-8'>
-                   <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt=""> 
-               </div>
-            </div>
-            <div class='row' id='portfolio-row'>
-                <div class='col-sm-4 '>
-                    <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
-                    <h5> PROJECT II </h5>
-                    <h2> 80 DKLB</h2>
-                    <hr>
-                    <p> 80 DKLB is a modern luxury residental building in Brooklyn. . Built using HTML, CSS, Javascript, Sketch, and Contentful. Check it out <a href='https://www.dklb.com/' target="_blank" class='color'>here</a>.</p>
-
-                </div>
-                 <div class='col-sm-4 ml-5'>
-                    <img src="img/portfolio/thumbnails/6.jpg"  class="img-responsive" alt="">
-                    <h5> PROJECT III </h5>
-                    <h2> Client Card </h2>
-                    <hr>
-                    <p> This was a really fun redesign of the V1 Nestio client card.Highlights include eliminating endless scrolls and redundant information. Created with Sketch & Invision. <a href='/clientcard' class='color'> Check it out here</a>.</p>
-                </div>
-                 <div class='col-sm-4'>
-                    <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
-                    <h5> Project IIII </h5>
-                    <h2> 38 Sixth </h2>
-                    <hr>
-                    <p> 38 Sixth is a sister building of 80DKLB. Wanted to replicate the modern vibe. Built using HTML, CSS, Javascript, and Contentful.<a href='https://www.38sixth.com/' target="_blank" class='color'> Check it out here</a>.</p>
-                </div>
-            </div>
-            <div class='row' id='portfolio-three'>
-                <div class='col-sm-4'>
-                     <h5> Project IV </h5>
-                    <h2> Vanguard 2.0 </h2>
-                    <hr>
-                    <p> As a Jack Bogle + Warren Buffet fan, this has to be done. If anyone uses Vanguard they will likely agree that a wonderful product but a terrible interface (sorry Vanguard). <a href='https://invis.io/67PG8IIXM2G' target="_blank" class='color'> Check it out here</a>.</p>
-                </div>
-                <div class='col-sm-8'>
-                    <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
-                </div>
-            </div>
- 
-            <div class='row' id='portfolio-four'>
-                <div class='col-sm-8'>
-                    <img src="img/portfolio/thumbnails/7.jpg" class="img-responsive" alt="">
-                </div>
-                <div class='col-sm-4'>
-                   <h5> Project VI </h5>
-                    <h2> Oversee </h2>
-                    <hr>
-                    <p> A fun project aimed at promoting a friendly enviroment for women with 0 to little experience to ask questions about their money and investing. Designed and built by your truly.<a href='https://overseee.herokuapp.com/' target="_blank" class='color'> Check it out here</a>.</p>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-6 col-sm-offset-3">
-                     <h2> Contact Me </h2>
-                     <hr>
-                     <p>If you have a project you need help starting, finishing or anything in between: <br>
-                     <a href='mailto:kj0203@gmail.com'> 👋 Drop Me a Line 👋 </a> </p>
-                     <p> PS. I made this beauty 💪</p>
-                </div>
-            </div>
-        </div>
-    </section>
 
 
    

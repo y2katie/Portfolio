@@ -8,90 +8,30 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lato:300|Playfair+Display');
 
-.carousel-fade {
-    .carousel-inner {
-        .item {
-            transition-property: opacity;
-            box-shadow:15px 25px 25px 10px #888888 !important;
-        }
-        
-        .item,
-        .active.left,
-        .active.right {
-            opacity: 0;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            box-shadow: 15px 25px 25px 10px #888888 !important;
-        }
-
-        .active,
-        .next.left,
-        .prev.right {
-            opacity: 1;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            box-shadow: 15px 25px 25px 10px #888888 !important;
-
-        }
-
-        .next,
-        .prev,
-        .active.left,
-        .active.right {
-            left: 0;
-        }
-    }
-
-    .carousel-control {
-        z-index: 2;
-    }
+h2{
+    margin: 0;     
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
 }
 
+.carousel{
+    margin-top: 20px;
+}
+
+.item {
+    padding: 50px;
+    background-color: #8265eb;
+}
 
 
 html, 
-body, 
-.carousel, 
-.carousel-inner, 
-.carousel-inner .item {
+body {
     height: 100vh;
 }
 
-.item:nth-child(1) {
-    background: url('/img/portfolio/fullsize/picky.jpg') ;
-    background-size:cover;
-      box-shadow: 15px 25px 25px 10px #888888 !important;
-
-}
-
-.item:nth-child(2) {
-    background: url('/img/portfolio/fullsize/1.jpg') ;
-   background-size:cover;
-  box-shadow: 15px 25px 25px 10px #888888 !important;
-}
-
-.item:nth-child(3) {
-    background: url('/img/portfolio/fullsize/2.jpg') ;
-    background-size:cover;
-       box-shadow: 15px 25px 25px 10px #888888 !important;
-    }
-
-.item:nth-child(4) {
-  background: url('/img/portfolio/fullsize/3.jpg') ;
-  background-size:cover;
-   box-shadow: 15px 25px 25px 10px #888888 !important;
-}
-
-/*.item:nth-child(5) {
-  background: url('/img/portfolio/fullsize/test.jpg') ;
-  background-size:cover;
-   box-shadow: 15px 25px 25px 10px #888888 !important;
-}*/
-
-
- .testing {
+.testing {
   margin-top:-180px;
 }
 
@@ -108,31 +48,7 @@ body,
     position: relative;
 }
 
- @media(max-width: 767px){
-  #icons {
-    display:none !important;
-  }
-  .testing {
-    display:none;
-  }
-  #header-image {
-    display:none !important;
-  }
-
-  .bg-primary p, h1,h3 {
-    text-align: left;
-    width: 100% !important;
-    margin: 0 auto;
-    padding-top: 0;
-  }
-
-  #contact {
-    padding:30px;
-
-  }
-
- }
-
+ 
 #header-image{
   overflow: hidden !important;
   border-left:1px dotted #D94F59;
@@ -147,107 +63,7 @@ body,
 }
 
 .color{
-  color:#D94F59;
-}
-
-#portfolio {
-    padding: 30px;
-    background-color:#eeeeee42;
-}
-
-#portfolio p {
-text-align:left !important;
-padding:20px;
-}
-
-#portfolio-three {
-  margin-top:40px;
-  margin-bottom:40px;
-}
-
-#row-one {
-  box-shadow: 1px 1px 40px 1px rgba(0,0,0,.1);
-}
-
-#portfolio-row .col-sm-4 {
- margin-top:40px;
- background-color:white;
-  box-shadow: 1px 10px 10px 1px rgba(0,0,0,.1);
-  height:600px;
-  @media(min-width:767px){
-    box-shadow: 1px 10px 10px 1px rgba(0,0,0,.1);
-    height:550px !important;
-    background-color:white;
-    margin-top:0;
-
-  }
-}
-
-#firstrow{
-    background-color: white;
-    margin-bottom: 20px;
-    box-shadow: 1px 1px 40px 1px rgba(0,0,0,.1);
-}
-
-#secondrow{
-    background-color: white;
-    margin-bottom: 20px;
-    box-shadow: 1px 1px 40px 1px rgba(0,0,0,.1);
-}
-
-
-#portfolio h5,h2,p {
-  text-align:center;
-}
-
- #portfolio-four {
-    box-shadow: 1px 1px 40px 1px rgba(0,0,0,.1);
-}
-
-#portfolio-three {
-   box-shadow: 1px 1px 40px 1px rgba(0,0,0,.1);
-   background-color:white;
-}
-
-#portfolio-four .col-sm-4 {
-  box-shadow: none !important;
-  background-color:white;
-}
-
-#portfolio-three.col-sm-4 {
-   box-shadow: 1px 1px 40px 1px rgba(0,0,0,.1);
-}
-
-#contact h2,p {
-  text-align:center;
-  color:white;
-}
-
-#portfolio-row {
-   margin-bottom:40px;
-}
-
-#icons {
-    background-color: white;
-    padding: 30px;
-    margin-top: -60px !important;
-    z-index: 1000;
-    position: relative;
-    box-shadow: 1px 1px 40px 1px rgba(0,0,0,.1);
-    margin:0 auto;
-    width:80%;
-}
-
-#icons img {
-  width:100%;
-}
-
-.footer {
-  background-color:#D94F59 !important;
-}
-
-#bigboy {
-  width:100%;
+  color:#7B09E6;
 }
 
  .bg-primary .section-heading {
@@ -257,6 +73,11 @@ padding:20px;
     color: black;
     margin-top:30px;
 }
+
+h1 {
+  font-size:68px;
+}
+
 
 .bg-primary p, h1,h3{
     text-align:left;
