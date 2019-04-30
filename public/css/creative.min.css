@@ -25,9 +25,13 @@
   padding-top: 30px;
 }
 
+.bg-primary h3 {
+  color:black !important;
+}
+
 
 .bg-primary a {
-  color:#7B09E6  ;
+  color:#7B09E6;
 }
 
 .bg-primary {
