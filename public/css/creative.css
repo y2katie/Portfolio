@@ -10,61 +10,18 @@
 
 
 
-
-
-html,
-body {
-  height: 100%;
-  width: 100%;
-}
-
-.footer {
-  background-color:#f1c40f !important;
-  height:50px !important;
-}
-
-.footer p {
-  text-align:center;
-}
-
-.color {
-  color: #F05F40;
-}
-
-body {
-  font-family: 'Lora', serif;
-}
-
-
-
-hr {
-  border-color: #F05F40;
-  border-width: 3px;
-  max-width: 50px;
-}
-
-hr.light {
-  border-color: white;
-}
-
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   color: #66ffff;
 }
+
 a:hover,
 a:focus {
   color: #eb3812;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Merriweather',serif;
-}
+
 p {
   font-size: 16px;
   line-height: 2.5;
@@ -72,8 +29,10 @@ p {
 }
 
 .bg-primary {
-  background-color: #F05F40;
+  background-color: white;
+  height:50vh;
 }
+
 .bg-dark {
   background-color: #222222;
   color: white;
