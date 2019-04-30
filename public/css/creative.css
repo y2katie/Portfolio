@@ -30,7 +30,7 @@ p {
 
 .bg-primary {
   background-color: white;
-  height:50vh;
+  height:50vh !important;
 }
 
 .bg-dark {
