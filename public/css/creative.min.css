@@ -113,7 +113,9 @@ body {
   color:#7B09E6;
 }
 
-a {}
+#page-top {
+  background-color: #7b09e6;
+}
 
  .bg-primary .section-heading {
     text-align: left;
