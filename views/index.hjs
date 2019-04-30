@@ -56,44 +56,21 @@
     </section>
 
     
-<div id="carousel-example" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example" data-slide-to="1"></li>
-    <li data-target="#carousel-example" data-slide-to="2"></li>
-  </ol>
+  <section class="secondary" id="work">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-9">
+                    <div class="section-heading">
+                    <h2> Work </h2>
+                    <h3> Highlights from day to day. </h3>
+                    <p> Nestio | <a href='https://github.com/katyvonkaty'> 38Sixth </a>| 80Dklb | Online Leasing | <a href='https://www.donangie.com/'> </a></p> 
+                    </div>
+               </div>
+            </div>
+        </div>
+    </section>
 
-  <div class="carousel-inner">
-    <div class="item active">
-      <a href="#"><img src="/img/portfolio/thumbnails/1.jpg"></a>
-      <div class="carousel-caption">
-        <h3>Meow</h3>
-        <p>Just Kitten Around</p>
-      </div>
-    </div>
-    <div class="item">
-      <a href="#"><img src="/img/portfolio/thumbnails/4.jpg"></a>
-      <div class="carousel-caption">
-        <h3>Meow</h3>
-        <p>Just Kitten Around</p>
-      </div>
-    </div>
-    <div class="item">
-      <a href="#"><img src="/img/portfolio/thumbnails/2.jpg"></a>
-      <div class="carousel-caption">
-        <h3>Meow</h3>
-        <p>Just Kitten Around</p>
-      </div>
-    </div>
-  </div>
 
-<!--   <a class="left carousel-control" href="#carousel-example" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a> -->
-</div>
 
 
 

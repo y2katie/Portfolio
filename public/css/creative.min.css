@@ -8,6 +8,53 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lato:300|Playfair+Display');
 
+
+#work {
+  background-color:#7B09E6;
+}
+
+.secondary {
+   background-color:#7B09E6 !important;
+}
+
+.secondary h1,h2,h3 {
+  color:white !important;
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+
+.bg-primary a {
+  color:#7B09E6  ;
+}
+
+
+.secondary h2 {
+    color:white;
+     text-align:left;
+    width:80%;
+    margin:0 auto;
+    padding-top:30px;
+}
+
+.secondary p,a,h2 {
+    color:white;
+     text-align:left;
+    width:80%;
+    margin:0 auto;
+    padding-top:30px;
+}
+
+.secondary a {
+  color:white !important;
+     text-align:left;
+    width:80%;
+    margin:0 auto;
+    padding-top:30px;
+}
+
 h2{
     margin: 0;     
     color: #666;
