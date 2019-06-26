@@ -7,14 +7,6 @@
  */
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-
-
-
-nav-pills>li {
-    text-align: center !important;
-    display: inline-block;
-}
-
 .thirdly {
    background-color:#fff !important;
 }
@@ -50,34 +42,7 @@ nav-pills>li {
   }
 
 
-#navbar-primary.navbar-default {
-  background: transparent;
-  border: none;
-  text-align: center;
-  .navbar-nav { 
-    width: 100%;
-    text-align: center;
-    > li {
-      display: inline-block;
-      float: none;
-      text-align: center;
-      > a {
-        padding-left: 30px;
-        padding-right: 30px;
-        text-align: center;
-        }
-    }
-  }
-}
 
-
-.secondary a {
-    color:white !important;
-    text-align:left;
-    width:80%;
-    margin:0 auto;
-    padding-top:30px;
-}
 
 .closing {
   margin-top:40px;
@@ -88,20 +53,24 @@ nav-pills>li {
 }
 
 
-.bg-primary .section-heading {
-    text-align: left;
-    margin: 0 auto;
-    padding:40px;
-    color: black;
-    margin-top:30px;
-}
 
 .section-heading {
-    text-align: left;
-    margin: 0 auto;
-    padding:40px;
-    color: black;
-    margin-top:30px;
+    margin-top:190px;
+}
+
+.navbar-default .navbar-brand {
+  font-weight:600;
+  color:black;
+  font-family:'Montserrat';
+}
+
+/*.navbar-nav > li {
+  font-family:'Montserrat';
+}*/
+
+.navbar-default .navbar-nav > li > a {
+  color:black;
+  font-family:'Montserrat';
 }
 
 h1 {
@@ -110,7 +79,7 @@ h1 {
 
 
 h1,h2,h3,h4,h5,h6{
-  font-family: 'Montserrat',serif;
+  font-family: 'Montserrat',sans-serif;
 }
 
 h2 {
