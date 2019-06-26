@@ -6,96 +6,89 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
-@import url('https://fonts.googleapis.com/css?family=Lato:300|Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
+
+
+nav-pills>li {
+    text-align: center !important;
+    display: inline-block;
+}
+
+.thirdly {
+   background-color:#fff !important;
+}
+
+.secondary img {
+ width:100%;
+}
 
 #work {
-  background-color:#7B09E6;
+  margin-top:100px;
 }
 
-.secondary {
-   background-color:#7B09E6 !important;
+.thirdly p {
+  color:white;
+  text-align:left;
+  width:80%;
+  margin:0 auto;
+  padding-top:30px;
 }
 
-.secondary h1,h2,h3 {
-  color:white !important;
-  text-align: left;
-  width: 80%;
-  margin: 0 auto;
-  padding-top: 30px;
-}
 
 .bg-primary h3 {
   color:black !important;
-}
-
-
-.bg-primary a {
-  color:#7B09E6;
 }
 
 .bg-primary {
   background-color: white;
 }
 
-.secondary h2 {
-    color:white;
+#logo-main {
+    display: block;
+    margin: 20px auto;
+  }
+
+
+#navbar-primary.navbar-default {
+  background: transparent;
+  border: none;
+  text-align: center;
+  .navbar-nav { 
+    width: 100%;
+    text-align: center;
+    > li {
+      display: inline-block;
+      float: none;
+      text-align: center;
+      > a {
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+        }
+    }
+  }
+}
+
+
+.secondary a {
+    color:white !important;
     text-align:left;
     width:80%;
     margin:0 auto;
     padding-top:30px;
 }
 
-.secondary p,a,h2 {
-    color:white;
-     text-align:left;
-    width:80%;
-    margin:0 auto;
-    padding-top:30px;
-}
-
-.secondary a {
-  color:white !important;
-     text-align:left;
-    width:80%;
-    margin:0 auto;
-    padding-top:30px;
-}
-
-h2{
-    margin: 0;     
-    color: #666;
-    padding-top: 90px;
-    font-size: 52px;
-    font-family: "trebuchet ms", sans-serif;    
-}
-
-.carousel{
-    margin-top: 20px;
-}
-
-.item {
-    padding: 50px;
-    background-color: #8265eb;
-}
-
-
-#contact {
-  background-color:#252525;
-}
-#contact p {
-  color:white;
+.closing {
+  margin-top:40px;
 }
 
 .color{
   color:#7B09E6;
 }
 
-#page-top {
-  background-color: #7b09e6;
-}
 
- .bg-primary .section-heading {
+.bg-primary .section-heading {
     text-align: left;
     margin: 0 auto;
     padding:40px;
@@ -116,21 +109,8 @@ h1 {
 }
 
 
-.bg-primary p, h1,h3{
-    text-align:left;
-    width:80%;
-    margin:0 auto;
-    padding-top:30px;
-    font-family:'Lato', sans-serif;
-}
-
-.fa-envelope-o:before {
-  color: #f1c40f!important;
-}
-
-
 h1,h2,h3,h4,h5,h6{
-  font-family: 'Playfair Display',serif;
+  font-family: 'Montserrat',serif;
 }
 
 h2 {
@@ -144,7 +124,14 @@ p {
 }
 
 
+.navbar-default {
+    background-color: white !important;
+    border-color: transparent !important;
+}
 
+#top {
+  margin-top:20px;
+}
 
 
 

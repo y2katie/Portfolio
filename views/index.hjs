@@ -24,32 +24,34 @@
 
 </head>
 
-<body id="page-top">
-<!-- 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-         
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="/"></a>
-            </div>
+<ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">Disabled</a>
+  </li>
+</ul>
+            
 
-          
-        </div>
-    </nav> -->
 
+
+
+ 
 
     <section class="bg-primary" id="about">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-9">
+                <div class="col-sm-offset-1 col-sm-9">
                     <div class="section-heading">
-                    <h1> Katie Jordan </h1>
-                    <h3><span class='color'>Designer</span> from Jackson Heights, NY. </h3>
-                    <p class='color'><a href='https://www.linkedin.com/in/katie-jordan-2b0b45a8'> LinkedIn </a>| <a href='https://github.com/katyvonkaty'> Github </a>| <a href='https://dribbble.com/kj0203'> Dribbble </a> |  <a href="mailto:kj0203@gmail.com"> Email Me</a> | <a href='https://www.donangie.com/'> Fav Restaurant</a></p> 
-                    </div>
+                  <!--   <h2><span class='color'>Hello!</span> I'm Katie Jordan - a designer focused on UI/UX designer, visual design and line drawing.</h2>
+                    </div> -->
                </div>
             </div>
         </div>
@@ -59,19 +61,49 @@
   <section class="secondary" id="work">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-9">
-                    <div class="section-heading">
-                    <h2> Work </h2>
-                    <h3> Highlights from day to day. </h3>
-                    <p> <a href='https://www.nestio.com/'> Nestio </a>| <a href='https://www.38sixth.com/'> 38Sixth </a> | <a href='https://www.dklb.com/'> 80Dklb </a> | <a href='https://nestio.invisionapp.com/share/8MRJV9DF5K4'>Online Leasing </a> | <a href='https://nestio.invisionapp.com/share/8MRJV9DF5K4'>Orthly </a></p> 
-                    </div>
+                <div class="col-sm-offset-1 col-sm-5">
+                    <img src='../img/portfolio/thumbnails/5.jpg'>
+                    
+               </div>
+                <div class="col-sm-5">
+                    <img src='../img/portfolio/thumbnails/5.jpg'>
+               </div>
+            </div>
+              <div class="row" id="top">
+                <div class="col-sm-offset-1 col-sm-5">
+                    <img src='../img/portfolio/thumbnails/5.jpg'>
+                    
+               </div>
+                <div class="col-sm-5">
+                    <img src='../img/portfolio/thumbnails/5.jpg'>
                </div>
             </div>
         </div>
     </section>
 
+      <section class="closing">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-offset-1 col-sm-9">
+                    <p class='color'><a href='https://www.linkedin.com/in/katie-jordan-2b0b45a8'> LinkedIn </a>| <a href='https://github.com/katyvonkaty'> Github </a>| <a href='https://dribbble.com/kj0203'> Dribbble </a> |  <a href="mailto:kj0203@gmail.com"> Email Me</a>
+               </div>
+            </div>
+        </div>
+    </section>
 
-
+      <!-- <section class="thirdly" id="thirdd">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-9">
+                    <div class="section-heading">
+                    <h2> Play </h2>
+                    <h3> I'm a little twisted and okay with that. </h3>
+                    <p> <a href='https://www.nestio.com/'> VRYWHR </a>| <a href='https://www.38sixth.com/'> 38Sixth </a> | <a href='https://www.dklb.com/'> Food4Tomorrow </a> | <a href='https://nestio.invisionapp.com/share/8MRJV9DF5K4'> Patterns </a> </p> 
+                    </div>
+               </div>
+            </div>
+        </div>
+    </section> -->
 
 
    
