@@ -3,7 +3,7 @@
 
 <head>
 
-    <meta charset="utf-8">
+       <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -14,6 +14,8 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -25,15 +27,14 @@
 </head>
 
 <body id="page-top">
-
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="/">🏠 🙌 👏 🤝 👍 👊 ✊ 🤞 🏠</a>
+                <a class="navbar-brand page-scroll" href="/">Katie Jordan</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -43,10 +44,7 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#portfolio">Line Drawing</a>
                     </li>
                 </ul>
             </div>
@@ -56,39 +54,13 @@
     </nav>
 
 
-    <section class="bg-primary" id="about">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12">
-                  <div class="section-heading">
-                    <h1>Online Leasing </h1>
-                      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                  </div>
-               </div>
-            </div>
-            <div class='row'>
-              <img src='img/portfolio/thumbnails/oook.png' class='container-fluid' id='bigboy'>
-            </div>
-        </div>
-    </section>
 
     <section class="bg-primary" id="about">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-offset-1 col-sm-6">
                   <div class="section-heading">
-                    <h1>Online Leasing </h1>
-                      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <h2> The Problem </h2>
                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -101,16 +73,13 @@
         </div>
     </section>
 
-    <section class="bg-primary" id="about">
+      <section class="bg-primary" id="about">
         <div class="container-fluid">
-            <div class='row'>
-              <img src='img/portfolio/thumbnails/out.png' class='container-fluid' id='bigboy'>
-            </div>
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-offset-1 col-sm-6">
                   <div class="section-heading">
-                    <h1>Online Leasing </h1>
-                      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      <h2> User Flow </h2>
+                       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -118,6 +87,10 @@
                       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                   </div>
                </div>
+            </div>
+           <div class='row'>
+            <h4> User Flow </h4>
+                <img id ='test' src='img/portfolio/thumbnails/flow.jpg'>
             </div>
         </div>
     </section>
