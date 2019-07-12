@@ -31,6 +31,10 @@
   padding-top:30px;
 }
 
+p {
+  font-family:'Montserrat', sans-serif !important;
+}
+
 
 .bg-primary h3 {
   color:black !important;
