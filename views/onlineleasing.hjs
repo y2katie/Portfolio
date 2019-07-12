@@ -61,12 +61,7 @@
                 <div class="col-sm-offset-1 col-sm-6">
                   <div class="section-heading">
                       <h2> Vanguard 2.0 </h2>
-                       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                       <p> As someone with a love of financial tools, I thought the Vanguard website could use some love. I wanted to modernize the UI to appeal to a younger set of financial gurus yet not stray too far from the original layout. I created a style guide as well to reference and account for edge cases.</p>
 
                       <a href='https://invis.io/67PG8IIXM2G'> Click Here for the Prototype </a>
                   </div>
