@@ -63,12 +63,19 @@
                       <h2> Vanguard 2.0 </h2>
                        <p> As someone with a love of financial tools, I thought the Vanguard website could use some love. I wanted to modernize the UI to appeal to a younger set of financial gurus yet not stray too far from the original layout. I created a style guide as well to reference and account for edge cases.</p>
 
-                      <a href='https://invis.io/67PG8IIXM2G'> Click Here for the Prototype </a>
+                      
                   </div>
                </div>
             </div>
-           <div class='row'>
-                <img id ='test' src='img/portfolio/thumbnails/3.png'>
+           <div class='container'>
+            <div class='row'>
+               <video width="1000" height="840" controls autoplay>
+                          <source src="img/portfolio/thumbnails/Vanguard.mp4" type="video/mp4">
+                          <source src="img/portfolio/thumbnails/Vanguard.mp4" type="video/ogg">
+                        Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
