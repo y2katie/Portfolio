@@ -67,7 +67,13 @@
                   </div>
                </div>
             </div>
-           <div class='container'>
+
+            <div class="video-container"><video id="banner_video" data-velocity="0.1" preload="auto" autoplay="" loop="loop" muted='muted'>
+ <source src="img/portfolio/thumbnails/Vanguard.mp4" height="450px" width="100%">
+</video></div>
+
+
+          <!--  <div class='container'>
             <div class='row'>
                <video width="1000" height="840" controls autoplay>
                           <source src="img/portfolio/thumbnails/Vanguard.mp4" type="video/mp4">
@@ -76,7 +82,7 @@
                         </video>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
