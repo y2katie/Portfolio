@@ -14,26 +14,25 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display" rel="stylesheet">
 
     <link href="css/creative.min.css" rel="stylesheet">
 
 
 </head>
-
-<body id="page-top">
-
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+ <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">KATIE JORDAN</a>
+                <a class="navbar-brand page-scroll" href="/">Katie Jordan</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -43,13 +42,7 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Working Together</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Let's Chat!</a>
+                        <a class="page-scroll" href="#portfolio">Line Drawing</a>
                     </li>
                 </ul>
             </div>
@@ -57,6 +50,7 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
+ 
 
 <<<<<<< HEAD
     <header>
@@ -76,15 +70,16 @@
     <section class="bg-primary" id="about">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading"> Hey, I'm Katie. I'm a <span class='color'>Product</span> and <span class='color'>Web Designer</span>. 🙋‍ </h2>
-                    <p class="text-faded"> I'm very attracted to modern minimalist design but this causes quite the issue because I also am very attracted to abstract and loud designs. I spend most of my time striking a balance between both styles to create a modern product that is functional and lovely. I was trained as a visual designer but needed more and started studying web development. From there, somehow, I ended up working on product and interface designs. I feel best solving problems by making solutions to trapeze the functionality most apps lack. I also enjoy taking an old product and revamping it. I find user testing to be one of the most fascinating aspects of working in product development. I like to think that my work makes at least one persons life easier.  </p>
-<!--                     <a href="#services" class="page-scroll btn btn-default btn-xl sr-button"> Learn More </a>
- -->                </div>
+                <div class="col-sm-offset-1 col-sm-9">
+                    <div class="section-heading">
+                    <h2><span class='color'>Hello!</span> I'm Katie - a designer focused on visual design, UX/UI design, line drawing and my dog Teddy.</h2>
+                    </div>
+               </div>
             </div>
         </div>
     </section>
 
+<<<<<<< HEAD
 
 
     <section class="no-padding" id="portfolio">
@@ -172,49 +167,67 @@
                         </div> -->
                     <!-- </a> -->
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
+=======
+    
+  <section class="secondary" id="work">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading"> Get In Touch!</h2>
-                    <hr class="primary">
-                    <p>If you have got this far and are still interested in my work & working with me, send me an email.</p>
-                </div>
-    
-                <div class="col-lg-12 text-center icon">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:kj0203@gmail.com">Drop Me a Line</a></p>
-                </div> 
-               
+                <div class="col-sm-offset-1 col-sm-5">
+                    <a href='https://www.nestio.com' target="_blank"><img src='../img/portfolio/thumbnails/nestio.png'></a>
+               </div>
+                <div class="col-sm-5">
+                    <!-- <a href='/clientcard'>  --><img src='../img/portfolio/thumbnails/test.jpg'> <!-- </a> -->
+               </div>
+            </div>
+              <div class="row" id="top">
+                <div class="col-sm-offset-1 col-sm-5">
+                      <img src='../img/portfolio/thumbnails/yas.jpg'>
+               </div>
+                <div class="col-sm-5">
+                    <a href='https://www.dklb.com' target="_blank">
+                     <img src='../img/portfolio/thumbnails/80.jpg'></a>
+               </div>
+            </div>
+             <div class="row" id="top">
+                <div class="col-sm-offset-1 col-sm-5">
+                    <a href="https://www.38sixth.com/" target="_blank">
+                      <img src='../img/portfolio/thumbnails/38th.jpg'></a>
+               </div>
+                <div class="col-sm-5">
+                    <a href='/onlineleasing'>
+                    <img src='../img/portfolio/thumbnails/5.jpg'></a>
+               </div>
+>>>>>>> e5068c28e881c9a2234be7a9aca1d38b59302e2a
             </div>
         </div>
     </section>
 
-    <footer style="background-color:#f1c40f; height:50px;">
-    <p> Website designed and developed by yours truly. 🔥 <p>
-    </footer>
-<!-- 
-    
+      <section class="closing">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-offset-1 col-sm-9"> <p> Coded and Designed by Yours Truly ® </p> 
+                    <p class='color'><a href='https://www.linkedin.com/in/katie-jordan-2b0b45a8'> LinkedIn </a>| <a href='https://github.com/katyvonkaty'> Github </a>| <a href='https://dribbble.com/kj0203'> Dribbble </a> |  <a href="mailto:kj0203@gmail.com"> Email Me</a>
+               </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- <section class="thirdly" id="thirdd">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-9">
+                    <div class="section-heading">
+                    <h2> Play </h2>
+                    <h3> I'm a little twisted and okay with that. </h3>
+                    <p> <a href='https://www.nestio.com/'> VRYWHR </a>| <a href='https://www.38sixth.com/'> 38Sixth </a> | <a href='https://www.dklb.com/'> Food4Tomorrow </a> | <a href='https://nestio.invisionapp.com/share/8MRJV9DF5K4'> Patterns </a> </p> 
+                    </div>
+               </div>
+            </div>
+        </div>
+    </section> -->
 
 
-                 <div style="display:inline-block; float:right; width:33%">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:kj0203@gmail.com">Drop Me a Line</a></p>
-                </div>
-                <div style = "display:inline-block; float:left; margin: 0px; width:33%">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:kj0203@gmail.com">Resume</a></p>
-                </div>
-                <div style= "display:inline-block; float:left; width:33%">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:kj0203@gmail.com">Drop Me a Line</a></p>
-                </div>
-
-    <!-- jQuery -->
+   
     <script src="vendor/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -229,8 +242,8 @@
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script> -->
 
     <!-- Theme JavaScript -->
-    <script src="js/creative.min.js"></script>
-
+<!--     <script src="js/creative.min.js"></script>
+ -->
 </body>
 
 </html>

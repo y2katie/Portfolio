@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+       <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <title>Katie Jordan</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display" rel="stylesheet">
+
+    <link href="css/creative.min.css" rel="stylesheet">
+
+
+</head>
+
+<body id="page-top">
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="/">Katie Jordan</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Line Drawing</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+
+      <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-offset-1 col-sm-6">
+                  <div class="section-heading">
+                      <h2> Vanguard 2.0 </h2>
+                       <p> As someone with a love of financial tools, I thought the Vanguard website could use some love. I wanted to modernize the UI to appeal to a younger set of financial gurus yet not stray too far from the original layout. I created a style guide as well to reference and account for edge cases.</p>
+
+                      
+                  </div>
+               </div>
+            </div>
+
+            <div class="video-container"><video id="banner_video" data-velocity="0.1" preload="auto" autoplay="" loop="loop" muted='muted'>
+ <source src="img/portfolio/thumbnails/Vanguard.mp4" height="450px" width="100%">
+</video></div>
+
+
+          <!--  <div class='container'>
+            <div class='row'>
+               <video width="1000" height="840" controls autoplay>
+                          <source src="img/portfolio/thumbnails/Vanguard.mp4" type="video/mp4">
+                          <source src="img/portfolio/thumbnails/Vanguard.mp4" type="video/ogg">
+                        Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+     <section class="closing">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-offset-1 col-sm-9"> <p> Coded and Designed by Yours Truly ® </p> 
+                    <p class='color'><a href='https://www.linkedin.com/in/katie-jordan-2b0b45a8'> LinkedIn </a>| <a href='https://github.com/katyvonkaty'> Github </a>| <a href='https://dribbble.com/kj0203'> Dribbble </a> |  <a href="mailto:kj0203@gmail.com"> Email Me</a>
+               </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/creative.min.js"></script>
+
+</body>
+
+</html>
