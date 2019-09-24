@@ -11,79 +11,14 @@
    background-color:#fff !important;
 }
 
-.secondary img {
- width:100%;
-}
-
-
-.after{
-box-shadow:1px 1px 40px 1px rgba(0,0,0,.1);
-}
-
-.closing {
-  margin-top:40px;
-  border-top:1px solid #eee;
-  padding:20px;
-}
-
-.color{
-  color:#ff9800;
-}
-
-#challenge, #sketch, #before, #about, #takeaway {
-  margin-top:30px;
-  margin-bottom:30px;
-}
-
-#test {
-  width:100%;
-}
-
-#work {
-  margin-top:100px;
-}
-
-.thirdly p {
-  color:white;
-  text-align:left;
-  width:80%;
-  margin:0 auto;
-  padding-top:30px;
-}
-
-p {
-  font-family:'Montserrat', sans-serif !important;
-}
-
-
-.bg-primary h3 {
-  color:black !important;
-}
-
-.bg-primary {
-  background-color: white;
-}
-
-#logo-main {
-    display: block;
-    margin: 20px auto;
-  }
-
-
-
-
-.closing {
-  margin-top:40px;
-}
-
-.color{
-  color:#ff9800;
-}
-
-
-
 .section-heading {
     margin-top:190px;
+}
+
+#icon {
+  width:50%;
+  margin:0 auto;
+  display: block;
 }
 
 .navbar-default .navbar-brand {
