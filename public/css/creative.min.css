@@ -15,6 +15,26 @@
  width:100%;
 }
 
+
+.after{
+box-shadow:1px 1px 40px 1px rgba(0,0,0,.1);
+}
+
+.closing {
+  margin-top:40px;
+  border-top:1px solid #eee;
+  padding:20px;
+}
+
+.color{
+  color:#ff9800;
+}
+
+#challenge, #sketch, #before, #about, #takeaway {
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
 #test {
   width:100%;
 }
