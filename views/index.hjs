@@ -68,14 +68,6 @@
     
   <section class="secondary" id="work">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-offset-1 col-sm-5">
-                    <a href='https://www.nestio.com' target="_blank"><img src='../img/portfolio/thumbnails/nestio.png'></a>
-               </div>
-                <div class="col-sm-5">
-                    <!-- <a href='/clientcard'>  --><img src='../img/portfolio/thumbnails/test.jpg'> <!-- </a> -->
-               </div>
-            </div>
               <div class="row" id="top">
                 <div class="col-sm-offset-1 col-sm-5">
                       <img src='../img/portfolio/thumbnails/yas.jpg'>
