@@ -35,6 +35,16 @@
 margin-top:20px;
 }
 
+.navbar-default {
+  background-color:white;
+}
+
+@media (min-width: 768px){
+.navbar-right {
+    float: right !important;
+    margin-right: 5px !important;
+}
+
 /*@media screen and (max-width: 640px) {
 .carousel-inner > .item > img {
   height:300px !important;
