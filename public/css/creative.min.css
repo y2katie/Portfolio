@@ -6,6 +6,9 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+
+
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 .thirdly {
    background-color:#fff !important;
@@ -13,6 +16,43 @@
 
 .section-heading {
     margin-top:190px;
+}
+
+#myCarousel {
+  margin-top:90px;
+}
+
+.navbar-default .navbar-toggle {
+  border-color:white;
+}
+
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+    margin-right: -15px;
+    margin-left: 5px;
+  }
+
+.navbar-fixed-top {
+margin-top:20px;
+}
+
+/*@media screen and (max-width: 640px) {
+.carousel-inner > .item > img {
+  height:300px !important;
+}
+}*/
+
+.navbar-nav > li > a {
+  color:black;
+}
+.navbar-nav > li > a:hover{
+  background-color:white;
+  text-decoration:underline;
+}
+
+.navbar-fixed-bottom {
+  background-color:white;
+      height: 110px;
+    padding-top: 30px !important;
 }
 
 #icon {
