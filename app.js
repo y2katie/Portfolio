@@ -6,7 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
-var onlineleasing = require('./routes/onlineleasing');
+var aboutme = require('./routes/aboutme');
 var clientcard = require('./routes/clientcard');
 var before = require('./routes/before');
 
@@ -25,7 +25,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
-app.use('/onlineleasing', onlineleasing);
+app.use('/aboutme', aboutme);
 app.use('/clientcard', clientcard);
 app.use('/before', before);
 
