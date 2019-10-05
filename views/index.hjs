@@ -29,21 +29,8 @@
 
 
 </head>
-<!-- <nav class="navbar navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <img src="img/portfolio/thumbnails/name.png">
-    </div>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href='https://www.linkedin.com/in/katie-jordan-2b0b45a8'>linkedin</a></li>
-      <li><a href="https://github.com/katyvonkaty">github</a></li>
-      <li><a href="https://dribbble.com/kj0203">dribbble</a></li>
-      <li><a href="mailto:kj0203@gmail.com">email me</a></li>
-    </ul>
-  </div>
-</nav> -->
-<!--  <img src="img/portfolio/thumbnails/name.png"> -->
-<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+
+    <nav id="mainNav" class="navbar navbar-default">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -76,41 +63,49 @@
     </nav>
   
                
- 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
-    <li data-target="#myCarousel" data-slide-to="4"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-
-     <div class="item active">
-      <img src="img/portfolio/thumbnails/food.jpg" alt="Chania">
+<div class='container' id='test'>
+  <div class='row'>
+    <div class='col-sm-6'>
+      <a href='/onlineleasing'> <h4> About Me </h4> </a>
+      <a href='/onlineleasing'> <img src='img/portfolio/thumbnails/me.png'> </a>
     </div>
-
-    <div class="item">
-      <img src="img/portfolio/thumbnails/vanguard.jpg" alt="Chania">
+     <div class='col-sm-6'>
+      <h4> Work + Design </h4>
+      <img src='img/portfolio/thumbnails/food.jpg'>
     </div>
-
-     <div class="item">
-      <img src="img/portfolio/thumbnails/online.jpg" alt="Chania">
-    </div>
-
-     <div class="item">
-      <img src="img/portfolio/thumbnails/38sixth.jpg" alt="Chania">
-    </div>
-
-     <div class="item">
-      <img src="img/portfolio/thumbnails/dklb.jpg" alt="Chania">
-    </div>
-
+  </div>
 </div>
+
+
+<div class='container' id='test2'>
+  <div class='row'>
+    <div class='col-sm-6'>
+      <h4> Fav Recipes </h4>
+      <img src='img/portfolio/thumbnails/coconut.jpg'>
+    </div>
+     <div class='col-sm-6'>
+      <h4> Books </h4>
+      <img src='img/portfolio/thumbnails/books.jpg'>
+    </div>
+  </div>
+</div>
+
+<div class='container' id='test2'>
+  <div class='row'>
+    <div class='col-sm-6'>
+      <h4> Teddy </h4>
+      <img src='img/portfolio/thumbnails/teddy.png'>
+    </div>
+     <div class='col-sm-6'>
+      <h4> Travel </h4>
+      <img src='img/portfolio/thumbnails/me.jpg'>
+    </div>
+  </div>
+</div>
+
+
+
+</html>
 
 <!-- <div class='container-fluid'>
   <div class='row'>
