@@ -31,10 +31,10 @@
 </head>
 
     <nav id="mainNav" class="navbar navbar-default">
-        <div class="container">
+        <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-              <img src="img/portfolio/thumbnails/name.png">
+              <a href='/' ><img src="img/portfolio/thumbnails/name.png"> </a>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> <i class="fa fa-bars"></i>
                 </button>
@@ -63,51 +63,16 @@
     </nav>
   
                
-<div class='container' id='test'>
+<div class='container'>
   <div class='row'>
-    <div class='col-sm-6'>
-      <a href='/about'> <h4> About Me </h4> 
-        <img src='img/portfolio/thumbnails/snow.png'> 
-      </a>
-    </div>
-     <div class='col-sm-6'>
-      <a href='/work'> <h4> Work + Design </h4>
-      <img src='img/portfolio/thumbnails/food.jpg'>
-    </a>
-    </div>
-  </div>
-</div>
-
-
-<div class='container' id='test2'>
-  <div class='row'>
-    <div class='col-sm-6'>
-      <a href='/recipes'><h4> Fav Recipes </h4>
-      <img src='img/portfolio/thumbnails/coconut.jpg'>
-    </a>
-    </div>
-     <div class='col-sm-6'>
-      <a href='/books'>
-      <h4> Books </h4>
-      <img src='img/portfolio/thumbnails/books.jpg'>
-    </a>
-    </div>
-  </div>
-</div>
-
-<div class='container' id='test2'>
-  <div class='row'>
-    <div class='col-sm-6'>
-      <a href='/teddy'>
-      <h4> Teddy </h4>
-      <img src='img/portfolio/thumbnails/cockapoo.png'>
-    </a>
-    </div>
-     <div class='col-sm-6'>
-      <a href='/travel'>
-      <h4> Travel </h4>
-      <img src='img/portfolio/thumbnails/mejapan.png'>
-    </a>
+    <div class='col-sm-10'>
+       <h2> Sometimes I like to travel </h2>
+       <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+       proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
     </div>
   </div>
 </div>
@@ -115,40 +80,6 @@
 
 
 </html>
-
-<!-- <div class='container-fluid'>
-  <div class='row'>
-    <div class='col-sm-6'>
-      <img src='img/portfolio/thumbnails/food.jpg'>
-    </div>
-    <div class='col-sm-6'>
-      <h4> Hello </h4>
-      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-  </div>
-</div> -->
-
-<!-- <div class='container-fluid'>
-  <div class='row'>
-    <div class='col-sm-6'>
-      <h4> Hello </h4>
-      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-      <div class='col-sm-6'>
-      <img src='img/portfolio/thumbnails/food.jpg'>
-    </div>
-  </div>
-</div> -->
 
     
   

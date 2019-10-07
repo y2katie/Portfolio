@@ -8,8 +8,10 @@ var bodyParser = require('body-parser');
 var index = require('./routes/index');
 var about = require('./routes/about');
 var recipes = require('./routes/recipes');
-var before = require('./routes/before');
+var work = require('./routes/work');
 var books = require('./routes/books');
+var travel = require('./routes/travel');
+var teddy = require('./routes/teddy');
 
 var app = express();
 
@@ -28,8 +30,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index);
 app.use('/about', about);
 app.use('/recipes', recipes);
-app.use('/before', before);
+app.use('/work', work);
 app.use('/books', books);
+app.use('/travel', before);
+app.use('/teddy', books);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
