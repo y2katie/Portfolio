@@ -32,8 +32,8 @@ app.use('/about', about);
 app.use('/recipes', recipes);
 app.use('/work', work);
 app.use('/books', books);
-app.use('/travel', before);
-app.use('/teddy', books);
+app.use('/travel', travel);
+app.use('/teddy', teddy);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
