@@ -66,12 +66,14 @@
 <div class='container' id='test'>
   <div class='row'>
     <div class='col-sm-6'>
-      <a href='/about'> <h4> About Me </h4> </a>
-      <a href='/about'> <img src='img/portfolio/thumbnails/snow.png'> </a>
+      <a href='/about'> <h4> About Me </h4> 
+        <img src='img/portfolio/thumbnails/snow.png'> 
+      </a>
     </div>
      <div class='col-sm-6'>
-      <h4> Work + Design </h4>
+      <a href='/before'> <h4> Work + Design </h4>
       <img src='img/portfolio/thumbnails/food.jpg'>
+    </a>
     </div>
   </div>
 </div>
@@ -80,8 +82,9 @@
 <div class='container' id='test2'>
   <div class='row'>
     <div class='col-sm-6'>
-      <h4> Fav Recipes </h4>
+      <a href='/recipes'><h4> Fav Recipes </h4>
       <img src='img/portfolio/thumbnails/coconut.jpg'>
+    </a>
     </div>
      <div class='col-sm-6'>
       <h4> Books </h4>
