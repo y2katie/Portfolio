@@ -55,6 +55,10 @@ h4 {
     margin-top:190px;
 }
 
+.navbar-default {
+  border: none !important;
+}
+
 #myCarousel {
   margin-top:90px;
 }
