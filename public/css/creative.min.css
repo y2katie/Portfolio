@@ -32,6 +32,10 @@
     margin-bottom:20px;
 }
 
+img {
+  width:100%;
+}
+
 h4 {
       position: absolute;
     top: 50%;
