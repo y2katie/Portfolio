@@ -85,6 +85,15 @@ margin-top:20px;
   background-color:white;
 }
 
+#ted {
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+#ted2 {
+  margin-bottom:30px;
+}
+
 @media (min-width: 768px){
 .navbar-right {
     float: right !important;
