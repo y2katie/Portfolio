@@ -34,7 +34,6 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-              <img src="img/portfolio/thumbnails/name.png">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> <i class="fa fa-bars"></i>
                 </button>
@@ -63,7 +62,7 @@
     </nav>
   
                
-<div class='container' id='test'>
+<!-- <div class='container' id='test'>
   <div class='row'>
     <div class='col-sm-6'>
       <a href='/about'> <h4> About Me </h4> 
@@ -111,7 +110,7 @@
     </div>
   </div>
 </div>
-
+ -->
 
 
 </html>

@@ -7,12 +7,15 @@
  */
 
 
-
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Jomolhari&display=swap');
 
 .navbar-default {
   margin-top:40px;
+}
+
+
+body {
+  background-color: #faf6eb;
 }
 
 
@@ -81,9 +84,6 @@ h4 {
 margin-top:20px;
 }
 
-.navbar-default {
-  background-color:white;
-}
 
 #ted {
   margin-top:30px;
@@ -137,12 +137,12 @@ margin-top:20px;
 .navbar-default .navbar-brand {
   font-weight:600;
   color:black;
-  font-family:'Montserrat';
+font-family: 'Jomolhari', serif;
 }
 
 .navbar-default .navbar-nav > li > a {
   color:black;
-  font-family:'Montserrat';
+font-family: 'Jomolhari', serif;
 }
 
 h1 {
@@ -151,7 +151,7 @@ h1 {
 
 
 h1,h2,h3,h4,h5,h6{
-  font-family: 'Montserrat',sans-serif;
+font-family: 'Jomolhari', serif;
 }
 
 h2 {
@@ -159,16 +159,16 @@ h2 {
 }
 
 p {
-  font-family:'Lato', serif;
+font-family: 'Jomolhari', serif;
   color:black;
   font-weight:300;
 }
 
 
-.navbar-default {
+/*.navbar-default {
     background-color: white !important;
     border-color: transparent !important;
-}
+}*/
 
 #top {
   margin-top:20px;
