@@ -106,19 +106,31 @@ margin-top:20px;
   margin-bottom:30px;
 }
 
-@media (min-width: 768px){
-.navbar-right {
-    float: right !important;
-    margin-right: 5px !important;
-}
-}
-
-
 @media (max-width: 768px){
+  #magic2 {
+    display: none;
+  }
+
+  #magic h1 {
+        z-index: 1000000;
+    margin-left: 100px;
+    margin-top: 240px;
+    position: absolute;
+    color: black;
+    font-size: 50px;
+  }
+
+  .navbar-default .navbar-toggle {
+    margin-top: -40px;
+  }
+}
+
+
+/*@media (min-width: 768px){
   .navbar-header img {
   width:50%;
   }
-}
+}*/
 
 /*@media screen and (max-width: 640px) {
 .carousel-inner > .item > img {
