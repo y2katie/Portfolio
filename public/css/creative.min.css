@@ -7,16 +7,18 @@
  */
 
 
-@import url('https://fonts.googleapis.com/css?family=Jomolhari&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-.navbar-default {
-  margin-top:40px;
+
+#magic {
+  background-color:#e80e55;
+  height:90vh;
 }
 
-
-body {
-  background-color: #faf6eb;
+#magic h1 {
+  color:white;
 }
+
 
 
 #test img {
@@ -24,7 +26,6 @@ body {
     width: 100%;
     position: relative;
     text-align: center
-
 }
 
 #test2 img {
@@ -65,6 +66,7 @@ h4 {
 
 .navbar-default {
   border: none !important;
+  background-color:white !important;
 }
 
 #myCarousel {
@@ -137,29 +139,23 @@ margin-top:20px;
 .navbar-default .navbar-brand {
   font-weight:600;
   color:black;
-font-family: 'Jomolhari', serif;
+font-family: 'Roboto', sans-serif;
 }
 
 .navbar-default .navbar-nav > li > a {
   color:black;
-font-family: 'Jomolhari', serif;
-}
-
-h1 {
-  font-size:68px;
-}
+font-family: 'Roboto', sans-serif;}
 
 
 h1,h2,h3,h4,h5,h6{
-font-family: 'Jomolhari', serif;
-}
+font-family: 'Roboto', sans-serif;}
 
 h2 {
   color:#2E385D;
 }
 
 p {
-font-family: 'Jomolhari', serif;
+font-family: 'Roboto', sans-serif;
   color:black;
   font-weight:300;
 }
