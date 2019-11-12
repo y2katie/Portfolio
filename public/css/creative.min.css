@@ -16,7 +16,12 @@
 }
 
 #magic h1 {
-  color:white;
+  z-index: 1000000;
+    margin-left: 210px;
+    margin-top: 240px;
+    position: absolute;
+    color: black;
+    font-size: 200px;
 }
 
 #magic2 {
