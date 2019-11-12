@@ -19,8 +19,13 @@
   color:white;
 }
 
+#magic2 {
+  height:90vh;
+}
 
-
+.navbar-header p {
+  margin-top:15px;
+}
 #test img {
   margin-top:20px;
     width: 100%;

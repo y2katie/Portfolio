@@ -34,6 +34,7 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
+              <p> katie jordan</p>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> <i class="fa fa-bars"></i>
                 </button>
@@ -69,6 +70,7 @@
           <h1> Hello. </h1>
         </div>
         <div class='col-sm-6'>
+           <img src='img/portfolio/thumbnails/bg.jpg' id='magic2'>
         </div>
       </div>
   </div>
