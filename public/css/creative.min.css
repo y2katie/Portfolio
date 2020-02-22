@@ -7,7 +7,7 @@
  */
 
 
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
 
 #magic img {
  width:15% !important;
@@ -15,9 +15,18 @@
  margin-top:150px;
  box-shadow: none !important;
 }
+
 p{
   font-family:'Poppins';
-  font-weight:600;
+  font-weight:400;
+}
+
+h1 {
+  font-weight:700;
+}
+
+h5 {
+  font-family:400 !important;
 }
 
 img {
@@ -27,6 +36,8 @@ box-shadow: 0 0 6px 0 #d5d8de;
 a{
   color:#000 !important;
   margin-top:20px;
+    font-family:'Poppins';
+
 }
 
 #intro {
