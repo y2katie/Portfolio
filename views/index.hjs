@@ -8,8 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
-
     <title>Katie Jordan</title>
 
 
@@ -30,91 +28,80 @@
 
 </head>
 
-    <nav id="mainNav" class="navbar navbar-default">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <p> katie jordan</p>
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> <i class="fa fa-bars"></i>
-                </button>
-            </div>
 
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href='https://www.linkedin.com/in/katie-jordan-2b0b45a8'>linkedin</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/katyvonkaty">github</a>
-                    </li>
-                    <li>
-                      <a href="https://dribbble.com/kj0203">dribbble</a>
-                    </li>
-                    <li>
-                      <a href="mailto:kj0203@gmail.com"> email </a>
-                    </li>
 
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-  
-               
-<div class='container'>
+<div class='container' id='intro'>
   <div class='row'>
         <div class='col-sm-6' id='magic'>
-          <h1> Hello. </h1>
+         <img src='img/portfolio/thumbnails/K.png'><br>
+         <p> <b> Katie Jordan </b> <br> </p>
+           <a href='https://www.linkedin.com/in/katie-jordan-2b0b45a8'>linkedin</a>
+   
+          <a href="https://github.com/katyvonkaty">github</a>
+    
+        <a href="https://dribbble.com/kj0203">dribbble</a>
+     
+        <a href="mailto:kj0203@gmail.com"> email </a>
         </div>
-        <div class='col-sm-6'>
-           <img src='img/portfolio/thumbnails/bg.jpg' id='magic2'>
-        </div>
+
       </div>
   </div>
 </div>
 
+<div class='container' id='intro'>
+  <div class='row'>
+    <div class='col-sm-4'>
+     <h1> Here Is a Project </h1>
+     <h5> A little more </h5>
 
+    </div>
+    <div class='col-sm-8'>
+      <img src='img/portfolio/thumbnails/38sixth.jpg'><br>
+    </div>
+  </div>
+</div>
 
+<div class='container' id='intro'>
+  <div class='row'>
+    <div class='col-sm-4'>
+     <h1> Here Is a Project </h1>
+     <h5> A little more </h5>
+     
+    </div>
+    <div class='col-sm-8'>
+      <img src='img/portfolio/thumbnails/38sixth.jpg'><br>
+    </div>
+  </div>
+</div>
 
+<div class='container' id='intro'>
+  <div class='row'>
+    <div class='col-sm-4'>
+     <h1> Here Is a Project </h1>
+     <h5> A little more </h5>
+     
+    </div>
+    <div class='col-sm-8'>
+      <img src='img/portfolio/thumbnails/38sixth.jpg'><br>
+    </div>
+  </div>
+</div>
 
+<div class='container' id='intro'>
+  <div class='row'>
+    <div class='col-sm-4'>
+     <h1> Here Is a Project </h1>
+     <h5> A little more </h5>
+     
+    </div>
+    <div class='col-sm-8'>
+      <img src='img/portfolio/thumbnails/38sixth.jpg'><br>
+    </div>
+  </div>
+</div>
 
 </html>
 
-<!-- <div class='container-fluid'>
-  <div class='row'>
-    <div class='col-sm-6'>
-      <img src='img/portfolio/thumbnails/food.jpg'>
-    </div>
-    <div class='col-sm-6'>
-      <h4> Hello </h4>
-      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-  </div>
-</div> -->
-
-<!-- <div class='container-fluid'>
-  <div class='row'>
-    <div class='col-sm-6'>
-      <h4> Hello </h4>
-      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-      <div class='col-sm-6'>
-      <img src='img/portfolio/thumbnails/food.jpg'>
-    </div>
-  </div>
-</div> -->
 
     
   
