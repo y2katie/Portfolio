@@ -7,7 +7,7 @@
  */
 
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
 #magic img {
  width:15% !important;
@@ -16,8 +16,95 @@
  box-shadow: none !important;
 }
 
+.container .title{
+  color: 'white';
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container .text{
+  color: 'white';
+  text-align: center;
+  margin-bottom: 10px;
+}
+.content {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+#magic2 {
+    padding: 40px;
+    margin-top: 30px;
+    margin-bottom:70px;
+  }
+
+#magic2 p {
+  color:black !important;
+}
+
+#magic2 a {
+  text-decoration: underline !important;
+  margin-bottom:30px;
+  color:#4B52FA;
+}
+
+
+a {
+  color: #4B52FA !important;
+  text-decoration: underline !important;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+.content-image{
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
 p{
-  font-family:'Poppins';
+  font-family:'Roboto';
   font-weight:400;
 }
 
@@ -34,10 +121,7 @@ box-shadow: 0 0 6px 0 #d5d8de;
 }
 
 a{
-  color:#000 !important;
-  margin-top:20px;
-    font-family:'Poppins';
-
+  color:#4B52FA !important;
 }
 
 #intro {
@@ -178,18 +262,10 @@ margin-top:20px;
 .navbar-default .navbar-brand {
   font-weight:600;
   color:black;
-font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 
 
-
-
-h1,h2,h3,h4,h5,h6{
-font-family: 'Poppins', sans-serif;}
-
-h2 {
-  color:#2E385D;
-}
 
 
 

@@ -41,32 +41,69 @@
 
 <div class='container' id='intro'>
   <div class='row'>
-        <div class='col-sm-6' id='magic'>
+     <!--    <div class='col-sm-8' id='magic'>
          <img src='img/portfolio/thumbnails/K.png'><br>
-         <p> <b> Katie Jordan </b> <br> </p>
-           <a href='https://www.linkedin.com/in/katie-jordan-2b0b45a8'>linkedin</a>
-   
-          <a href="https://github.com/katyvonkaty">github</a>
-    
-        <a href="https://dribbble.com/kj0203">dribbble</a>
+         <br> 
+           <p> <b> Katie Jordan  🍇🍈🍉🍒🍓🥝🍅🥥🥑🍆🥔🍕🌭🥪🌮🌯🥙 </b> <br> </p>
+             <a href='https://www.linkedin.com/in/katie-jordan-2b0b45a8'>linkedin</a>
      
-        <a href="mailto:kj0203@gmail.com"> email </a>
+            <a href="https://github.com/katyvonkaty">github</a>
+      
+          <a href="https://dribbble.com/kj0203">dribbble</a>
+       
+          <a href="mailto:kj0203@gmail.com"> email </a>
         </div>
+      </div> -->
+      <div class='row'>
+  <div class='col-sm-8' id='magic2'>
+    <h1> Hi, I'm Katie. </h1>
+     <a href='https://www.linkedin.com/in/katie-jordan-2b0b45a8'>linkedin</a>
+     
+            <a href="https://github.com/katyvonkaty">github</a>
+      
+          <a href="https://dribbble.com/kj0203">dribbble</a>
+       
+          <a href="mailto:kj0203@gmail.com"> email </a>
+          <br> <br>
+    <h3> I'm A Product Designer  </h3>
+    <p> I'm currently looking for a role in the food tech industry 🍇🍈🍉🍒🍓🥝🍅🥥🥑🍆🥔🍕🌭🥪🌮🌯🥙  </p>
+    <a href='https://www.figma.com/proto/3hrXaN6KrmW9AsWJNf55D7/Foods?node-id=1%3A2&scaling=min-zoom' target="_blank"> I 🍓FOOD Prototype </a>
 
-      </div>
+  </div>
+</div>
   </div>
 </div>
 
-<div class='container' id='intro'>
+
+
+<!-- <div class='container' id='intro'>
   <div class='row'>
     <div class='col-sm-4'>
      <h1> Vanguard </h1>
      <h5> It's all about the $$$$ </h5>
-
     </div>
-    <div class='col-sm-8'>
-      <img src='img/portfolio/thumbnails/vanguard.jpg'><br>
-    </div>
+        <div class='col-sm-8'>
+            <div class="content">
+              <div class="content-overlay"></div>
+                <img class="content-image" src='img/portfolio/thumbnails/vanguard.jpg'><br>
+              </div>
+          <div class="content-details fadeIn-bottom">
+              <h3 class="content-title">This is a title</h3>
+              <p class="content-text">This is a short description</p>
+          </div>
+      </div>
+  </div>
+</div> -->
+<!-- 
+<div class="container">
+  <div class="content">
+      <div class="content-overlay"></div>
+      <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
+      <div class="content-details fadeIn-bottom">
+        <h3 class="content-title">This is a title</h3>
+        <p class="content-text">This is a short description</p>
+      </div>
+    </a>
   </div>
 </div>
 
@@ -121,7 +158,7 @@
     </div>
   </div>
 </div>
-
+ -->
 </html>
 
 
