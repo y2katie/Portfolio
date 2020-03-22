@@ -134,12 +134,20 @@ a{
 
 #food {
   background-color:#FBE0D4;
-  height:350px;
+  height:450px;
+}
+
+#food img {
+  margin-top:30px;
+}
+
+#yogi img {
+  margin-top:30px;
 }
 
 #yogi {
   background-color: #FEE1F2;
-  height:350px;
+  height:450px;
 }
 
 .navbar-header p {
