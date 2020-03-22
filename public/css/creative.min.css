@@ -7,14 +7,7 @@
  */
 
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
-
-#magic img {
- width:15% !important;
- margin-bottom:10px;
- margin-top:150px;
- box-shadow: none !important;
-}
+@import url('https://fonts.googleapis.com/css?family=Baloo+Da+2:400,700&display=swap');
 
 .container .title{
   color: 'white';
@@ -56,9 +49,6 @@
     margin-bottom:70px;
   }
 
-#magic2 p {
-  color:black !important;
-}
 
 #magic2 a {
   text-decoration: underline !important;
@@ -104,30 +94,54 @@ a {
 }
 
 p{
-  font-family:'Roboto';
+  font-family: 'Baloo Da 2', cursive;
   font-weight:400;
+  font-size:16px;
+  color:white !important;
 }
 
-h1 {
-  font-weight:700;
+#intro img {
+  margin-top:110px;
 }
+
 
 h5 {
   font-family:400 !important;
 }
 
-img {
-box-shadow: 0 0 6px 0 #d5d8de;
-}
 
 a{
   color:#4B52FA !important;
 }
 
 #intro {
-  margin-bottom:180px;
+  background-color:#0905B4;
 }
 
+#intro p {
+  color:white;
+}
+
+#intro h1 {
+  color:white;
+  font-family: 'Baloo Da 2', cursive;
+}
+
+#intro h4 {
+  color:white;
+  font-family: 'Baloo Da 2', cursive;
+}
+
+#food {
+  background-color:#FBE0D4;
+  height:350px;
+}
+
+#yogi {
+  background-color: #FEE1F2;
+    height:350px;
+
+}
 
 .navbar-header p {
   margin-top:15px;
@@ -152,41 +166,8 @@ img {
   width:100%;
 }
 
-h4 {
-      position: absolute;
-    top: 50%;
-    z-index: 100;
-    text-transform: uppercase;
-       background-color: white;
-    padding: 10px;
-    color: black;
-    text-align: center;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
-#test3 img {
-  margin-top:20px;
-  width: 100%;
-    position: relative;
-    text-align: center;
-}
-.section-heading {
-    margin-top:190px;
-}
 
-.navbar-default {
-  border: none !important;
-  background-color:white !important;
-}
-
-#myCarousel {
-  margin-top:90px;
-}
-
-.navbar-default .navbar-toggle {
-  border-color:white;
-}
 
 .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
     margin-right: -15px;
@@ -259,11 +240,6 @@ margin-top:20px;
   display: block;
 }
 
-.navbar-default .navbar-brand {
-  font-weight:600;
-  color:black;
-font-family: 'Roboto', sans-serif;
-}
 
 
 

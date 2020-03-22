@@ -39,9 +39,34 @@
 
 
 
-<div class='container' id='intro'>
+<div class='container-fluid' id='intro'>
   <div class='row'>
-     <!--    <div class='col-sm-8' id='magic'>
+    <div class='row'>
+      <div class='col-sm-4' id='magic2'>
+      <h1> Hi, I'm Katie 👋 </h1>
+      <h4> I’m a product designer, illustrator, dog mom, aspiring yoga teacher, adjunt lecturer, amateur cook and baker. I have trouble sitting still. </p> <h4>
+      <h4>Currently creating prop tech experiencs at Nestio.  </h4>
+      </div>
+       <div class='col-sm-8' >
+       <img src='img/portfolio/thumbnails/yogi.png'>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class='container-fluid'>
+  <div class='row'>
+    <div class='col-sm-6' id='yogi'>
+      <img src='img/portfolio/thumbnails/yoga2.png'>
+      
+    </div>
+    <div class='col-sm-6' id='food'>
+      <img src='img/portfolio/thumbnails/foods.png'>
+      
+  </div>
+</div>
+
+    <!--    <div class='col-sm-8' id='magic'>
          <img src='img/portfolio/thumbnails/K.png'><br>
          <br> 
            <p> <b> Katie Jordan  🍇🍈🍉🍒🍓🥝🍅🥥🥑🍆🥔🍕🌭🥪🌮🌯🥙 </b> <br> </p>
@@ -53,28 +78,7 @@
        
           <a href="mailto:kj0203@gmail.com"> email </a>
         </div>
-      </div> -->
-      <div class='row'>
-  <div class='col-sm-8' id='magic2'>
-    <h1> Hello 👋 I'm Katie </h1>
-     <a href='https://www.linkedin.com/in/katie-jordan-2b0b45a8'>linkedin</a><br>
-     <!-- 
-            <a href="https://github.com/katyvonkaty">github</a>
-      
-          <a href="https://dribbble.com/kj0203">dribbble</a> -->
-       
-          <a href="mailto:kj0203@gmail.com"> email </a>
-          <br> <br>
-    <h3> I'm A Product Designer  </h3>
-    <p> I really like food 🍇🍈🍉🍒🍓🥝🍅🥥🥑🍆🥔🍕🌭🥪🌮🌯🥙  </p>
-    <a href='https://www.figma.com/proto/3hrXaN6KrmW9AsWJNf55D7/Foods?node-id=1%3A15&scaling=min-zoom' target="_blank"> I 🍓FOOD Prototype </a>
-
-  </div>
-</div>
-  </div>
-</div>
-
-
+</div> -->
 
 <!-- <div class='container' id='intro'>
   <div class='row'>
