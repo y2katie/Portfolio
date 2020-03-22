@@ -111,7 +111,7 @@ h5 {
 
 
 a{
-  color:#4B52FA !important;
+  color:#ffeb3b !important;
 }
 
 #intro {
@@ -139,13 +139,13 @@ a{
 
 #yogi {
   background-color: #FEE1F2;
-    height:350px;
-
+  height:350px;
 }
 
 .navbar-header p {
   margin-top:15px;
 }
+
 #test img {
   margin-top:20px;
     width: 100%;
@@ -169,29 +169,8 @@ img {
 
 
 
-.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
-    margin-right: -15px;
-    margin-left: 5px;
-  }
-
-.navbar-fixed-top {
-margin-top:20px;
-}
-
-
-#ted {
-  margin-top:30px;
-  margin-bottom:30px;
-}
-
-#ted2 {
-  margin-bottom:30px;
-}
-
 @media (max-width: 768px){
-  #magic2 {
-    display: none;
-  }
+ 
 
   #magic h1 {
         z-index: 1000000;
@@ -202,43 +181,21 @@ margin-top:20px;
     font-size: 50px;
   }
 
-  .navbar-default .navbar-toggle {
-    margin-top: -40px;
+  #intro img {
+    margin-top:-80px;
+    margin-bottom:40px;
   }
-}
-
-
-/*@media (min-width: 768px){
-  .navbar-header img {
-  width:50%;
+  #yogi {
+    height:auto;
   }
-}*/
 
-/*@media screen and (max-width: 640px) {
-.carousel-inner > .item > img {
-  height:300px !important;
-}
-}*/
+   #food {
+    height:auto;
+  }
 
-.navbar-nav > li > a {
-  color:black;
-}
-.navbar-nav > li > a:hover{
-  background-color:white;
-  text-decoration:underline;
 }
 
-.navbar-fixed-bottom {
-  background-color:white;
-      height: 110px;
-    padding-top: 30px !important;
-}
 
-#icon {
-  width:50%;
-  margin:0 auto;
-  display: block;
-}
 
 
 

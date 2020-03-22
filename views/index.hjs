@@ -46,6 +46,8 @@
       <h1> Hi, I'm Katie 👋 </h1>
       <h4> I’m a product designer, illustrator, dog mom, aspiring yoga teacher, adjunt lecturer, amateur cook and baker. I have trouble sitting still. </p> <h4>
       <h4>Currently creating prop tech experiencs at Nestio.  </h4>
+      <p> Stalk me : <a href='https://www.linkedin.com/in/katie-jordan-2b0b45a8' target="_blank">Here</a> </p>
+      <p> Contact me: <a href="mailto:kj0203@gmail.com" target="_blank"> Here </a> </p>
       </div>
        <div class='col-sm-8' >
        <img src='img/portfolio/thumbnails/yogi.png'>
@@ -66,103 +68,6 @@
   </div>
 </div>
 
-    <!--    <div class='col-sm-8' id='magic'>
-         <img src='img/portfolio/thumbnails/K.png'><br>
-         <br> 
-           <p> <b> Katie Jordan  🍇🍈🍉🍒🍓🥝🍅🥥🥑🍆🥔🍕🌭🥪🌮🌯🥙 </b> <br> </p>
-             <a href='https://www.linkedin.com/in/katie-jordan-2b0b45a8'>linkedin</a>
-     
-            <a href="https://github.com/katyvonkaty">github</a>
-      
-          <a href="https://dribbble.com/kj0203">dribbble</a>
-       
-          <a href="mailto:kj0203@gmail.com"> email </a>
-        </div>
-</div> -->
-
-<!-- <div class='container' id='intro'>
-  <div class='row'>
-    <div class='col-sm-4'>
-     <h1> Vanguard </h1>
-     <h5> It's all about the $$$$ </h5>
-    </div>
-        <div class='col-sm-8'>
-            <div class="content">
-              <div class="content-overlay"></div>
-                <img class="content-image" src='img/portfolio/thumbnails/vanguard.jpg'><br>
-              </div>
-          <div class="content-details fadeIn-bottom">
-              <h3 class="content-title">This is a title</h3>
-              <p class="content-text">This is a short description</p>
-          </div>
-      </div>
-  </div>
-</div> -->
-<!-- 
-<div class="container">
-  <div class="content">
-      <div class="content-overlay"></div>
-      <img class="content-image" src="https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362">
-      <div class="content-details fadeIn-bottom">
-        <h3 class="content-title">This is a title</h3>
-        <p class="content-text">This is a short description</p>
-      </div>
-    </a>
-  </div>
-</div>
-
-<div class='container' id='intro'>
-  <div class='row'>
-    <div class='col-sm-4'>
-     <h1> Online Leasing </h1>
-     <h5> Leasing made easy </h5>
-
-    </div>
-    <div class='col-sm-8'>
-      <img src='img/portfolio/thumbnails/OL.jpg'><br>
-    </div>
-  </div>
-</div>
-
-<div class='container' id='intro'>
-  <div class='row'>
-    <div class='col-sm-4'>
-     <h1> Food For Tomorrow </h1>
-     <h5> A website within a website</h5>
-     
-    </div>
-    <div class='col-sm-8'>
-      <img src='img/portfolio/thumbnails/food.png'><br>
-    </div>
-  </div>
-</div>
-
-<div class='container' id='intro'>
-  <div class='row'>
-    <div class='col-sm-4'>
-     <h1> Livechat </h1>
-     <h5> Lively chatting </h5>
-     
-    </div>
-    <div class='col-sm-8'>
-      <img src='img/portfolio/thumbnails/livechat.jpg'><br>
-    </div>
-  </div>
-</div>
-
-<div class='container' id='intro'>
-  <div class='row'>
-    <div class='col-sm-4'>
-     <h1> Gittle </h1>
-     <h5> Giving a Little</h5>
-     
-    </div>
-    <div class='col-sm-8'>
-      <img src='img/portfolio/thumbnails/gittle.jpg'><br>
-    </div>
-  </div>
-</div>
- -->
 </html>
 
 
