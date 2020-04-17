@@ -44,86 +44,32 @@
 
 
 
-<div class='container' id='intro'>
+<div class='container-fluid' id='intro'>
   <div class='row'>
-        <div class='col-sm-6' id='magic'>
-         <img src='img/portfolio/thumbnails/K.png'><br>
-         <p> <b> Katie Jordan </b> <br> </p>
-           <a href='https://www.linkedin.com/in/katie-jordan-2b0b45a8'>linkedin</a>
-   
-          <a href="https://github.com/katyvonkaty">github</a>
-    
-        <a href="https://dribbble.com/kj0203">dribbble</a>
-     
-        <a href="mailto:kj0203@gmail.com"> email </a>
-        </div>
-
+    <div class='row'>
+      <div class='col-sm-4' id='magic2'>
+      <h1> Hi, I'm Katie 👋 </h1>
+      <h4> I’m a product designer, illustrator, dog mom, yoga teacher in training, adjunct lecturer, amateur cook and baker. I have trouble sitting still. </p> <h4>
+      <h4>Currently baking my heart out during this pandemic.  </h4>
+      <p> Stalk me : <a href='https://www.linkedin.com/in/katie-jordan-2b0b45a8' target="_blank">Here</a> </p>
+      <p> Contact me: <a href="mailto:kj0203@gmail.com" target="_blank"> Here </a> </p>
       </div>
-  </div>
-</div>
-
-<div class='container' id='intro'>
-  <div class='row'>
-    <div class='col-sm-4'>
-     <h1> Vanguard </h1>
-     <h5> It's all about the $$$$ </h5>
-
-    </div>
-    <div class='col-sm-8'>
-      <img src='img/portfolio/thumbnails/vanguard.jpg'><br>
+       <div class='col-sm-8' >
+       <img src='img/portfolio/thumbnails/yogi.png'>
+      </div>
     </div>
   </div>
 </div>
 
-<div class='container' id='intro'>
+<div class='container-fluid'>
   <div class='row'>
-    <div class='col-sm-4'>
-     <h1> Online Leasing </h1>
-     <h5> Leasing made easy </h5>
-
+    <div class='col-sm-6' id='yogi'>
+      <img src='img/portfolio/thumbnails/yoga2.png'>
+      
     </div>
-    <div class='col-sm-8'>
-      <img src='img/portfolio/thumbnails/OL.jpg'><br>
-    </div>
-  </div>
-</div>
-
-<div class='container' id='intro'>
-  <div class='row'>
-    <div class='col-sm-4'>
-     <h1> Food For Tomorrow </h1>
-     <h5> A website within a website</h5>
-     
-    </div>
-    <div class='col-sm-8'>
-      <img src='img/portfolio/thumbnails/food.png'><br>
-    </div>
-  </div>
-</div>
-
-<div class='container' id='intro'>
-  <div class='row'>
-    <div class='col-sm-4'>
-     <h1> Livechat </h1>
-     <h5> Lively chatting </h5>
-     
-    </div>
-    <div class='col-sm-8'>
-      <img src='img/portfolio/thumbnails/livechat.jpg'><br>
-    </div>
-  </div>
-</div>
-
-<div class='container' id='intro'>
-  <div class='row'>
-    <div class='col-sm-4'>
-     <h1> Gittle </h1>
-     <h5> Giving a Little</h5>
-     
-    </div>
-    <div class='col-sm-8'>
-      <img src='img/portfolio/thumbnails/gittle.jpg'><br>
-    </div>
+    <div class='col-sm-6' id='food'>
+      <img src='img/portfolio/thumbnails/foods.png'>
+      
   </div>
 </div>
 
