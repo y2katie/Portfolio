@@ -460,7 +460,6 @@ FROM customers
 SELECT COUNT (grade)
 FROM customer
 
-
 SELECT MAX(purch_amt)
 FROM orders
 
@@ -479,5 +478,165 @@ SELECT MAX(purch_amt), ord_date, salesman_id
 FROM orders
 WHERE ord_date = '2012-08-17'
 GROUP BY ord_date, salesman_id
+
+SELECT MAX(purch_amt),ord_date,sales_man_id
+FROM orders
+GROUP BY 2,3
+ORDER BY MAX(purch_amt) DESC
+
+SELECT MAX(purch_amt), customer_id, ord_date
+FROM orders
+GROUP BY 2,3
+HAVING MAX(purch_amt) > 2000 AND MAX(purch_amt) < 6000
+
+SELECT purch_amt, customer_id, ord_date
+FROM orders
+WHERE purch_amt > 2000 AND purch_amt < 6000
+
+SELECT MAX(purch_amt), ord_date, customer_id
+FROM orders
+GROUP BY ord_date, customer_id
+HAVING MAX(purch_amt) IN (2000,3000,5760,6000)
+
+SELECT COUNT(*), ord_date
+FROM orders
+GROUP BY 2
+HAVING ord_date = '2012-08-17'
+
+SELECT COUNT(*)
+FROM salesman
+WHERE city IS NOT NULL
+
+SELECT COUNT(*) AS num_products, pro_price
+FROM item_mast
+GROUP BY 2
+HAVING pro_price > 350
+
+SELECT SUM(dpt_allotment)
+FROM emp_department
+
+SELECT COUNT(*), emp_dept 
+FROM emp_details
+GROUP BY emp_dept
+
+
+practice
+SELECT channel, 
+AVG(num_events)
+FROM
+(SELECT DATE_TRUNC('day', occurred_at) AS num_events,
+channel, COUNT(*) event_count
+FROM web_events
+GROUP BY 1,2) sub
+GROUP BY 1
+
+SubQuery Test
+
+SELECT DATE_TRUNC('day', occurred_at) AS occurred_at,
+channel, COUNT(*) events_per_day
+FROM web_events
+GROUP BY 1,2
+ORDER BY events_per_day DESC
+
+SELECT * 
+FROM
+(SELECT DATE_TRUNC('day', occurred_at) AS occurred_at,
+channel, COUNT(*) events_per_day
+FROM web_events
+GROUP BY 1,2
+ORDER BY events_per_day DESC) sub
+
+
+SELECT AVG(events_per_day),
+channel
+FROM
+(SELECT DATE_TRUNC('day', occurred_at) AS occurred_at,
+channel, COUNT(*) events_per_day
+FROM web_events
+GROUP BY 1,2
+ORDER BY events_per_day DESC) sub
+GROUP BY 2
+
+
+
+SELECT MIN(occurred_at) as MIN
+FROM orders
+
+SELECT DATE_TRUNC('month',MIN(occurred_at) as MIN
+FROM orders
+
+SELECT *
+FROM orders
+WHERE DATE_TRUNC('month', occurred_at) = 
+(SELECT DATE_TRUNC('month',MIN(occurred_at)) as min_month
+FROM orders)
+ORDER BY occurred_at
+
+SELECT AVG(gloss_qty),
+       AVG(standard_qty),
+       AVG(poster_qty)
+FROM ORDERS 
+WHERE DATE_TRUNC('year', occurred_at) =
+(SELECT DATE_TRUNC('month', MIN(occurred_at))
+FROM orders
+  ORDER BY 1) sub
+  ORDER BY 1,2,3
+
+
+1
+SELECT  reg_name, MAX(total)
+selecting the unique region name and maximum total of sales from info below
+FROM (
+in this query ive already compiled all the data and its ripe for the sub query picking 
+SELECT region.name reg_name,sales_reps.name rep_name, SUM(total_amt_usd) total
+FROM region
+JOIN sales_reps
+ON sales_reps.region_id = region.id
+JOIN accounts 
+ON sales_reps.id = accounts.sales_rep_id
+JOIN orders
+ON accounts.id = orders.account_id
+  GROUP BY 1,2
+ORDER BY total DESC ) t1
+GROUP BY 1
+
+2
+SELECT SUM(orders.total_amt_usd) amt_usd, region.name region_name, COUNT(*) all_orders
+FROM orders
+JOIN accounts
+ON orders.account_id = accounts.id
+JOIN sales_reps 
+ON accounts.sales_rep_id = sales_reps.id
+JOIN region 
+ON sales_reps.region_id = region.id
+GROUP BY 2
+
+3
+
+
+4
+SELECT channel, COUNT(*) amt_of_events
+FROM web_events
+(SELECT MAX(total_amt_usd), id
+  FROM orders
+  GROUP BY 2 ) sub
+GROUP BY 1
+
+5
+
+SELECT accounts.name, orders.total_amt_usd
+FROM accounts
+JOIN orders
+ON accounts.id = orders.account_id
+GROUP BY 1,2
+LIMIT 10
+
+
+SELECT player_name,
+       year,
+       CASE WHEN state = 'CA' THEN 'yes'
+            ELSE 'no' END AS is_a_senior
+  FROM benn.college_football_players
+  ORDER BY state = 'CA' DESC
 
 
