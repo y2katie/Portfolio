@@ -635,8 +635,305 @@ LIMIT 10
 SELECT player_name,
        year,
        CASE WHEN state = 'CA' THEN 'yes'
-            ELSE 'no' END AS is_a_senior
+            ELSE 'NULL' END AS is_a_senior
   FROM benn.college_football_players
   ORDER BY state = 'CA' DESC
 
+  SELECT player_name,
+         weight,
+  CASE WHEN weight > 250 THEN 'nice'
+          WHEN weight >250 AND weight <=250 THEN
+          WHEN weight > 150 AND weight <= 90 THEN
+          ELSE '175 or under' END AS weight_group
+  FROM football_players
 
+SELECT *,
+CASE WHEN year IN ('SR','JR') THEN player_name
+      ELSE NULL END as new_column
+FROM benn.college_football_players
+
+
+
+SELECT CASE WHEN year = 'FR' THEN 'FR'
+            ELSE 'or not' END AS year_group
+            FROM __
+            GROUP BY CASE WHEN year = 'FR' THEN 'FR'
+            ELSE 'or not' END
+
+SELECT 
+    CASE WHEN  state IN ('CA', 'OR', 'WA') THEN 'West Coast'  
+    WHEN state IN ('TX') THEN 'Texas'
+    ELSE 'Everywhere else' END AS States_Weight,
+    COUNT(*) AS players
+FROM benn.college_football_players
+WHERE weight >=300
+GROUP BY 1
+
+
+SELECT 
+      CASE WHEN  year IN ('FR','SO') THEN 'freshies' 
+      ELSE 'elders' END AS new_table,
+      SUM(weight)
+FROM benn.college_football_players
+WHERE state ='CA'
+GROUP BY 1
+
+WITH table1 AS (
+    SELECT *
+    FROM web_events), // new table selecting all from web events
+    
+    table2 AS (
+      SELECT *
+      FROM accounts) // new table selecting all from accounts
+
+SELECT *
+FROM table1
+JOIN table2
+ON table1.account_id1 = table2.id // joining table on PK and FK
+
+
+Provide the name of the sales_rep in each region with the largest amount of total_amt_usd sales.
+
+WITH t1 AS (
+  SELECT s.name rep_name, r.name region_name, SUM(o.total_amt_usd) AS total 
+  FROM orders o
+  JOIN accounts 
+  ON o.account_id = accounts.id
+  JOIN sales_reps s
+  ON accounts.sales_rep_id = s.id
+  JOIN region r
+  ON s.region_id = r.id
+  GROUP BY 1,2
+  ) ,
+  
+t2 AS (
+  SELECT region_name,  MAX(total) AS total
+  FROM t1
+  GROUP BY 1
+) 
+
+SELECT t1.rep_name, t1.region_name, t1.total
+FROM t1
+JOIN t2
+ON t1.region_name = t2.region_name AND t1.total = t2.total
+
+
+For the region with the largest sales total_amt_usd, how many total orders were placed?
+
+WITH table1 AS (
+      SELECT total_amt_usd 
+      FROM orders),
+
+      table2 AS (
+      SELECT name
+      FROM region)
+
+SELECT COUNT(*), table1, table2
+FROM table1
+JOIN accounts
+ON table1.account_id = accounts.id
+JOIN sales_reps 
+ON accounts.sales_rep_id = sales_reps.id
+JOIN table2
+ON = table2.id = sales_reps.region_id
+GROUP BY 2,3
+
+How many accounts had more total purchases than the account name which has bought the most standard_qty paper throughout their lifetime as a customer?
+
+WITH table1 AS (
+      SELECT SUM(o.total_amt_usd) AS total, a.name      AS brand, r.name region_name
+      FROM orders o
+      JOIN accounts a
+ON o.account_id = a.id
+JOIN sales_reps s
+ON a.sales_rep_id = s.id 
+JOIN region r
+ON s.region_id = r.id
+GROUP BY 2,3 )
+
+SELECT MAX(total), region_name
+FROM table1
+GROUP BY 2
+
+
+
+For the customer that spent the most (in total over their lifetime as a customer) total_amt_usd, how many web_events did they have for each channel?
+
+WITH table1 AS (
+    SELECT name
+    FROM accounts),
+
+ table2 AS (
+    SELECT total_amt_usd
+    FROM orders),
+
+ table3 AS (
+    SELECT channel
+    FROM web_events)
+
+SELECT MAX(table2), table1, COUNT(*)
+FROM table1
+JOIN table2
+ON table2.account_id = table1.id
+JOIN table3
+ON table3.account_id = table1.id
+
+What is the lifetime average amount spent in terms of total_amt_usd for the top 10 total spending accounts?
+
+SUM(orders.total_amt_usd) AS total
+WITH table1 AS (
+    SELECT name
+    FROM accounts),
+
+ table2 AS (
+    SELECT total_amt_usd
+    FROM orders),
+
+SELECT SUM(orders.total_amt_usd) AS total,
+accounts.name 
+FROM table1
+JOIN table2
+ON orders.account_id = accounts.salesman_id
+ORDER BY total DESC
+LIMIT 10
+
+OR
+
+SELECT SUM(orders.total_amt_usd) AS total,
+accounts.name 
+FROM orders
+JOIN accounts
+ON orders.account_id = accounts.id
+GROUP BY 2
+ORDER BY total DESC
+LIMIT 10
+
+What is the lifetime average amount spent in terms of total_amt_usd, including only the companies that spent more per order, on average, than the average of all orders.
+
+
+WITH table1 AS (
+    SELECT name
+    FROM accounts),
+
+ table2 AS (
+    SELECT SUM(total_amt_usd)
+    FROM orders),
+
+SELECT AVG(table2) AS total,
+accounts.name 
+FROM table1
+JOIN table2
+ON orders.account_id = accounts.salesman_id
+ORDER BY total DESC
+LIMIT 10
+
+
+SELECT RIGHT(website,3) AS digits , COUNT(*)
+FROM accounts
+GROUP BY 1
+
+SELECT LEFT(name,1) AS name, COUNT(*) AS total
+FROM accounts
+GROUP BY 1
+ORDER BY total DESC 
+
+
+SELECT COUNT(*), name,
+CASE WHEN LEFT(NAME,1) LIKE '#'THEN 'number'
+   ELSE 'letter'  END AS amt
+ FROM accounts
+ GROUP BY 2
+
+SELECT COUNT(*), name,
+CASE WHEN LEFT(NAME,1) LIKE '[1-9]%'THEN 'number'
+   ELSE 'letter'  END AS amt
+ FROM accounts
+ GROUP BY 2
+
+ SELECT COUNT(*), name,
+CASE WHEN LEFT(name,1) LIKE '[AEIOU]%' THEN 'vowel'
+   END AS amt
+ FROM accounts
+ GROUP BY 2
+
+To reference alphabet
+'[a-z]%'
+
+SELECT SUM(num) AS nums, SUM(letter) AS letters //creating new columns
+FROM (
+  SELECT name, CASE WHEN LEFT(name,1) IN ('0','1','2','3','4','5','6','7','8','9') THEN 1
+  ELSE 0 END AS num, 
+  CASE WHEN LEFT(name,1) IN ('0','1','2','3','4','5','6','7','8','9') THEN 0
+  ELSE 1 END AS letter
+  // very clever trick to go through the numbers and if not there give it a +1 and letters
+  if it is there give it a +1 and add to numbers
+  then tally up numbers and letters based off logic
+  FROM accounts
+  ) t1
+ 
+
+   SELECT SUM(pro_vowel) AS pro_vowel, SUM(anti_vowel) AS anti_vowel
+  FROM (
+  SELECT name, CASE WHEN LEFT(name,1) IN ('A','E','I','O','U') THEN 1
+  ELSE 0 END AS pro_vowel, 
+  CASE WHEN LEFT(name,1) IN ('A','E','I','O','U') THEN 0
+  ELSE 1 END AS anti_vowel
+  FROM accounts
+  ) t1
+
+
+  1)
+
+SELECT first_name, last_name // outer query selecting first and last name
+FROM employees
+WHERE salary > 
+(SELECT salary
+FROM employees
+WHERE employee_id = 163 )  // inner query establish ammount of money employee 163 makes
+
+
+2)
+SELECT first_name, last_name, salary, department_id, job_id
+FROM employees
+WHERE department_id = //outer query saying to grab the following select criteria from the table below that = the department id above
+(SELECT department_id
+FROM employees
+WHERE employee_id = 169) // inner query grabbing department id associated with employee id
+
+3) 
+SELECT first_name, last_name, salary, department_id
+FROM employees
+WHERE salary > 
+( SELECT MIN(salary)
+FROM employees
+)
+GROUP BY 1,2,3
+ORDER BY 3 
+
+4)
+SELECT employee_id, first_name, last_name
+FROM employees
+WHERE salary > 
+( SELECT AVG(salary)
+FROM employees
+)
+GROUP BY 1,2,3
+ORDER BY 3 
+
+
+5) 
+SELECT first_name, last_name, employee_id, salary
+FROM employees
+WHERE manager_id = 
+(
+SELECT employee_id
+FROM employees
+WHERE first_name = 'Payam')
+
+6)
+
+SELECT d.department_name, e.first_name, e.employee_id, e.last_name
+FROM departments d, employees  e
+WHERE d.department_id = e.department_id 
+AND d.department_name = 'Finance'
+ ^^ very cool way to join tables in the FROM statement
