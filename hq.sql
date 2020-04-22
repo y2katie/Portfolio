@@ -937,3 +937,286 @@ FROM departments d, employees  e
 WHERE d.department_id = e.department_id 
 AND d.department_name = 'Finance'
  ^^ very cool way to join tables in the FROM statement
+
+ SELECT city_state
+ POSITION(',' IN city_state) AS comma, // places what youre looking for first
+ STRPOS(city_state, ',') AS substring, // places strin first then substring or what youre looking for
+
+STRPOS and POSITION are case sensitive so A is different than a
+ LOWER(city_state),
+ UPPER(city_state)
+ LEFT(city_state, POSITION(',' IN city_state)) AS comma,
+ FROM data
+
+
+SELECT primary_poc,
+LEFT(primary_poc, POSITION(' ' IN primary_poc)) as first_name,
+RIGHT (primary_poc, POSITION (' ' IN primary_poc)) as last_name
+FROM accounts
+
+SELECT name,
+LEFT(name, POSITION(' ' IN name)) as first_name,
+RIGHT(name, POSITION(' ' IN name)) as last_name
+FROM sales_reps
+
+SELECT LEFT(primary_poc, STRPOS(primary_poc, ' ') -1) 
+// selecting to the left of the primary poc from the space minus 1 character
+RIGHT(primary_poc, LENGTH(primary_poc) - STRPOS(primary_poc, ' ')) as last_name
+// taking from the right of the primary poc after the space calculating the length of that string and subtracting the string position of the space in the primary poc
+FROM accounts
+
+SELECT name,
+LEFT (name, position(' ' IN name)) as first_name,
+RIGHT (name, LENGTH(name) - position(' ' IN name)) last_name
+FROM sales_reps
+
+SELECT first_name, last_name,
+CONCAT(first_name, ' ', last_name) AS fullname // creates a new column called fullname with 'Katie Jordan'
+FROM
+names
+
+Each company in the accounts table wants to create an email address for each primary_poc. The email address should be the first name of the primary_poc . last name primary_poc @ company name .com.
+
+SELECT name,
+LEFT(primary_poc, position(' ' IN primary_poc)) AS first_name,
+RIGHT(primary_poc, LENGTH(primary_poc) - position(' ' IN primary_poc)) AS last_name,
+CONCAT(first_name, '.' , last_name ,'@', name, '.com') AS new_name
+FROM accounts
+
+WITH t1 AS (
+  SELECT LEFT(primary_poc, POSITION(' 'IN primary_poc)) first_name,
+ RIGHT(primary_poc, LENGTH(primary_poc) - POSITION(' ' IN primary_poc)) last_name,
+ name
+ FROM accounts )
+SELECT first_name, last_name, CONCAT(first_name, '.', last_name, '@', name, '.com') AS new_name
+FROM t1;
+
+WITH t1 AS (
+ SELECT LEFT(primary_poc,     STRPOS(primary_poc, ' ') -1 ) first_name,  RIGHT(primary_poc, LENGTH(primary_poc) - STRPOS(primary_poc, ' ')) last_name, name
+ FROM accounts)
+SELECT first_name, last_name, CONCAT(first_name, '.', last_name, '@', name, '.com')
+FROM t1;
+
+
+SELECT REPLACE (name, ' ','')
+FROM sales_reps // removes extra space
+
+-- We would also like to create an initial password, which they will change after their first log in. The first password will be the first letter of the primary_poc's first name (lowercase), then the last letter of their first name (lowercase), the first letter of their last name (lowercase), the last letter of their last name (lowercase), the number of letters in their first name, the number of letters in their last name, and then the name of the company they are working with, all capitalized with no spaces.
+
+WITH t1 AS (
+  SELECT LEFT(primary_poc,     STRPOS(primary_poc, ' ') -1 ) first_name,  
+  RIGHT(primary_poc, LENGTH(primary_poc) - STRPOS(primary_poc, ' ')) last_name,
+  primary_poc,
+  LENGTH(first_name),
+  LENGTH(last_name),
+  name
+FROM accounts)
+
+
+
+WITH t1 AS (SELECT LEFT(primary_poc,     STRPOS(primary_poc, ' ') -1 ) first_name,  RIGHT(primary_poc, LENGTH(primary_poc) - STRPOS(primary_poc, ' ')) last_name,
+            primary_poc,name
+FROM accounts),
+
+WITH t2 AS (
+  SELECT LEFT(first_name,1) AS first_letter,
+  RIGHT(first_name,1) AS last_letter,
+  LEFT(last_name,1) AS lastname_letter,
+  RIGHT(last_name,1) as lastnamelast_letter,
+  LENGTH(first_name) first_name_length,
+  LENGTH(last_name)last_name_length,
+  name,
+  primary_poc,
+  LOWER(first_letter), LOWER(last_name)
+  FROM accounts,t1
+)
+
+SELECT CONCAT(first_letter + last_letter)
+FROM t1,t2
+
+SELECT LEFT(first_name,1) AS first_letter,
+RIGHT(first_name,1) AS last_letter,
+LEFT(last_name,1) AS lastname_letter,
+RIGHT(last_name,1) as lastnamelast_letter,
+LENGTH(first_name) first_name_length,
+LENGTH(last_name)last_name_length,
+name,
+primary_poc,
+LOWER(first_letter), LOWER(last_name)
+  
+FROM t1
+//pick up here
+
+break them into first and last names
+then take the 1st letter off the first name
+last letter off the last
+SELECT RIGHT(primary_poc,1) AS last_letter of last name
+
+Cast
+
+SELECT DATE_PART('month', TO_DATE(month, 'month')) AS clean_month, //converting 'January to 1' //
+year || '-' || DATE_PART('month', TO_DATE(month,'month')) || day AS concatenated_date,
+CAST(year || '-' || DATE_PART('month', TO_DATE(month,'month')) || '-' day AS date)
+
+OR shorthand
+(year || '-' || DATE_PART('month', TO_DATE(month,'month')) || '-' day)::date AS formatted_date
+FROM 
+
+Cast is very useful for turning strings into numbers or dates
+
+dates are yyyy-mm-dd
+
+
+SELECT * 
+FROM sf_crime_data
+LIMIT 10
+
+SELECT substring('sql tutorial', 1, 3) AS exactstring
+FROM accounts
+
+returns SQL
+
+put year first
+then montht
+then day 
+as new_date
+
+WITH t1 AS (SELECT date,SUBSTRING(date, 1,2) as month,
+SUBSTRING(date, 4,2) as day,
+SUBSTRING(date,7,4) as years
+FROM sf_crime_data
+LIMIT 10)
+SELECT years,month,day,
+years || '-' || month || '-' || day AS new_Date
+FROM t1
+
+SELECT date orig_date, (SUBSTR(date, 7, 4) || '-' || LEFT(date, 2) || '-' || SUBSTR(date, 4, 2)) new_date
+FROM sf_crime_data;
+
+SELECT date AS original_date
+
+WITH t1 AS (SELECT date,SUBSTRING(date, 1,2) as month,
+SUBSTRING(date, 4,2) as day,
+SUBSTRING(date,7,4) as years,
+            date
+FROM sf_crime_data
+LIMIT 10)
+SELECT years,month,day,date
+(years || '-' || month || '-' || day)::date AS new_Date
+FROM t1
+
+SUBSTRING(date,1,2) || '-' || SUBSTRING(date(4,2)
+
+ 
+
+  SELECT COUNT(primary_poc) AS reg,
+  COUNT(COALESCE(primary_poc, 'NO POC')) AS primary_poc_modified
+  FROM accounts
+
+  COALESCE - returns the first non null value in a list
+
+ SELECT * 
+  FROM accounts
+
+
+SELECT date orig_date, (SUBSTR(date, 7, 4) || '-' || LEFT(date, 2) || '-' || 
+  SUBSTR(date, 4, 2))::DATE new_date
+FROM sf_crime_data;
+
+SELECT COALESCE(a.id, a.id) filled_id,a.id, a.name, a.website, a.lat, a.long, a.primary_poc  COALESCE(o.account_id, a.id) account_id, a.id, o.id,o.account_id o.occurred_at, o.standard_qty, o.gloss_qty, o.poster_qty, o.total, o.standard_amt_usd, o.gloss_amt_usd, o.poster_amt_usd, o.total_amt_usd
+FROM accounts a
+LEFT JOIN orders o
+ON a.id = o.account_id
+WHERE o.total IS NULL;
+
+SELECT COALESCE(a.id,a.id) modified_id, a.id, a.name, a.website,a.lat, a.long, a.primary_poc COALESCE(o.account_id, a.id) as modified, a.id, o.id, o.account_id, o.occurred_at, o.standard_qty
+FROM accounts a
+LEFT JOIN orders o
+ON a.id = o.account_id
+WHERE o.total IS NULL;
+
+Case
+SELECT id,name,department_name
+FROM student s
+JOIN department d
+ON s.dept_id = cast(d.dept_id as smallint) // changing the dept id which is text to a small int so that it matches the dept_id
+
+Hello, replace statement
+SELECT upper(replace(dept_name, 'Information Technology', 'IT')) as dept_cleaned,
+COUNT(dept_name) as student_count
+FROM student_details
+GROUP BY 1
+
+Cleaning Data Notes
+LEFT(string, number of characters)
+Inner most functions will be evaluated first
+
+TRIM function
+takes 3 arguments, leading, trailing, ending
+TRIM(both '()' FROM location)
+
+
+WITH t1 AS (SELECT location, 
+ LEFT(location, position (',' IN location) -1) as new_lat, 
+ RIGHT(location, LENGTH(location) - position (',' IN location)) as new_long
+ FROM tutorial.sf_crime_incidents_2014_01)
+SELECT REPLACE(new_lat, '(', ''), REPLACE(new_long, ')', ''), location
+FROM t1
+ LIMIT 10
+ 
+Trim is an effective way to cut '(', ')' Too
+SELECT location,
+TRIM(leading '(' FROM LEFT(location, POSITION(',' IN location) -1)) AS lattitude,
+TRIM(trailing ')' FROM RIGHT (location, LENGTH(location) - POSITION(',' IN location))) AS long
+  FROM tutorial.sf_crime_incidents_2014_01
+ 
+
+SELECT SUBSTRING(date,1,2) || '-' || SUBSTRING(date,4,2) || '-' || SUBSTRING (date, 7,4) AS new_col
+FROM tutorial.sf_crime_incidents_2014_01
+LIMIT 4
+
+SELECT UPPER(LEFT(category,1)) || LOWER(SUBSTRING(category,2,50)), category
+FROM tutorial.sf_crime_incidents_2014_01
+LIMIT 4
+
+
+SELECT category, UPPER(LEFT(category,1)) || LOWER(RIGHT(category, LENGTH(category) - 1))
+FROM tutorial.sf_crime_incidents_2014_01
+LIMIT 4
+
+Subqueries -
+Inner query must run on its own, once the inner query runs, the outer query will run using resuls from the inner query as its table
+
+SELECT LEFT(sub.date, 2) AS cleaned_month, //grabs the month
+       sub.day_of_week, //grabs day of week from below table
+       AVG(sub.incidents) AS average_incidents //average incidents from below table
+  FROM (
+
+SELECT day_of_week,
+               date,
+               COUNT(incidnt_num) AS incidents
+          FROM tutorial.sf_crime_incidents_2014_01
+         GROUP BY 1,2
+         ) sub
+         
+         GROUP BY 1,2
+         ORDER BY 1
+
+         SELECT AVG(incidents) AS avg_incidents, LEFT(sub.date,2) AS month, COUNT(sub.category)
+FROM 
+     (SELECT category, COUNT(incidnt_num) AS incidents, date
+     FROM tutorial.sf_crime_incidents_cleandate
+     GROUP BY 1,3) sub
+GROUP BY 2
+ORDER BY month
+
+SELECT AVG(sub.incidents), sub.category
+FROM
+(SELECT EXTRACT(month FROM cleaned_date) AS cleaned_month,category, COUNT(category) as incidents
+FROM tutorial.sf_crime_incidents_cleandate
+GROUP BY 1,2) sub
+GROUP BY 2
+ORDER BY 2
+  
+
+
