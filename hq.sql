@@ -882,7 +882,30 @@ FROM (
   ) t1
 
 
-  1)
+ SELECT primary_poc,
+LEFT(primary_poc, POSITION (' ' IN primary_poc)) || '.' || RIGHT( primary_poc, LENGTH(primary_poc) - POSITION (' ' IN primary_poc)) || '@' || RIGHT(website,3) AS new_column 
+FROM accounts
+
+
+SELECT primary_poc,
+LEFT(primary_poc, POSITION (' ' IN primary_poc) -1) || '.' || RIGHT( primary_poc, LENGTH(primary_poc) - POSITION (' ' IN primary_poc)) || '@' || RIGHT(website,3) AS new_column 
+FROM accounts
+
+
+SELECT *,
+DATE_PART('month', TO_DATE(month,'month')) as clean_month,
+CAST(year || DATE_PART('month', TO_DATE(month,'month')) || day AS date ) AS formatted_date or
+(year || DATE_PART('month', TO_DATE(month,'month')) || day AS date ) ::date AS formatted_date
+
+SELECT date, (SUBSTRING(DATE,7,4) || '-' ||
+SUBSTRING(date,1,2) || '-' || SUBSTRING(date,4,2)) :: date AS new_date
+FROM sf_crime_data
+LIMIT 10
+
+SELECT COUNT(primary_poc) reg_Count,
+COUNT(COALESCE(primary_poc, 'No Poc')) new_count,
+
+
 
 SELECT first_name, last_name // outer query selecting first and last name
 FROM employees
@@ -1217,6 +1240,191 @@ FROM tutorial.sf_crime_incidents_cleandate
 GROUP BY 1,2) sub
 GROUP BY 2
 ORDER BY 2
-  
+
+    
+SELECT incidents.*, sub.count AS total_incidents
+FROM tutorial.sf_crime_incidents_2014_01 AS incidents
+JOIN
+(SELECT category,COUNT(category)
+FROM tutorial.sf_crime_incidents_2014_01
+GROUP BY 1
+ORDER BY 2
+LIMIT 3) AS sub
+ON incidents.category = sub.category
+LIMIT 3
 
 
+Window functions
+
+SELECT standard_qty,
+DATE_TRUNC('month', occured_at) AS month,
+SUM(standard_qty) OVER (PARTITION BY DATE_TRUNC('month', occured_at) ORDER BY occurred_at) AS running_total
+FROM orders
+
+SELECT standard_qty, SUM(standard_qty) OVER (ORDER BY occurred_at) AS running_total
+
+SELECT standard_amt_usd, 
+DATE_TRUNC('year', occurred_at) AS clean_year,
+SUM(standard_amt_usd) OVER (PARTITION BY DATE_TRUNC('year', occurred_at) ORDER BY occurred_at) AS running_total
+FROM orders
+
+SELECT id, account_id,
+occured_at,
+ROW_NUMBER() OVER(PARTITION BY account_id ORDER BY occurred_at) AS row_num
+
+// row gives different n
+
+DATE_TRUNC('month', occurred_at) as month,
+RANK() OVER (PARTITION BY DATE_TRUNC('month', occurred_at) ORDER BY occurred_at) AS row_num
+
+dense rank accounts for all rows
+
+SELECT id, account_id, total,
+RANK() OVER (PARTITION BY account_id ORDER BY total DESC) AS total_rank
+FROM orders 
+// ranking account id with most orders (total)
+
+The order by clause is one of 2 clauses integral to window functions. The order and partition refer to what is defined as 'the window' - the ordered subset of data the calculations are made. Removing order by just leaves an unordered partition.
+
+Leaving the order by out is equivalent to  'ordering' in a way that all rows in the partition are 'equal' to each other. You can get the same effect by adding the order by clause like this: 'order by 0' or 'order by null'
+
+SELECT id, account_id, standard_qty
+SUM(standard_qty) OVER main_window AS standard_qty,
+MIN(standard_qty) OVER main_window AS min_quantity
+FROM orders
+WINDOW main_window AS (PARTITION BY account_id ORDER BY DATE_TRUNC('month', occurred_at))
+
+
+SELECT id,
+       account_id,
+       DATE_TRUNC('year',occurred_at) AS year,
+       DENSE_RANK() OVER main_window AS dense_rank,
+       total_amt_usd,
+       SUM(total_amt_usd) OVER main_window AS sum_total_amt_usd,
+       COUNT(total_amt_usd) OVER main_window AS count_total_amt_usd,
+       AVG(total_amt_usd) OVER main_window AS avg_total_amt_usd,
+       MIN(total_amt_usd) OVER main_window AS min_total_amt_usd,
+       MAX(total_amt_usd) OVER main_window AS max_total_amt_usd
+FROM orders
+WINDOW main_window AS (PARTITION BY account_id ORDER BY DATE_TRUNC ('year', occurred_at)) 
+
+WINDOW window_name
+/ replace partition by with window_name everywhere
+
+SELECT account_id, standard_sum,
+LAG(standard_sum) OVER (ORDER BY standard_sum) AS lag
+LEAD(standard_sum) OVER (ORDER BY standard_sum) AS lead 
+standard_sum - LAG(standard_sum) OVER (ORDER BY standard_sum) AS lag_difference
+LEAD(standard_sum) OVER (ORDER BY standard_sum) AS lead_difference
+FROM (
+SELECT account_id,
+SUM(standard_qty) AS standard_num
+FROM orders
+ORDER BY 1
+)sub
+
+// lag starts at null because there are no previous rows to pull. pull sfrom the column before
+// lag is pulling the previous row from standard_sum
+
+LAG 
+
+SELECT account_id,
+standard_sum,
+LAG(standard_sum) OVER (ORDER BY standard_sum) AS lag
+standard_sum - LAG(standard_sum) OVER (ORDER BY standard_sum) as lag_diff
+
+// lag difference is pulling the difference between standard sum & lag
+so if the standard_sum is 0 and the lag is 79 the lag_diff is 79
+
+LEAD
+// lead return the value from the following row
+
+LEAD(standard_sum) OVER (ORDER BY standard_sum) AS lead
+if the standard sum is 0 in the first row but 79 in the second row than the lead is 79, if the second row is 79 and the third row is 102 the lead is 102
+LEAD(standard_sum) OVER (ORDER BY standard_sum) - standard_sum AS lead_diff
+
+if the standard sum is 0 in the first row but 79 in the second row than the lead is 79, if the second row is 79 and the third row is 102 the lead is 102
+
+if the started sum is 0 in the first row but 79 in the second row the LEAD and LEAD DIFF are 79, if the second row is 102 the lead difference is 23 because 102-79
+
+Lag and lead are ideal for comparing adjacents rows or rows that are offset by a certain number
+
+
+SELECT occurred_at,
+       total_sales_usd,
+       LEAD(totalsales_sum) OVER (ORDER BY totalsales_sum) AS lead,
+       LEAD(totalsales_sum) OVER (ORDER BY totalsales_sum) - totalsales_sum AS lead_difference
+FROM (
+SELECT occurred_at,
+       SUM(total_sales_usd) AS totalsales_sum
+  FROM orders 
+ GROUP BY 1
+ ) sub
+
+
+SELECT id, account_id, occurred_at, standard_qty
+NTILE(5) OVER (ORDER BY standard_qty)
+FROM orders
+ORDER BY standard_qty DESC
+
+SELECT account_id, occurred_at, standard_qty
+NTILE(4) OVER (ORDER BY standard_qty) AS standard_quartile
+FROM orders
+ORDER BY standard_qty DESC
+
+
+1)
+SELECT account_id, occurred_at, standard_qty,
+NTILE(4) OVER (ORDER BY standard_qty) AS standard_quartile
+FROM orders
+ORDER BY standard_qty DESC
+
+SELECT account_id,
+occurred_at,
+standard_qty,
+NTILE(4) OVER (PARTITION BY account_id ORDER BY standard_qty) AS standard_quartile
+FROM orders
+
+
+2)SELECT account_id, occurred_at,gloss_amt_usd
+  SUM(gloss_amt_usd), 
+  NTILE(2) OVER PARTIT(ORDER BY gloss_amt_usd) AS gloss_half
+FROM orders
+GROUP BY 1,2,3
+
+SELECT account_id, 
+occurred_at, 
+gloss_qty,
+NTILE(2) OVER (PARTITION BY account_id ORDER BY gloss_qty) AS gloss_percentile
+FROM orders
+ORDER BY 1 desc
+
+3)
+SELECT total_amt_usd, account_id, occurred_at,
+SUM(total_amt_usd),
+NTILE(100) OVER (ORDER BY total_amt_usd) AS total_percentile
+FROM orders
+
+SELECT total_amt_usd, account_id, occurred_at,
+SUM(total_amt_usd),
+NTILE(100) OVER (PARTITION BY account_id ORDER BY total_amt_usd) AS total_percentile
+FROM orders
+
+
+
+SELECT account_id, standard_sum,
+LAG(standard_sum) OVER (ORDER BY standard_sum) AS lag
+LEAD(standard_sum) OVER (ORDER BY standard_sum) AS lead 
+standard_sum - LAG(standard_sum) OVER (ORDER BY standard_sum) AS lag_difference
+LEAD(standard_sum) OVER (ORDER BY standard_sum) AS lead_difference
+FROM (
+SELECT account_id,
+SUM(standard_qty) AS standard_num
+FROM orders
+ORDER BY 1
+)sub
+
+SELECT COUNT(*), name,
+CASE WHEN LEFT(name,1) LIKE '[A-Z]%' THEN 'letter' ELSE 'number' END as letter_or_number
+FROM accounts
+GROUP BY 2

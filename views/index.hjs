@@ -49,8 +49,8 @@
     <div class='row'>
       <div class='col-sm-4' id='magic2'>
       <h1> Hi, I'm Katie 👋 </h1>
-      <h4> I’m a product designer, illustrator, dog mom, yoga teacher in training, adjunct lecturer, amateur cook and baker. I have trouble sitting still. </p> <h4>
-      <h4>Currently baking my heart out during this pandemic.  </h4>
+      <p> I’m a designer, developer, illustrator, dog mom, yoga teacher in training, adjunct lecturer at FIT, baker, cook and about a zillion other things.<br>
+      <p>Currently baking my heart out during this pandemic.  </p>
       <p> Stalk me : <a href='https://www.linkedin.com/in/katie-jordan-2b0b45a8' target="_blank">Here</a> </p>
       <p> Contact me: <a href="mailto:kj0203@gmail.com" target="_blank"> Here </a> </p>
       </div>
@@ -61,17 +61,36 @@
   </div>
 </div>
 
-<div class='container-fluid'>
+<div class='container-fluid' id='first'>
   <div class='row'>
+    <a href='http://teddysbakery.herokuapp.com/'>
     <div class='col-sm-6' id='yogi'>
-      <img src='img/portfolio/thumbnails/yoga2.png'>
+      <h3> Teddy's Bakery </h3>
+      <img src='img/portfolio/thumbnails/fucker.png'>
+    </a>
+  </div>
+
+    <a href='http://nestioapartments.nestiosite.com/'>
+    <div class='col-sm-6' id='food'>
+      <h3> Monterey Pines </h3>
+      <img src='img/portfolio/thumbnails/fuck.png'>
+    </a>
+    </div>
+</div>
+</div>
+
+<div class='container-fluid' id='first'>
+  <div class='row'>
+    <a href=''> <div class='col-sm-8 col-sm-offset-2' id='yogi2'>
+      <h3> Illustrations </h3>
+      <img src='img/portfolio/thumbnails/illos.png'>
+    </a>
       
     </div>
-    <div class='col-sm-6' id='food'>
-      <img src='img/portfolio/thumbnails/foods.png'>
-      
+    
   </div>
 </div>
+
 
 </html>
 

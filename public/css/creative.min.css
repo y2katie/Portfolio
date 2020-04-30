@@ -15,6 +15,19 @@
   margin-bottom: 10px;
 }
 
+p{
+  font-family:'Roboto' !important;
+}
+
+#first h3 {
+  text-align:center;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+#first {
+  background-color:#fae2f2;
+}
+
 .container .text{
   color: 'white';
   text-align: center;
@@ -57,7 +70,7 @@
 }
 
 
-a {
+#intro a {
   color: #4B52FA !important;
   text-decoration: underline !important;
 }
@@ -109,8 +122,13 @@ h5 {
   font-family:400 !important;
 }
 
+a {color:black;}
 
-a{
+a:hover{
+  color:#e34662;
+}
+
+#intro a{
   color:#ffeb3b !important;
 }
 
@@ -134,21 +152,31 @@ a{
 }
 
 #food {
-  background-color:#FBE0D4;
-  height:450px;
+  background-color:#4ca877;
+  padding:20px;
 }
 
 #food img {
   margin-top:30px;
+  margin:0 auto;
+  width:80%;
+  display: block;
 }
 
 #yogi img {
   margin-top:30px;
+   margin:0 auto;
+  width:80%;
+  display: block;
 }
 
 #yogi {
-  background-color: #FEE1F2;
-  height:450px;
+  background-color: #FCD300;
+  padding:20px;
+}
+
+#yogi2 {
+  background-color: #fae1f2;
 }
 
 .navbar-header p {
