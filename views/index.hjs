@@ -79,6 +79,17 @@
 </div>
 </div>
 
+
+<div class='container-fluid' id='first'>
+  <div class='row'>
+    <a href=''> <div class='col-sm-8 col-sm-offset-2' id='yogi2'>
+      <h3> Illustrations </h3>
+      <img src='img/portfolio/thumbnails/illos.png'>
+    </a>
+    </div>
+  </div>
+</div>
+
 <div class='container-fluid' id='first'>
   <div class='row'>
 
@@ -96,22 +107,6 @@
     </a>
   </div>
 
-  
-</div>
-</div>
-
-
-<div class='container-fluid' id='first'>
-  <div class='row'>
-    <a href=''> <div class='col-sm-8 col-sm-offset-2' id='yogi2'>
-      <h3> Illustrations </h3>
-      <img src='img/portfolio/thumbnails/illos.png'>
-    </a>
-      
-    </div>
-    
-  </div>
-</div>
 
 
 </html>
