@@ -94,19 +94,19 @@
   <div class='row'>
 
      <a href='http://nestioapartments.nestiosite.com/'>
-    <div class='col-sm-6' id='food'>
-      <h3> Monterey Pines </h3>
-      <img src='img/portfolio/thumbnails/fuck.png'>
+    <div class='col-sm-6' id='food3'>
+      <h3> Teddy's Store Front </h3>
+      <img src='img/portfolio/thumbnails/background.png'>
     </a>
     </div>
     
     <a href='http://teddysbakery.herokuapp.com/'>
-    <div class='col-sm-6' id='yogi'>
-      <h3> Teddy's Bakery </h3>
-      <img src='img/portfolio/thumbnails/fucker.png'>
+    <div class='col-sm-6' id='yogi3'>
+      <h3> Teddy's Menu </h3>
+      <img src='img/portfolio/thumbnails/menuu.jpg'>
     </a>
-  </div> -->
-
+  </div>
+ -->
 
 
 </html>
