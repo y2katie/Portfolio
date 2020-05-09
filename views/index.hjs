@@ -37,7 +37,8 @@
       <div class='col-sm-4' id='magic2'>
       <h1> Hi, I'm Katie 👋 </h1>
       <p> I’m a designer, developer, illustrator, dog mom, yoga teacher in training, adjunct at FIT, volunteer, baker, cook, autodidact and about a zillion other things.<br>
-      <p>Looking to combine my love of food and background in technology and design to do something AWESOME.  </p>
+      <p>Looking to combine my love of food and background in design to do something deliciously awesome.  </p>
+      <br>
       <p> Stalk me : <a href='https://www.linkedin.com/in/katie-jordan-2b0b45a8' target="_blank">Here</a> </p>
       <p> Contact me: <a href="mailto:kj0203@gmail.com" target="_blank"> Here </a> </p>
       </div>
@@ -56,7 +57,7 @@
     </a>
   </div>
 
-    <a href='http://teddysbakery.herokuapp.com/'>
+    <a href='http://teddysbakery.herokuapp.com/' target="_blank">
     <div class='col-sm-6'>
       <img src='img/portfolio/thumbnails/teddys.jpg'>
     </a>
@@ -75,12 +76,12 @@
 
 <div class='container-fluid' id='first'>
   <div class='row'>
-    <a href='https://apply.funnelleasing.com/2/login'>
+    <a href='https://apply.funnelleasing.com/2/login' target="_blank">
     <div class='col-sm-6'>
       <img src='img/portfolio/thumbnails/ol.jpg'>
     </a>
   </div>
-    <a href='http://https://www.38sixth.com/'>
+    <a href='http://https://www.38sixth.com/' target="_blank">
     <div class='col-sm-6'>
       <img src='img/portfolio/thumbnails/38sixth.jpg'>
     </a>
