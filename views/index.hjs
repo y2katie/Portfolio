@@ -67,24 +67,22 @@
 
 <div class='container-fluid' id='first'>
   <div class='row'>
-    <a href=''> <div class='col-sm-8 col-sm-offset-2' id='yogi2'>
+   <div class='col-sm-8 col-sm-offset-2' id='yogi2'>
       <img src='img/portfolio/thumbnails/illos.png'>
-    </a>
     </div>
   </div>
 </div>
 
 <div class='container-fluid' id='first'>
   <div class='row'>
-    <a href='/books'>
+    <a href='https://apply.funnelleasing.com/2/login'>
     <div class='col-sm-6'>
-      <img src='img/portfolio/thumbnails/K&L.jpg'>
+      <img src='img/portfolio/thumbnails/ol.jpg'>
     </a>
   </div>
-
-    <a href='http://teddysbakery.herokuapp.com/'>
+    <a href='http://https://www.38sixth.com/'>
     <div class='col-sm-6'>
-      <img src='img/portfolio/thumbnails/teddys.jpg'>
+      <img src='img/portfolio/thumbnails/38sixth.jpg'>
     </a>
     </div>
 </div>
