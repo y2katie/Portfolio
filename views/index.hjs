@@ -51,16 +51,14 @@
 <div class='container-fluid' id='first'>
   <div class='row'>
     <a href='/books'>
-    <div class='col-sm-6' id='yogi'>
-      <h3> Teddy's Bakery </h3>
-      <img src='img/portfolio/thumbnails/fucker.png'>
+    <div class='col-sm-6'>
+      <img src='img/portfolio/thumbnails/K&L.jpg'>
     </a>
   </div>
 
-    <a href='http://nestioapartments.nestiosite.com/'>
-    <div class='col-sm-6' id='food'>
-      <h3> Monterey Pines </h3>
-      <img src='img/portfolio/thumbnails/fuck.png'>
+    <a href='http://teddysbakery.herokuapp.com/'>
+    <div class='col-sm-6'>
+      <img src='img/portfolio/thumbnails/teddys.jpg'>
     </a>
     </div>
 </div>
@@ -70,11 +68,26 @@
 <div class='container-fluid' id='first'>
   <div class='row'>
     <a href=''> <div class='col-sm-8 col-sm-offset-2' id='yogi2'>
-      <h3> Illustrations </h3>
       <img src='img/portfolio/thumbnails/illos.png'>
     </a>
     </div>
   </div>
+</div>
+
+<div class='container-fluid' id='first'>
+  <div class='row'>
+    <a href='/books'>
+    <div class='col-sm-6'>
+      <img src='img/portfolio/thumbnails/K&L.jpg'>
+    </a>
+  </div>
+
+    <a href='http://teddysbakery.herokuapp.com/'>
+    <div class='col-sm-6'>
+      <img src='img/portfolio/thumbnails/teddys.jpg'>
+    </a>
+    </div>
+</div>
 </div>
 
 <!-- <div class='container-fluid' id='first'>

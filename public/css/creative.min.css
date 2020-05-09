@@ -43,6 +43,11 @@ h1,h2,h3,h4,h5,h6 {
   margin-bottom:30px;
 }
 
+.col-sm-6 {
+  padding-left:0px !important;
+  padding-right:0px !important;
+}
+
 .smaller {
   width:75%;
   margin:0 auto;
