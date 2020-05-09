@@ -36,8 +36,8 @@
     <div class='row'>
       <div class='col-sm-4' id='magic2'>
       <h1> Hi, I'm Katie 👋 </h1>
-      <p> I’m a designer, developer, illustrator, dog mom, yoga teacher in training, adjunct lecturer at FIT, baker, cook and about a zillion other things.<br>
-      <p>Currently baking my heart out during this pandemic.  </p>
+      <p> I’m a designer, developer, illustrator, dog mom, yoga teacher in training, adjunct at FIT, volunteer, baker, cook, autodidact and about a zillion other things.<br>
+      <p>Looking to combine my love of food and background in technology and design to do something AWESOME.  </p>
       <p> Stalk me : <a href='https://www.linkedin.com/in/katie-jordan-2b0b45a8' target="_blank">Here</a> </p>
       <p> Contact me: <a href="mailto:kj0203@gmail.com" target="_blank"> Here </a> </p>
       </div>
@@ -87,6 +87,10 @@
     </div>
 </div>
 </div>
+
+<div class='fin'>
+  <p> Designed & Developed by Yours Truly </p>
+  </div>
 
 <!-- <div class='container-fluid' id='first'>
   <div class='row'>
