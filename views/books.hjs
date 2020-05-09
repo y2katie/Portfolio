@@ -46,6 +46,7 @@
     <div class='row'>
       <div class='col-sm-6 col-sm-offset-3' id='magic2'>
       <h1 > "Design a logo for a local business. Show them when you're done." </h1>
+      <p> This was my prompt from briefz.biz </p>
 
  
       </div>
@@ -57,10 +58,10 @@
   <div class='row'>
     <div class='col-sm-4 col-sm-offset-2'>
      <h3> My Morning Caffeine Vessel</h3>
-     <p>This was my task. During this pandemic I have really taken a liking to my local deli's coffee. It is about 90% sugar and 10% coffee. I didn't know I preferred my coffee this way but now that I'm aware theres no going back. Every morning I walk my dog and myself 2 blocks away to pick up this caffeinated goodness. I knew that I would redesign K&L once I saw this prompt. </p>
+     <p>During this pandemic I have really taken a liking to my local deli's coffee. It is about 90% sugar and 10% coffee. I didn't know I preferred my coffee this way but now that I'm aware theres no going back. Every morning I walk my dog and myself 2 blocks away to pick up this caffeinated goodness. I knew that I would redesign K&L once I saw this prompt. </p>
     </div>
     <div class='col-sm-6'>
-      <img src='img/portfolio/thumbnails/k&l_coffeecup.JPG'>
+      <img src='img/portfolio/thumbnails/k&l_coffeecup.jpg' class='smaller'>
     </div>
   </div>
 </div>
@@ -73,7 +74,7 @@
      <p> I wanted to showcase not only what K&L meant to me but the community. I described what words best fit the style and smell of K&L. I threw some more words against the board to see what stuck. I ended up circling cheese, eggs and corner because those really encompass the deli's offerings and location, pure brilliance I know. This was an exercise in trying to find a playful and modern logo. I really liked the potato and egg meeting on the corner but alas it just didnt translate well digitally. From here, I started to digitize. </p>
     </div>
     <div class='col-sm-12'>
-      <img src='img/portfolio/thumbnails/sketches.JPG' class='smaller'>
+      <img src='img/portfolio/thumbnails/sketches.jpg' class='smaller'>
     </div>
   </div>
 </div>
@@ -83,7 +84,7 @@
       <div class='col-sm-6'>
         <h3> Logo </h3>
         <p> As always, I went with the cheese. Most sandwiches on the menu have cheese. Who doesn't love cheese? If you don't love cheese please leave this website. </p>
-       <img src='img/portfolio/thumbnails/logo.JPG' class='smaller'>
+       <img src='img/portfolio/thumbnails/logo.jpg' class='smaller'>
     </div>
     <div class='col-sm-6'>
     <h3> Color Palette </h3>
