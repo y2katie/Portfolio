@@ -76,13 +76,15 @@
 
 <div class='container-fluid' id='first'>
   <div class='row'>
-    <a href='https://apply.funnelleasing.com/2/login' target="_blank">
+  
     <div class='col-sm-6'>
+       <a href='https://apply.funnelleasing.com/2/login' target="_blank">
       <img src='img/portfolio/thumbnails/ol.jpg'>
     </a>
   </div>
-    <a href='http://https://www.38sixth.com/' target="_blank">
     <div class='col-sm-6'>
+          <a href='https://www.38sixth.com/' target="_blank">
+
       <img src='img/portfolio/thumbnails/38sixth.jpg'>
     </a>
     </div>
