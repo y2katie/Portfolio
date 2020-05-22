@@ -51,9 +51,8 @@
 
 <div class='container-fluid' id='first'>
   <div class='row'>
-    <a href='/books'>
-    <div class='col-sm-6'>
-      <img src='img/portfolio/thumbnails/K&L.jpg'>
+     <a href='https://apply.funnelleasing.com/2/login' target="_blank">
+      <img src='img/portfolio/thumbnails/ol.jpg'>
     </a>
   </div>
 
@@ -78,8 +77,9 @@
   <div class='row'>
   
     <div class='col-sm-6'>
-       <a href='https://apply.funnelleasing.com/2/login' target="_blank">
-      <img src='img/portfolio/thumbnails/ol.jpg'>
+    <a href='/books'>
+    <div class='col-sm-6'>
+      <img src='img/portfolio/thumbnails/K&L.jpg'>
     </a>
   </div>
     <div class='col-sm-6'>
