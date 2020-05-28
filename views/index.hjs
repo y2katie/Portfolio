@@ -33,67 +33,29 @@
 
 <div class='container-fluid' id='intro'>
   <div class='row'>
-    <div class='row'>
-      <div class='col-sm-4' id='magic2'>
-      <h1> Hi, I'm Katie 👋 </h1>
-      <p> I’m a designer, developer, illustrator, dog mom, yoga teacher in training, adjunct at FIT, volunteer, baker, cook, autodidact and about a zillion other things.<br>
-      <p>Looking to combine my love of food and background in design to do something deliciously awesome.  </p>
-      <br>
-      <p> Stalk me : <a href='https://www.linkedin.com/in/katie-jordan-2b0b45a8' target="_blank">Here</a> </p>
-      <p> Contact me: <a href="mailto:kj0203@gmail.com" target="_blank"> Here </a> </p>
-      </div>
-       <div class='col-sm-8' >
-       <img src='img/portfolio/thumbnails/yogi.png'>
-      </div>
+      <div class='col-sm-4 col-sm-offset-4'>
+        <h1> Katie Jordan </h1>
+        <p> I like my dog, art, dance parties, traveling, baking, SPF+50, jackson heights and reddit. <br> <a href='https://www.linkedin.com/in/katie-jordan-2b0b45a8' target="_blank"> Linkedin </a>  |  <a href="mailto:kj0203@gmail.com" target="_blank"> Shoot your shot </a>
+        </p>
     </div>
   </div>
 </div>
 
 <div class='container-fluid' id='first'>
   <div class='row'>
-    <div class='col-sm-6'>
-     <a href='https://apply.funnelleasing.com/2/login' target="_blank">
-      <img src='img/portfolio/thumbnails/ol.jpg'>
-    </a>
-  </div>
-
-    <a href='http://teddysbakery.herokuapp.com/' target="_blank">
-    <div class='col-sm-6'>
-      <img src='img/portfolio/thumbnails/teddys.jpg'>
-    </a>
-    </div>
-</div>
-</div>
-
-
-<div class='container-fluid' id='first'>
-  <div class='row'>
-   <div class='col-sm-8 col-sm-offset-2' id='yogi2'>
-      <img src='img/portfolio/thumbnails/illos.png'>
+    <div class='col-sm-10 col-sm-offset-1'>
+        <img src='img/portfolio/thumbnails/baked.jpg'>
+      </a>
     </div>
   </div>
 </div>
 
-<div class='container-fluid' id='first'>
-  <div class='row'>
-  
-    <div class='col-sm-6'>
-      <a href='https://www.38sixth.com/' target="_blank">
-      <img src='img/portfolio/thumbnails/38sixth.jpg'>
-    </a>
-   
-  </div>
-    <div class='col-sm-6'>
-       <a href='/books'>
-      <img src='img/portfolio/thumbnails/K&L.jpg'>
-    </a>
-    </div>
-</div>
-</div>
+<!-- 
+<a href='https://apply.funnelleasing.com/2/login' target="_blank"> -->
 
-<div class='fin'>
+<!-- <div class='fin'>
   <h5> Designed & Developed by Yours Truly </h5>
-  </div>
+  </div> -->
 
 <!-- <div class='container-fluid' id='first'>
   <div class='row'>

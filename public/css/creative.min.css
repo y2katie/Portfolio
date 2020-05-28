@@ -14,10 +14,6 @@
   margin-bottom: 10px;
 }
 
-#coffee {
-  padding:30px;
-  background-color:#fae2f2;
-}
 
 #coffee2 {
   padding:30px;
@@ -53,10 +49,6 @@ h1,h2,h3,h4,h5,h6 {
   display:block;
 }
 
-#coffee4 {
-  background-color: #fae2f2;
-  padding:40px;
-}
 
 #coffee p, #coffee2 p, #coffee3 p, #coffee4 p {
   color:#666 !important;
@@ -84,10 +76,6 @@ p{
 #first h3 {
   text-align:center;
     font-family: 'Baloo Da 2', cursive;
-}
-
-#first {
-  background-color:#fae2f2;
 }
 
 .container .text{
@@ -137,6 +125,16 @@ p{
   text-decoration: underline !important;
 }
 
+#intro p,h1 {
+  color:black,;
+}
+
+#intro {
+text-align:center;
+padding:60px;
+background-color:white;
+}
+
 .content:hover .content-overlay{
   opacity: 1;
 }
@@ -168,17 +166,11 @@ p{
   opacity: 1;
 }
 
-p{
+p {
   font-family: 'Baloo Da 2', cursive;
   font-weight:400;
   font-size:16px;
-  color:white !important;
 }
-
-#intro img {
-  margin-top:80px;
-}
-
 
 h5 {
   font-family:400 !important;
@@ -191,39 +183,18 @@ a:hover{
 }
 
 #intro a{
-  color:#ffeb3b !important;
-}
-
-#intro {
-  background-color:#0905B4;
-}
-
-#intro p {
-  color:white;
+  color:blue !important;
 }
 
 #intro h1 {
-  color:white;
   font-family: 'Baloo Da 2', cursive;
+  font-weight: 600;
 }
 
-#intro h4 {
-  color:white;
-  font-family: 'Baloo Da 2', cursive;
+#intro p {
+  color:black;
+  font-family: 'Baloo Da 2', cursive !important;
   line-height:24px;
-}
-
-#food {
-  background-color:#4ca877;
-  padding:20px;
-}
-
-#yogi3 {
-  background-color: #c9f5f3;
-}
-
-#yogi2 {
-  background-color: #fae2f2;
 }
 
 #food img {
