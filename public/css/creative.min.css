@@ -101,10 +101,6 @@ h1,h2,h3,h4,h5,h6 {
   font-family:'Roboto' !important;
 }
 */
-#first h3 {
-  text-align:center;
-    font-family: 'Baloo Da 2', cursive;
-}
 
 .container .text{
   color: 'white';
@@ -195,10 +191,11 @@ background-color:white;
 }
 
 p {
-  font-family: 'Baloo Da 2', cursive;
+  font-family: 'Baloo 2', cursive;
   font-weight:400;
   font-size:16px;
 }
+
 
 h5 {
   font-family:400 !important;
@@ -214,16 +211,6 @@ a:hover{
   color:blue !important;
 }
 
-#intro h1 {
-  font-family: 'Baloo Da 2', cursive;
-  font-weight: 600;
-}
-
-#intro p {
-  color:black;
-  font-family: 'Baloo Da 2', cursive;
-  line-height:24px;
-}
 
 #food img {
   margin-top:30px;
