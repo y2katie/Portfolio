@@ -37,10 +37,10 @@
     </nav>
 </head>
 
-<div class='container' id='gif'>
+<div class='container' id='top'>
   <div class='row'>
       <div class='col-sm-6'>
-       <img src='img/portfolio/thumbnails/first.gif'>
+       <img src='img/portfolio/thumbnails/first.gif' id='gif'>
       </div>
       <div class='col-sm-4 '>
       <h1> Get Baked </h1>
