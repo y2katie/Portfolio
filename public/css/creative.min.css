@@ -14,10 +14,27 @@
   margin-bottom: 10px;
 }
 
+#gif img {
+  width:80%;
+  margin:0 auto;
+  display: block;
+}
+
+#gif {
+  width:80%;
+  margin:0 auto;
+    display: block;
+
+}
 
 #coffee2 {
   padding:30px;
   background-color:#e8fae2;
+}
+
+#top {
+  margin-top:70px;
+  margin-bottom:70px;
 }
 
 #coffee3 {

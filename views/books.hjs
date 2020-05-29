@@ -35,46 +35,57 @@
             </div>
         </div>
     </nav>
-
-
 </head>
 
-
-
-<div class='container'>
+<div class='container' id='gif'>
   <div class='row'>
       <div class='col-sm-6'>
        <img src='img/portfolio/thumbnails/first.gif'>
       </div>
       <div class='col-sm-4 '>
-      <h2> Baked Onboarding </h2>
-      <p>During this pandemic I have really taken a liking to my local deli's coffee. It is about 90% sugar and 10% coffee. I didn't know I preferred my coffee this way but now that I'm aware theres no going back. Every morning I walk my dog and myself 2 blocks away to pick up this caffeinated goodness. I knew that I would redesign K&L once I saw this prompt. </p>
+      <h1> Get Baked </h1>
+      <br>
+      <h4> Are you a piece of cake looking to spend time with a brownie, macaroon or cookie? This is the app for you. Baked is an all encompassing, equal opportunity dating app for food. From the brain child of Elon Musks third cousin twice removed, introducing Baked.</h4>
     </div>
   </div>
 </div>
 
 <div class='container' id='top'>
   <div class='row'>
-      <div class='col-sm-6'>
-        <h2> Let's see that cake </h2>
-        <p>During this pandemic I have really taken a liking to my local deli's coffee. It is about 90% sugar and 10% coffee. I didn't know I preferred my coffee this way but now that I'm aware theres no going back. Every morning I walk my dog and myself 2 blocks away to pick up this caffeinated goodness. I knew that I would redesign K&L once I saw this prompt. </p>
+      <div class='col-sm-offset-2 col-sm-4'>
+        <h1> Cake Cake Cake </h1>
+        <br>
+        <h4> We here at Baked know that all foods are different and beauty is truly in the eye of the beholder. Take your time and fill this out. Are you made of sugar, spice and everything nice? Choose your sugar level, caffeine content and where you would prefer to meet your potential suitor. </h4>
+        <br>
+
       </div>
     <div class='col-sm-6'>
-      <img src='img/portfolio/thumbnails/second.gif'>
+      <img src='img/portfolio/thumbnails/second.gif' id='gif'>
     </div>
   </div>
 </div>
 
-<div class='container'>
+<div class='container' id='gif'>
   <div class='row'>
       <div class='col-sm-6'>
        <img src='img/portfolio/thumbnails/third.gif'>
       </div>
-      <div class='col-sm-6 '>
-      <h2> Baked Onboarding </h2>
-      <p>During this pandemic I have really taken a liking to my local deli's coffee. It is about 90% sugar and 10% coffee. I didn't know I preferred my coffee this way but now that I'm aware theres no going back. Every morning I walk my dog and myself 2 blocks away to pick up this caffeinated goodness. I knew that I would redesign K&L once I saw this prompt. </p>
+      <div class='col-sm-4'>
+      <h1> The Chase </h1>
+      <h4> Like many a dating app we use the swipe left swipe right model; we also fully support social distancing right now. It's our passion to provide you with appropriate suitors. Are you gluten free? Adjust that in the settings and we'll never show you a brownie again. Allergic to nuts? Bye bye peanutbutter cookies!  </h4>
     </div>
   </div>
+</div>
+
+<div class='container' id='top'>
+  <div class='row'>
+<div class='col-sm-offset-2 col-sm-4'>        <h1> Happy Ending </h1>
+        <h4> This example is a super serious case featuring two of our users, Rosey Macaroon and Pumpkin Spicy. They ended up matching, having stimulating conversation, and after a whirlwind courtship produced a hybrid pumpkin rose scone. Dominique Ansel is still talking about it and perhaps they will influence the next cronut! </h4>
+      </div>
+      <div class='col-sm-6'>
+          <img src='img/portfolio/thumbnails/fourth.gif' id='gif'>
+      </div>
+    </div>
 </div>
 
 
