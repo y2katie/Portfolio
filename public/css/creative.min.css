@@ -97,10 +97,10 @@ h1,h2,h3,h4,h5,h6 {
   padding:15px;
 }
 
-p{
+/*p{
   font-family:'Roboto' !important;
 }
-
+*/
 #first h3 {
   text-align:center;
     font-family: 'Baloo Da 2', cursive;
@@ -221,7 +221,7 @@ a:hover{
 
 #intro p {
   color:black;
-  font-family: 'Baloo Da 2', cursive !important;
+  font-family: 'Baloo Da 2', cursive;
   line-height:24px;
 }
 
