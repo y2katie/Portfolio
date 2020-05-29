@@ -20,11 +20,22 @@
   display: block;
 }
 
+.navbar-collapse.collapse {
+  position:fixed;
+  border:5px solid black;
+  z-index:100000;
+}
+
 #gif {
   width:80%;
   margin:0 auto;
-    display: block;
+  display: block;
+}
 
+#top img {
+  width:80%;
+  margin:0 auto;
+  display: block;
 }
 
 #coffee2 {
