@@ -41,11 +41,14 @@
   </div>
 </div>
 
+
+
 <div class='container-fluid' id='first'>
   <div class='row'>
-    <div class='col-sm-10 col-sm-offset-1'>
+    <div class='col-sm-8 col-sm-offset-2'>
     <!--   <h4> Baked </h4>
       <p> A dating app for cakes </p> -->
+      <h3> Baked </h3>
        <a href='/books'> <img src='img/portfolio/thumbnails/baked.jpg'> </a>
 
       </a>
@@ -55,12 +58,22 @@
 
 <div class='container-fluid' id='first'>
   <div class='row'>
-    <div class='col-sm-10 col-sm-offset-1'>
+    <div class='col-sm-8 col-sm-offset-2'>
+        <h3> One Percent </h3>
     <!--   <h4> Baked </h4>
       <p> A dating app for cakes </p> -->
       <a href='/jeff'> <img src='img/portfolio/thumbnails/jeff.jpg'> </a>
 
       </a>
+    </div>
+  </div>
+</div>
+
+<div class='container-fluid' id='first'>
+  <div class='row'>
+    <div class='col-sm-8 col-sm-offset-2'>
+      <h3> Illustrations </h3>
+      <img src='img/portfolio/thumbnails/illos.png'>
     </div>
   </div>
 </div>
