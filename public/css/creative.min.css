@@ -20,6 +20,10 @@
   display:block;
 }
 
+h3 {
+  text-align: center !important;
+}
+
 #gif img {
   width:80%;
   margin:0 auto;
