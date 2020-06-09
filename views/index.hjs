@@ -35,7 +35,10 @@
   <div class='row'>
       <div class='col-sm-4 col-sm-offset-4'>
         <h1> Katie Jordan </h1>
-        <p> I like my dog, art, dance parties, traveling, baking, SPF+50, jackson heights and reddit. <br> <a href='https://www.linkedin.com/in/katie-jordan-2b0b45a8' target="_blank"> Linkedin </a> | <a href='https://dribbble.com/kj0203'> Illustrations </a> |  <a href="mailto:kj0203@gmail.com" target="_blank"> Say Hi </a>
+        <p> I like my dog, art, dance parties, traveling, baking, SPF+50, jackson heights and reddit. <br>
+         <a href='https://dribbble.com/kj0203' target="_blank"> Illustrations </a> | 
+        <a href='https://www.linkedin.com/in/katie-jordan-2b0b45a8' target="_blank"> Linkedin </a> | 
+           <a href="mailto:kj0203@gmail.com" target="_blank"> Say Hi </a>
         </p>
     </div>
   </div>
@@ -61,7 +64,6 @@
     <div class='col-sm-10 col-sm-offset-1'>
     <!--   <h4> Baked </h4>
       <p> A dating app for cakes </p> -->
-      <h3> Baked </h3>
        <a href='/books'> <img src='img/portfolio/thumbnails/baked.jpg'> </a>
 
       </a>
@@ -72,7 +74,21 @@
 <div class='container-fluid' id='first'>
   <div class='row'>
     <div class='col-sm-10 col-sm-offset-1'>
-        <h3> One Percent </h3>
+    <!--   <h4> Baked </h4>
+      <p> A dating app for cakes </p> -->
+     
+       <a href='https://www.38sixth.com/' target="_blank"> <img src='img/portfolio/thumbnails/38.jpg'> </a>
+
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+<div class='container-fluid' id='first'>
+  <div class='row'>
+    <div class='col-sm-10 col-sm-offset-1'>
     <!--   <h4> Baked </h4>
       <p> A dating app for cakes </p> -->
       <a href='/jeff'> <img src='img/portfolio/thumbnails/jeff.jpg'> </a>
