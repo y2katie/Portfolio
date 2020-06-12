@@ -47,26 +47,20 @@
 
 <div class='container-fluid' id='first'>
   <div class='row'>
-    <div class='col-sm-10 col-sm-offset-1'>
+    <div class='col-sm-6'>
     <!--   <h4> Baked </h4>
       <p> A dating app for cakes </p> -->
      
        <a href='https://apply.funnelleasing.com/2/login' target="_blank"> <img src='img/portfolio/thumbnails/app.jpg'> </a>
 
-      </a>
     </div>
-  </div>
-</div>
 
-<div class='container-fluid' id='first'>
-  <div class='row'>
-    <div class='col-sm-10 col-sm-offset-1'>
+    <div class='col-sm-6'>
     <!--   <h4> Baked </h4>
       <p> A dating app for cakes </p> -->
      
        <a href='http://nestioapartments.nestiosite.com/' target="_blank"> <img src='img/portfolio/thumbnails/mont.jpg'> </a>
 
-      </a>
     </div>
   </div>
 </div>
@@ -74,27 +68,18 @@
 
 <div class='container-fluid' id='first'>
   <div class='row'>
-    <div class='col-sm-10 col-sm-offset-1'>
+    <div class='col-sm-6'>
     <!--   <h4> Baked </h4>
       <p> A dating app for cakes </p> -->
      
        <a href='https://www.38sixth.com/' target="_blank"> <img src='img/portfolio/thumbnails/38.jpg'> </a>
-
-      </a>
-    </div>
-  </div>
 </div>
-
-<div class='container-fluid' id='first'>
-  <div class='row'>
-    <div class='col-sm-10 col-sm-offset-1'>
+    <div class='col-sm-6'>
     <!--   <h4> Baked </h4>
       <p> A dating app for cakes </p> -->
      
        <a href='https://www.heraldtowers.com/' target="_blank"> <img src='img/portfolio/thumbnails/herald.jpg'> </a>
-
-      </a>
-    </div>
+</div>
   </div>
 </div>
 
@@ -104,12 +89,9 @@
     <!--   <h4> Baked </h4>
       <p> A dating app for cakes </p> -->
        <a href='/books'> <img src='img/portfolio/thumbnails/baked.jpg'> </a>
-
-      </a>
     </div>
   </div>
 </div>
-
 
 
 <div class='container-fluid' id='first'>
@@ -117,12 +99,11 @@
     <div class='col-sm-10 col-sm-offset-1'>
     <!--   <h4> Baked </h4>
       <p> A dating app for cakes </p> -->
-      <a href='/jeff'> <img src='img/portfolio/thumbnails/jeff.jpg'> </a>
-
-      </a>
+<a href='/jeff'> <img src='img/portfolio/thumbnails/jeff.jpg'> </a>
     </div>
   </div>
 </div>
+
 
 <!-- <div class='container-fluid' id='first'>
   <div class='row'>
