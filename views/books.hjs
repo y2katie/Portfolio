@@ -37,12 +37,16 @@
     </nav>
 </head>
 
+
 <div class='container' id='top'>
   <div class='row'>
       <div class='col-sm-6'>
        <img src='img/portfolio/thumbnails/first.gif' id='gif'>
       </div>
       <div class='col-sm-4 '>
+        <div class='links'>
+          <a href='https://www.figma.com/file/2IVtmVFLaatiOUUnMda6aO/Icing-Apps'> Working File </a> <br> 
+          <a href='https://www.figma.com/proto/2IVtmVFLaatiOUUnMda6aO/Icing-Apps?scaling=scale-down&node-id=22%3A49'> Prototype: Be patient - it's figma </a> </div>
       <h1> Get Baked </h1>
       <br>
       <h4> Are you a piece of cake looking to spend time with a brownie, macaroon or cookie? This is the app for you. Baked is an all encompassing, equal opportunity dating app for food. From the brain child of Elon Musks third cousin twice removed, introducing Baked.</h4>

@@ -20,6 +20,11 @@
   display:block;
 }
 
+.links a {
+  color:#e65d75;
+  text-decoration: underline;
+}
+
 h3 {
   text-align: center !important;
 }
