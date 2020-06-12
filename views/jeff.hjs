@@ -43,6 +43,8 @@
        <img src='img/portfolio/thumbnails/one.gif' id='giffy'>
       </div>
       <div class='col-sm-4 '>
+         <div class='links'>
+          <a href='https://www.figma.com/proto/buMW0tPT4Dfhl6KaxChtAh/Midlife?node-id=45%3A0&scaling=scale-down'> Prototype: Be patient - it's figma </a> </div>
       <h1> Coming soon </h1>
       <br>
       <h4> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
