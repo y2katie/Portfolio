@@ -34,6 +34,9 @@
 <div class='container-fluid' id='intro'>
   <div class='row'>
       <div class='col-sm-4 col-sm-offset-1'>
+        <img class='testing' src='img/portfolio/thumbnails/test.png'>
+          <img class='testing1' src='img/portfolio/thumbnails/test1.png'>
+        <div class= 'links'>
         <h1> Hi, I'm Katie </h1>
         <h3> I have a dog, bake a ton, and like to design & draw things. </h3><br>
         <p> <a href="mailto:kj0203@gmail.com" target="_blank"> Say Hi </a></p>
@@ -45,12 +48,11 @@
 
             <p>  <a href='/jeff'> One Percent - UI/UX Design </a> </p> 
 
-        
-       
-        </h4>
+      </div>
     </div>
-  <div class='col-sm-6'>
-    <img src='img/portfolio/thumbnails/kitch.png'>
+  <div class='col-sm-6' id='funs'>
+    <img class ='kitch' src='img/portfolio/thumbnails/kitch.png'>
+    
   </div>
    </div>
 </div>
