@@ -33,76 +33,30 @@
 
 <div class='container-fluid' id='intro'>
   <div class='row'>
-      <div class='col-sm-4 col-sm-offset-4'>
-        <h1> Katie Jordan </h1>
-        <p> I like my dog, art, dance parties, traveling, baking, SPF+50, jackson heights, reddit and <a href='https://dribbble.com/kj0203' target="_blank"> 🎉 creating illustrations 🎉 </a> <br>
-<!--          <a href='https://dribbble.com/kj0203' target="_blank"> Check Out My Illustrations </a> | 
- -->        <a href='https://www.linkedin.com/in/katie-jordan-2b0b45a8' target="_blank"> Linkedin </a> | 
-           <a href="mailto:kj0203@gmail.com" target="_blank"> Say Hi </a>
-        </p>
+      <div class='col-sm-4 col-sm-offset-1'>
+        <h1> Hi, I'm Katie </h1>
+        <h3> I have a dog, bake a ton, and like to design & draw things. </h3><br>
+        <p> <a href="mailto:kj0203@gmail.com" target="_blank"> Say Hi </a></p>
+        <p> <a href='https://dribbble.com/kj0203' target="_blank"> Illustrations </a> </p> 
+         <p> <a href='https://apply.funnelleasing.com/2/login' target="_blank">  Online Leasing - UI/UX Design  </a> </p> 
+         <p>  <a href='http://nestioapartments.nestiosite.com/' target="_blank">  Monterey Pines - UI/UX + Website Design </a> </p> 
+         <p>  <a href='https://www.38sixth.com/' target="_blank"> 38 Sixth - Website Design </a> </p> 
+          <p>  <a href='/books'> Baked - UI/UX Design </a> </p> 
+
+            <p>  <a href='/jeff'> One Percent - UI/UX Design </a> </p> 
+
+        
+       
+        </h4>
     </div>
+  <div class='col-sm-6'>
+    <img src='img/portfolio/thumbnails/kitchen.png'>
   </div>
+   </div>
 </div>
 
 
-<div class='container-fluid' id='first'>
-  <div class='row'>
-    <div class='col-sm-6'>
-    <!--   <h4> Baked </h4>
-      <p> A dating app for cakes </p> -->
-     
-       <a href='https://apply.funnelleasing.com/2/login' target="_blank"> <img src='img/portfolio/thumbnails/app.jpg'> </a>
-
-    </div>
-
-    <div class='col-sm-6'>
-    <!--   <h4> Baked </h4>
-      <p> A dating app for cakes </p> -->
-     
-       <a href='http://nestioapartments.nestiosite.com/' target="_blank"> <img src='img/portfolio/thumbnails/mont.jpg'> </a>
-
-    </div>
-  </div>
-</div>
-
-
-<div class='container-fluid' id='first'>
-  <div class='row'>
-    <div class='col-sm-6'>
-    <!--   <h4> Baked </h4>
-      <p> A dating app for cakes </p> -->
-     
-       <a href='https://www.38sixth.com/' target="_blank"> <img src='img/portfolio/thumbnails/38.jpg'> </a>
-</div>
-    <div class='col-sm-6'>
-    <!--   <h4> Baked </h4>
-      <p> A dating app for cakes </p> -->
-     
-       <a href='https://www.heraldtowers.com/' target="_blank"> <img src='img/portfolio/thumbnails/herald.jpg'> </a>
-</div>
-  </div>
-</div>
-
-<div class='container-fluid' id='first'>
-  <div class='row'>
-    <div class='col-sm-10 col-sm-offset-1'>
-    <!--   <h4> Baked </h4>
-      <p> A dating app for cakes </p> -->
-       <a href='/books'> <img src='img/portfolio/thumbnails/baked.jpg'> </a>
-    </div>
-  </div>
-</div>
-
-
-<div class='container-fluid' id='first'>
-  <div class='row'>
-    <div class='col-sm-10 col-sm-offset-1'>
-    <!--   <h4> Baked </h4>
-      <p> A dating app for cakes </p> -->
-<a href='/jeff'> <img src='img/portfolio/thumbnails/jeff.jpg'> </a>
-    </div>
-  </div>
-</div>
+<!--  -->
 
 
 <!-- <div class='container-fluid' id='first'>
