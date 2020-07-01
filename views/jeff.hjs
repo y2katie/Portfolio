@@ -43,60 +43,13 @@
        <img src='img/portfolio/thumbnails/one.gif' id='giffy'>
       </div>
       <div class='col-sm-4 '>
-         <div class='links'>
-          <a href='https://www.figma.com/proto/buMW0tPT4Dfhl6KaxChtAh/Midlife?node-id=45%3A0&scaling=scale-down'> Prototype: Be patient - it's figma </a> </div>
-      <h1> Coming soon </h1>
-      <br>
-      <h4> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.lon Musks third cousin twice removed, introducing Baked.</h4>
+         <h1>  User Story </h1>
+      <h4> I'm in the one percent and I'm interested in purchasing elections, small countries, yachts and other delicacies.</h4>
+
+          <a href='https://www.figma.com/proto/buMW0tPT4Dfhl6KaxChtAh/Midlife?node-id=45%3A0&scaling=scale-down' class='jeff'> Click here for prototype </a> 
     </div>
   </div>
 </div>
-
-<div class='container' id='top'>
-  <div class='row'>
-      <div class='col-sm-offset-2 col-sm-4'>
-        <h1> Coming soon </h1>
-        <br>
-        <h4> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
-        <br>
-
-      </div>
-    <div class='col-sm-6'>
-      <img src='img/portfolio/thumbnails/two.gif' id='giffy'>
-    </div>
-  </div>
-</div>
-
-<div class='container' id='top'>
-  <div class='row'>
-      <div class='col-sm-6'>
-       <img src='img/portfolio/thumbnails/three.gif' id='giffy'>
-      </div>
-      <div class='col-sm-4 '>
-      <h1> Coming soon </h1>
-      <br>
-      <h4> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.lon Musks third cousin twice removed, introducing Baked.</h4>
-    </div>
-  </div>
-</div>
-
-
-
 </html>
 
   
