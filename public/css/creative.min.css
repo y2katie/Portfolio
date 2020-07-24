@@ -3,19 +3,20 @@
 }
 
 body {
-  font-family: 'Mulish',sans-serif;
+  font-family: 'Mulish', sans-serif;
 }
 
-h1,h2,h3,h4,h5 {
-  font-weight:600;
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
 }
+
 nav {
-  background-color : #006a71 !important;
-  color:black;
+  background-color: #006a71 !important;
+  color: black;
 }
 
-.site-header a{
-  color:white !important;
+.site-header a {
+  color: white !important;
 }
 
 .bg-light {
@@ -23,95 +24,99 @@ nav {
 }
 
 .bg-dark {
-  background-color: #d3de32!important;
+  background-color: #d3de32 !important;
 }
 
-.topicon {
-  background-image:url('../img/animal.svg') !important;
-  height:20px;
-  width:20px;
-  background-size:cover !important;
-
-
+.btn-outline-secondary {
+  color: #2a6a71;
+  border-color: #2a6a71;
 }
+
+.btn-outline-secondary:hover {
+  color: white;
+  background-color: #2a6a71;
+  border-color: #2a6a71;
+}
+
+.lord {
+  background-image: url('../img/animal.svg') !important;
+  height: 20px;
+  width: 20px;
+  background-size: cover !important;
+}
+
 .bg-primary {
-    background-color: #cbeaed !important;
-  }
+  background-color: #cbeaed !important;
+}
 
-  .forfun {
-    background-image:url('../img/animal.svg') !important;
-    height:30px;
-    width:30px;
-    background-size:cover !important;
-    padding:15px;
-  }
-
+.forfun {
+  background-image: url('../img/animal.svg') !important;
+  height: 30px;
+  width: 30px;
+  background-size: cover !important;
+  padding: 15px;
+}
 
 #image1 {
-  background-image:url('../img/monty.jpg') !important;
-  background-size:cover;
-  width:60% !important;
+  background-image: url('../img/monty.jpg') !important;
+  background-size: cover;
+  width: 60% !important;
 }
 
 #image2 {
-  background-image:url('../monte.jpg')!important;
-  background-size:cover;
-  width:60% !important;
+  background-image: url('../monte.jpg') !important;
+  background-size: cover;
+  width: 60% !important;
 }
 
 #image3 {
-  background-image:url('../img/nyc.jpg') !important;
-  background-size:cover;
-  width:60% !important;
-
+  background-image: url('../img/nyc.jpg') !important;
+  background-size: cover;
+  width: 60% !important;
 }
 
 #image4 {
-  background-image:url('../img/baked.jpg') !important;
-  background-size:cover;
-  width:60% !important;
-
+  background-image: url('../img/baked.jpg') !important;
+  background-size: cover;
+  width: 60% !important;
 }
 
 #image5 {
-  background-image:url('../img/38.jpg') !important;
-  background-size:cover;
-  width:60% !important;
-
+  background-image: url('../img/38.jpg') !important;
+  background-size: cover;
+  width: 60% !important;
 }
 
 #image6 {
-  background-image:url('../img/herald.jpg') !important;
-  background-size:cover;
-  width:60% !important;
+  background-image: url('../img/herald.jpg') !important;
+  background-size: cover;
+  width: 60% !important;
 }
 
 #header-image-1 {
-  background-image:url('../img/rosey.jpg') !important;
-  background-size:cover;
+  background-image: url('../img/rosey.jpg') !important;
+  background-size: cover;
 }
 
 #header-image-2 {
-  background-image:url('../img/jeff.jpg') !important;
-  background-size:cover;
+  background-image: url('../img/jeff.jpg') !important;
+  background-size: cover;
 }
-
-
-
 
 /*
  * Custom translucent site header
  */
-
 .site-header {
   background-color: rgba(0, 0, 0, .85);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 }
+
 .site-header a {
   color: #999;
   transition: ease-in-out color .15s;
 }
+
 .site-header a:hover {
   color: #fff;
   text-decoration: none;
@@ -120,7 +125,6 @@ nav {
 /*
  * Dummy devices (replace them with your own or something else entirely!)
  */
-
 .product-device {
   position: absolute;
   right: 10%;
@@ -152,20 +156,21 @@ nav {
   background-color: #e5e5e5;
 }
 
-
 /*
  * Extra utilities
  */
-
-.flex-equal > * {
+.flex-equal>* {
   -ms-flex: 1;
   flex: 1;
 }
+
 @media (min-width: 768px) {
-  .flex-md-equal > * {
+  .flex-md-equal>* {
     -ms-flex: 1;
     flex: 1;
   }
 }
 
-.overflow-hidden { overflow: hidden; }
+.overflow-hidden {
+  overflow: hidden;
+}
