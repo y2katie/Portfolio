@@ -1,125 +1,144 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-
-    <meta charset="utf-8">
-    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Katie Jordan</title>
-
-  <link href="https://fonts.googleapis.com/css?family=Baloo+2|Roboto&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v4.0.1">
+  <title> Katie Jordan </title>
+  <link rel="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Creative-Tail-Animal-dog.svg/1200px-Creative-Tail-Animal-dog.svg.png" class='topicon'>
 
 
-
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
-
-
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/product/">
+  <link href="css/creative.min.css" rel="stylesheet">
 
 
-    <link href="css/creative.min.css" rel="stylesheet">
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
 
-
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+  <!-- Custom styles for this template -->
 </head>
 
+<body>
+  <nav class="site-header sticky-top py-1">
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+      <a class="py-2" href="#" aria-label="Product">
+        <img class="forfun" width="30" height="30" />
+      </a>
+
+      <a class="py-2 d-none d-md-inline-block" href="https://dribbble.com/kj0203">Illustrations</a>
+      <a class="py-2 d-none d-md-inline-block" href="https://www.figma.com/proto/d5ErI2juxgenyFhF4hyput/Untitled?node-id=0%3A3&scaling=min-zoom">Resume</a>
+
+      <a class="py-2 d-none d-md-inline-block" href="https://www.linkedin.com/in/katie-jordan-designer">Linkedin</a>
+    </div>
+  </nav>
+
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+      <h1 class="display-4 font-weight-normal">Hi, I'm Katie </h1>
+      <p class="lead font-weight-normal">I design and code things; sometimes for fun and sometimes for money. I have a dog, like to travel and have several sweet teeth.</p>
+      <a class="btn btn-outline-secondary" href="mailto:kj0203@gmail.com"">Email Me</a>
+    </div>
+    <div id="header-image-1" class="product-device shadow-sm d-none d-md-block"></div>
+    <div id="header-image-2" class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+  </div>
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 py-3">
+        <h2 class="display-5">Online Leasing</h2>
+        <p class="lead"> UI + UX Design</p>
+      </div>
+      <a href="https://apply.funnelleasing.com/2/login">
+        <div id="image1" class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      </a>
+    </div>
+    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 p-3">
+        <h2 class="display-5">Monterey Pines</h2>
+        <p class="lead">Web, UI + UX Design</p>
+      </div>
+      <a href="http://nestioapartments.nestiosite.com/listings/3732-monterey-pines-st-12-santa-barbara-ca/2281122/?b=%2Favailabilities%2F%3Fpage%3D1%26sort%3Dprice-asc%26view%3Dgrid">
+        <div id="image2" class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      </a>
+    </div>
+  </div>
 
 
-<div class='container-fluid' id='intro'>
-  <div class='row'>
-      <div class='col-sm-4 col-sm-offset-1'>
-        <img class='testing' src='img/portfolio/thumbnails/test.png'>
-          <img class='testing1' src='img/portfolio/thumbnails/test1.png'>
-        <div class= 'links'>
-        <h1> Hi, I'm Katie </h1>
-        <h3> I have a dog, bake a ton, and like to design & draw things. </h3><br>
-        <p> <a href="mailto:kj0203@gmail.com" target="_blank"> Say Hi </a></p>
-        <p> <a href='https://dribbble.com/kj0203' target="_blank"> ~ Illustrations ~ </a> </p>
-         <p> <a href='https://apply.funnelleasing.com/2/login' target="_blank">  Online Leasing - UI/UX   </a> </p>
-         <p>  <a href='http://nestioapartments.nestiosite.com/' target="_blank">  Monterey Pines - UI/UX + Web Design </a> </p>
-         <p>  <a href='https://www.38sixth.com/' target="_blank"> 38 Sixth - Web Design </a> </p>
-         <p>  <a href="https://katyvonkaty.github.io/Oneperfect/"> One Percent - Web Design + UI/UX  </a> </p> 
-          <p> <a href='/books'> Baked - UI/UX </a> </p>
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <div class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 p-3">
+        <h2 class="display-5">One Percent</h2>
+        <p class="lead">Web, UI + UX Design</p>
+      </div>
+      <a href='https://katyvonkaty.github.io/Oneperfect/'>
+        <div id="image3" class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      </a>
+    </div>
+    <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 py-3">
+        <h2 class="display-5">Baked</h2>
+        <p class="lead">UI + UX Design</p>
+      </div>
+      <a href="https://www.figma.com/proto/2IVtmVFLaatiOUUnMda6aO/Icing-Apps?scaling=scale-down&node-id=22%3A49">
+        <div id="image4" class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      </a>
+    </div>
+  </div>
 
 
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 p-3">
+        <h2 class="display-5">38 Sixth</h2>
+        <p class="lead">Web Design</p>
+      </div>
+      <a href="https://www.38sixth.com/">
+        <div id="image5" class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      </a>
+    </div>
+    <div class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 py-3">
+        <h2 class="display-5">Herald Towers</h2>
+        <p class="lead">Web Design</p>
+      </div>
+      <a href='https://www.heraldtowers.com/'>
+        <div id="image6" class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      </a>
+    </div>
+  </div>
 
+
+  <footer class="container py-5">
+    <div class="row">
+      <div class="col-12 col-md">
+        <img class="forfun" width="30" height="30" />
+        <small class="d-block mb-3 text-muted">&copy; 2017-2020 Thats All Folks</small>
       </div>
     </div>
-  <div class='col-sm-6' id='funs'>
-    <img class ='kitch' src='img/portfolio/thumbnails/kitch.png'>
-
-  </div>
-   </div>
-</div>
-
-
-<!--  -->
-
-
-<!-- <div class='container-fluid' id='first'>
-  <div class='row'>
-    <div class='col-sm-8 col-sm-offset-2'>
-      <h3> Illustrations </h3>
-      <img src='img/portfolio/thumbnails/illos.png'>
-    </div>
-  </div>
-</div>
- -->
-<!--
-<a href='https://apply.funnelleasing.com/2/login' target="_blank"> -->
-
-<!-- <div class='fin'>
-  <h5> Designed & Developed by Yours Truly </h5>
-  </div> -->
-
-<!-- <div class='container-fluid' id='first'>
-  <div class='row'>
-
-     <a href='http://nestioapartments.nestiosite.com/'>
-    <div class='col-sm-6' id='food3'>
-      <h3> Teddy's Store Front </h3>
-      <img src='img/portfolio/thumbnails/background.png'>
-    </a>
-    </div>
-
-    <a href='http://teddysbakery.herokuapp.com/'>
-    <div class='col-sm-6' id='yogi3'>
-      <h3> Teddy's Menu </h3>
-      <img src='img/portfolio/thumbnails/menuu.jpg'>
-    </a>
-  </div>
- -->
-
-
-</html>
-
-
-
-
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
-
-    <!-- Plugin JavaScript -->
-  <!--   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> -->    <script src='js/main.js'></script>
-
-    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
-  <!--   <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script> -->
-
-    <!-- Theme JavaScript -->
-<!--     <script src="js/creative.min.js"></script>
- -->
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script>
+    window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')
+  </script>
+  <script src="../assets/dist/js/bootstrap.bundle.js"></script>
 </body>
 
 </html>
