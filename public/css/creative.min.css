@@ -64,13 +64,13 @@ nav {
 }
 
 #image2 {
-  background-image: url('../monte.jpg') !important;
+  background-image: url('../img/pines.png') !important;
   background-size: cover;
   width: 60% !important;
 }
 
 #image3 {
-  background-image: url('../img/nyc.jpg') !important;
+  background-image: url('../img/onepercent.jpg') !important;
   background-size: cover;
   width: 60% !important;
 }

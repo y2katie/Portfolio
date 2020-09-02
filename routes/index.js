@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 // const app = express();
 
-router.use(express.static(__dirname + '../public'));
+// router.use(express.static(__dirname + '../public'));
 
 // /* GET home page. */
  router.get('/', function(req, res) {
