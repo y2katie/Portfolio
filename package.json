@@ -5,22 +5,32 @@
   "scripts": {
     "start": "node ./bin/www"
   },
+  "engines": {
+    "node": "14.x"
+  },
   "dependencies": {
-    "body-parser": "~1.15.1",
+    "body-parser": "^1.19.0",
     "cookie-parser": "~1.4.3",
-    "debug": "~2.2.0",
-    "express": "~4.13.4",
+    "debug": "^4.2.0",
+    "express": "^4.17.1",
     "hjs": "~0.0.6",
-    "morgan": "~1.7.0",
-    "serve-favicon": "~2.3.0",
+    "morgan": ">=1.9.1",
+
+    "serve-favicon": "^2.5.0",
     "typed.js": "^2.0.5"
   },
   "devDependencies": {
     "prettier": "1.16.1"
   },
   "beautify.language": {
-    "html": ["html", "php", "erb"],
-    "css": ["css"],
+    "html": [
+      "html",
+      "php",
+      "erb"
+    ],
+    "css": [
+      "css"
+    ],
     "js": []
   }
 }
