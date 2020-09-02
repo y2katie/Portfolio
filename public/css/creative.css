@@ -37,19 +37,19 @@ nav {
 }
 
 #image2 {
-  background-image: url('/herald.jpg');
+  background-image: url('../img/baked.jpg') !important;
   background-size: cover;
   width: 60% !important;
 }
 
 #image3 {
-  background-image: url('herald.jpg');
+  background-image: url('../img/onepercent.jpg');
   background-size: cover;
   width: 60% !important;
 }
 
 #image4 {
-  background-image: url('../img/monte.jpg');
+  background-image: url('../img/baked.jpg');
   background-size: cover;
   width: 60% !important;
 }
