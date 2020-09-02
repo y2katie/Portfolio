@@ -8,7 +8,7 @@
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Jekyll v4.0.1">
   <title> Katie Jordan </title>
-  <link rel="shortcut icon" href="dog.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="img/dog.ico" type="image/x-icon" />
   <!-- <link rel="icon" src="dog.ico" type="image/x-icon" /> -->
   <!-- <link rel="icon" href="dog.ico" type="image/x-icon" /> -->
 
@@ -75,7 +75,7 @@
         <h2 class="display-5">Online Leasing</h2>
         <p class="lead"> UI + UX Design</p>
       </div>
-      <a href="https://apply.funnelleasing.com/2/login">
+      <a href="https://apply.funnelleasing.com/3/login">
         <div id="image1" class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
       </a>
     </div>
