@@ -32,47 +32,47 @@ nav {
 }
 
 #image1 {
-  background-image: url('../herald.jpg');
+  background-image: url('../img/baked.jpg');
   width: 60% !important;
 }
 
 #image2 {
-  background-image: url('../img/baked.jpg') !important;
+  /* background-image: url('../img/baked.jpg'); */
   background-size: cover;
   width: 60% !important;
 }
 
 #image3 {
-  background-image: url('../img/onepercent.jpg');
+  /* background-image: url('../img/onepercent.jpg'); */
   background-size: cover;
   width: 60% !important;
 }
 
 #image4 {
-  background-image: url('../img/baked.jpg');
+  /* background-image: url('../img/baked.jpg'); */
   background-size: cover;
   width: 60% !important;
 }
 
 #image5 {
-  background-image: url('../img/herald.jpg');
+  /* background-image: url('../img/herald.jpg'); */
   background-size: cover;
   width: 60% !important;
 }
 
 #image6 {
-  background-image: url('../img/nyc.jpg');
+  /* background-image: url('../img/nyc.jpg'); */
   background-size: cover;
   width: 60% !important;
 }
 
 #header-image-1 {
-  background-image: url('../public/img/portfolio/nyc.jpg');
+  /* background-image: url('../public/img/portfolio/nyc.jpg'); */
   background-size: cover;
 }
 
 #header-image-2 {
-  background-image: url('nyc.jpg');
+  /* background-image: url('nyc.jpg'); */
   background-size: cover;
 }
 
