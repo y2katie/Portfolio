@@ -73,7 +73,8 @@
     <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
       <div class="my-3 py-3">
         <h2 class="display-5">Online Leasing</h2>
-        <p class="lead"> UI + UX Design</p>
+        <h4> UI + UX Design </h4>
+        <p><strong> Software Used: </strong> Figma, Sketch, Lookback</p>
       </div>
       <a href="https://apply.funnelleasing.com/3/login">
         <div id="image1" class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
@@ -82,7 +83,8 @@
     <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
       <div class="my-3 p-3">
         <h2 class="display-5">Monterey Pines</h2>
-        <p class="lead">Web, UI + UX Design</p>
+        <h4> Web Design + UI + UX Design </h4>
+        <p><strong> Software Used: </strong>HTML, CSS, JS, Contentful</p>
       </div>
       <a href="http://nestioapartments.nestiosite.com/listings/3732-monterey-pines-st-12-santa-barbara-ca/2281122/?b=%2Favailabilities%2F%3Fpage%3D1%26sort%3Dprice-asc%26view%3Dgrid">
         <div id="image2" class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
@@ -95,7 +97,8 @@
     <div class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
       <div class="my-3 p-3">
         <h2 class="display-5">One Percent</h2>
-        <p class="lead">Web Design & Development + UI + UX Design</p>
+        <h4> Web Design & Development + UI + UX Design</h4>
+        <p><strong> Software Used: </strong>HTML, CSS, JS, Figma</p>
       </div>
       <a href='https://katyvonkaty.github.io/One-Percent/'>
         <div id="image3" class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
@@ -104,7 +107,8 @@
     <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
       <div class="my-3 py-3">
         <h2 class="display-5">Baked</h2>
-        <p class="lead">Web Design & Development + UI + UX Design</p>
+        <h4>Web Design & Development + UI + UX Design</h4>
+          <p> <strong> Software Used: </strong>HTML, CSS, JS, Figma</p>
       </div>
       <a href="https://enigmatic-refuge-86110.herokuapp.com/">
         <div id="image4" class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
@@ -112,13 +116,39 @@
     </div>
   </div>
 
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 py-3">
+        <h2 class="display-5">Delivered</h2>
+        <h4> Web Design + Development & UI + UX Design</h4>
+        <p><b> <strong> Software Used: </strong>HTML, CSS, JS, React, Figma</p>
+
+      </div>
+      <a href="https://katyvonkaty.github.io/Delivered/#/">
+        <div id="image8" class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      </a>
+    </div>
+    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 p-3">
+        <h2 class="display-5">Nice Jewelry</h2>
+        <h4> Web Design + Development & UI + UX Design</h4>
+        <p> <strong> Software Used: </strong>HTML, CSS, JS, React, MongoDB, Atlas, Figma</p>
+      </div>
+      <a href="https://quiet-wildwood-52939.herokuapp.com/">
+        <div id="image7" src="https://cdn.shopify.com/s/files/1/0039/8002/files/BreadFinancing_BANNER_HP_3_2376x.jpg?v=1597348175" class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      </a>
+    </div>
+  </div>
+
+
 
 
   <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
     <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
       <div class="my-3 p-3">
         <h2 class="display-5">38 Sixth</h2>
-        <p class="lead">Web Design</p>
+        <h4> Web Design + Development </h4>
+        <p><strong> Software Used: </strong>HTML, CSS, JS, Contentful</p>
       </div>
       <a href="https://www.38sixth.com/">
         <div id="image5" class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
@@ -127,7 +157,8 @@
     <div class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
       <div class="my-3 py-3">
         <h2 class="display-5">Herald Towers</h2>
-        <p class="lead">Web Design</p>
+        <h4> Web Design + Development </h4>
+        <p><strong> Software Used: </strong>HTML, CSS, JS, Contentful</p>
       </div>
       <a href='https://www.heraldtowers.com/'>
         <div id="image6" class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>

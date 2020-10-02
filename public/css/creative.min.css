@@ -60,37 +60,51 @@ nav {
 #image1 {
   background-image: url('../img/555.jpg') !important;
   background-size: cover;
-  width: 80% !important;
+  width: 100% !important;
 }
 
 #image2 {
-  background-image: url('../img/pines.png') !important;
+  background-image: url('../img/pines.jpg') !important;
   background-size: cover;
-  width: 80% !important;
+  width: 100% !important;
 }
 
 #image3 {
   background-image: url('../img/one.jpg') !important;
   background-size: cover;
-  width: 80% !important;
+  width: 100% !important;
 }
 
 #image4 {
   background-image: url('../img/baked.jpg') !important;
   background-size: cover;
-  width: 80% !important;
+  width: 100% !important;
 }
 
 #image5 {
   background-image: url('../img/38.jpg') !important;
   background-size: cover;
-  width: 80% !important;
+  width: 100% !important;
 }
 
 #image6 {
   background-image: url('../img/herald.jpg') !important;
   background-size: cover;
-  width: 80% !important;
+  width: 100% !important;
+}
+
+#image7 {
+    background-image:url('../img/nice.jpg');
+  background-size:cover;
+  width:100% !important;
+
+}
+
+#image8 {
+  background-image:url('../img/delivered.jpg');
+  background-size:cover;
+  width:100% !important;
+
 }
 
 #header-image-1 {

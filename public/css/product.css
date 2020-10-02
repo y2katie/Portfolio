@@ -71,6 +71,19 @@ nav {
 
 }
 
+#image7 {
+    background-image:url('img/nice.jpg');
+  background-size:cover;
+  width:60% !important;
+
+}
+
+#image8 {
+  background-image:url('img/delivered.jpg');
+  background-size:cover;
+  width:60% !important;
+
+}
 
 
 
